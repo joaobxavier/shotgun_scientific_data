@@ -1,0 +1,9 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  255745	    5575	    1529	   71.42	   83.85	   85.18	  119.27	  275.20	239495.44	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   44731	   10830	    2904	   96.28	  100.14	   96.15	   99.86	   19.51	20684.56	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 3486902	    7034	    2926	   82.40	   93.34	   88.28	  107.14	 1624.15	3465856.13	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 3979224	    6430	    2904	   89.91	   99.97	   89.94	  100.03	 1886.92	3959973.38	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	   32507	    5755	    1542	   74.58	   81.91	   91.05	  122.09	   31.38	18704.41	1.0e-26
+CARD|CAJ67339.1 tetM [Clostridium difficile 630]	    3336	    7188	    1920	   82.76	   84.11	   98.39	  118.89	    1.85	 1410.14	1.0e-26
+CARD|AAA50993.1 Escherichia coli EF-Tu mutants conferring resistance to kirromycin [Escherichia coli]	    8138	    4433	    1185	   81.69	   88.19	   92.63	  113.40	   10.63	 1091.87	1.0e-26
+CARD|AE006468_3570463_3572006 Salmonella enterica serovar Typhimurium 16S rRNA mutation in the rrsD gene conferring resistance to spectinomycin [Salmonella enterica subsp. salamae]	  105495	    5719	    1544	   76.17	   84.33	   90.32	  118.59	  112.58	89514.06	1.0e-26

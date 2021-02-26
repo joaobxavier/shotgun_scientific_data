@@ -1,0 +1,3 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	  470229	    1944	    2926	   75.87	   85.99	   88.24	  116.30	  223.45	464427.31	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	  265697	    2158	    2904	   79.89	   88.98	   89.78	  112.38	  152.93	259290.65	1.0e-26
