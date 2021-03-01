@@ -75,7 +75,7 @@ ylabel('relative abundance from 16S')
 addpath('../');
 tblShotgunAbundances = [];
 
-for i = 1:height(tblsamples)
+for i =1:2
     s = tblsamples.SampleID{i};
     srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
     log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
@@ -106,8 +106,8 @@ for i = 1:height(tblsamples)
         sumG.hit16S(idx) = tbltaxonomy{loc(idx), taxaFull{i}};
     end
     % if there's no match
-    sumG.HexColor(sumG.ColorOrder == 0) = {'#000000'};
-    sumG.hit16S(sumG.ColorOrder == 0) = {'none'};
+    sumG.HexColorsumG.ColorOrder == 0} = {'#000000'};
+    sumG.hit16S{sumG.ColorOrder == 0} = {'none'};
     % join the tables
     if isempty(tblShotgunAbundances)
         tblShotgunAbundances = sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]);
@@ -115,15 +115,15 @@ for i = 1:height(tblsamples)
         tblShotgunAbundances = innerjoin(tblShotgunAbundances, sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]));
     end
 end
-
+%%
 figure(2)
 % the first 3 columns of tblcounts are SampleID, Timepoint and DayRelativeToNearestHCT
-abundance_matrix = tblShotgunAbundances{:, 10:end}';
+abundance_matrix = [sumG{:, {['s' s]}}'; sumG{:, {['s' s]}}'];
 
 % calculate the cumulative sum of taxa with same color_order
 % unique_color_order should be automatically sorted
-[unique_color_order,ia,ic] = unique(tblShotgunAbundances.ColorOrder);
-uni_color_hex = tblShotgunAbundances.HexColor(ia);
+[unique_color_order,ia,ic] = unique(sumG.ColorOrder);
+uni_color_hex = sumG.HexColor(ia);
     
 color_grouped_abundance = zeros(size(abundance_matrix,1), length(unique_color_order));
 for k = 1:length(unique_color_order)

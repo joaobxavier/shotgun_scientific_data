@@ -48,6 +48,7 @@ end
 
 %%
 h = waitbar(0, ['Parsing Kraken2 file ' fn]);
+h.Children.Title.Interpreter = 'none';
 for i = 2:height(tblKraken2)
     waitbar(i/height(tblKraken2),h)
     rl = tblKraken2.rankLevel(i);
