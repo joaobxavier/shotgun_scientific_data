@@ -3,7 +3,7 @@ url = 'https://ndownloader.figshare.com/files/26070716';
 filename = 'tblASVsamples.csv';
 outfilename = websave(['tempFiles/' filename] , url);
 %% load the table
-tblASVsamples = readtable('tempFiles/tblASVsamples.csv');
+tblASVsamples = readtable(['tempFiles/' filename], 'Format', '%s%s%d%s%s%s%d');
 
 %% download the latest metadata on all runs submitted to the SRA
 % beleonging to MSKCC allo-HCT projects
