@@ -9,7 +9,7 @@ function tblKraken2 = importKraken2Output(fn)
 % NCBI taxonomic ID number
 % Indented scientific name
 
-tblKraken2 = readtable(fn);
+tblKraken2 = readtable(fn, 'NumHeaderLines', 0, 'Delimiter', '\t');
 tblKraken2.Properties.VariableNames = {'percentage' 'nFragsBelow' 'nFragsThis' 'rankCode' 'ncbiTaxonomy' 'name'};
 
 %% The arbitrary denoomination D,K just complicates everything. 
