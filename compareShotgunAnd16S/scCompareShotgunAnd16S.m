@@ -47,13 +47,13 @@ abundance_matrix = tblcounts{:, 4:end};
 % unique_color_order should be automatically sorted
 [unique_color_order,ia,ic] = unique(tbltaxonomy.ColorOrder);
 uni_color_hex = tbltaxonomy.HexColor(ia);
-    
+
 color_grouped_abundance = zeros(size(abundance_matrix,1), length(unique_color_order));
 for k = 1:length(unique_color_order)
     currsum = sum(abundance_matrix(:,ic==k),2);
     color_grouped_abundance(:,k) = currsum;
 end
-    
+
 % plot stacked bars
 figure(1)
 subplot(2, 1, 1)
@@ -80,52 +80,59 @@ tblShotgunAbundances = [];
 
 for i = 1:height(tblsamples)
     s = tblsamples.SampleID{i};
-    % check if matlab table has been precomputed
-    if isfile(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s))
-        fprintf('Sample %s has been processed by matlab. Loading...\n', s) 
-        load(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s));
-    else
-        fprintf('Sample %s has not been processed by matlab yet.\n', s)        
-        fprintf('Doing it now...\n')
-        srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
-        log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
-        fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
-        [status,result] = system(['cat ' log ' | grep ' srr]);
-        if status == 1 || isempty(result)
-            error('Sample %s not confirmed by %s', s, log)
+    fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
+    srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
+    % check if Kraken2 file exist at all
+    if isfile(fn)
+        % check if matlab table has been precomputed
+        if isfile(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s))
+            fprintf('Sample %s has been processed by matlab. Loading...\n', s)
+            load(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s));
         else
-            fprintf('Sample %s confirmed by %s\n', s, log)
+            fprintf('Sample %s has not been processed by matlab yet.\n', s)
+            fprintf('Doing it now...\n')
+            srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
+            log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
+            [status,result] = system(['cat ' log ' | grep ' srr]);
+            if status == 1 || isempty(result)
+                error('Sample %s not confirmed by %s', s, log)
+            else
+                fprintf('Sample %s confirmed by %s\n', s, log)
+            end
+            % load the table for this file
+            tblKraken2 = importKraken2Output(fn);
+            save(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat',...
+                s), 'tblKraken2');
         end
-        % load the table for this file
-        tblKraken2 = importKraken2Output(fn);
-        save(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat',...
-            s), 'tblKraken2');
-    end
-    % compute relative abundances
-    % add all the fragments mapped to a genus and show the result
-    % ordered by the most adundant in sample
-    taxa = {'K' 'P' 'C' 'O' 'F' 'G'};
-    taxaFull = {'Kingdom' 'Phylum' 'Class' 'Order' 'Family' 'Genus'};
-    tblKrakenBugs = tblKraken2(ismember(tblKraken2.K, {'Bacteria' 'Archaea'}), :);
-    sumG = grpstats(tblKrakenBugs, taxa, 'sum', 'DataVars', 'nFragsThis');
-    sumG{:, {['s' s]}} = sumG.sum_nFragsThis ./ sum(sumG.sum_nFragsThis);
-    % match shotgun taxa to best 16S
-    for i = 2:length(taxa)
-        t = sumG{:, taxa{i}};
-        [~ , loc] = ismember(t, tbltaxonomy{:, taxaFull{i}});
-        idx = loc>0;
-        sumG.ColorOrder(idx) = tbltaxonomy.ColorOrder(loc(idx));
-        sumG.HexColor(idx) = tbltaxonomy.HexColor(loc(idx));
-        sumG.hit16S(idx) = tbltaxonomy{loc(idx), taxaFull{i}};
-    end
-    % if there's no match
-    sumG.HexColor(sumG.ColorOrder == 0) = {'#000000'};
-    sumG.hit16S(sumG.ColorOrder == 0) = {'none'};
-    % join the tables
-    if isempty(tblShotgunAbundances)
-        tblShotgunAbundances = sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]);
+        % compute relative abundances
+        % add all the fragments mapped to a genus and show the result
+        % ordered by the most adundant in sample
+        taxa = {'K' 'P' 'C' 'O' 'F' 'G'};
+        taxaFull = {'Kingdom' 'Phylum' 'Class' 'Order' 'Family' 'Genus'};
+        tblKrakenBugs = tblKraken2(ismember(tblKraken2.K, {'Bacteria' 'Archaea'}), :);
+        sumG = grpstats(tblKrakenBugs, taxa, 'sum', 'DataVars', 'nFragsThis');
+        sumG{:, {['s' s]}} = sumG.sum_nFragsThis ./ sum(sumG.sum_nFragsThis);
+        % match shotgun taxa to best 16S
+        for i = 2:length(taxa)
+            t = sumG{:, taxa{i}};
+            [~ , loc] = ismember(t, tbltaxonomy{:, taxaFull{i}});
+            idx = loc>0;
+            sumG.ColorOrder(idx) = tbltaxonomy.ColorOrder(loc(idx));
+            sumG.HexColor(idx) = tbltaxonomy.HexColor(loc(idx));
+            sumG.hit16S(idx) = tbltaxonomy{loc(idx), taxaFull{i}};
+        end
+        % if there's no match
+        sumG.HexColor(sumG.ColorOrder == 0) = {'#000000'};
+        sumG.hit16S(sumG.ColorOrder == 0) = {'none'};
+        % join the tables
+        if isempty(tblShotgunAbundances)
+            tblShotgunAbundances = sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]);
+        else
+            tblShotgunAbundances = innerjoin(tblShotgunAbundances, sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]));
+        end
     else
-        tblShotgunAbundances = innerjoin(tblShotgunAbundances, sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]));
+        warning('Sample %s has no Kraken2 output yet...\n', s)
+        fprintf('>>>>>> Go PATRIC and request processing %s\n', s);
     end
 end
 
@@ -139,13 +146,13 @@ abundance_matrix = tblShotgunAbundances{:, 10:end}';
 % unique_color_order should be automatically sorted
 [unique_color_order,ia,ic] = unique(tblShotgunAbundances.ColorOrder);
 uni_color_hex = tblShotgunAbundances.HexColor(ia);
-    
+
 color_grouped_abundance = zeros(size(abundance_matrix,1), length(unique_color_order));
 for k = 1:length(unique_color_order)
     currsum = sum(abundance_matrix(:,ic==k),2);
     color_grouped_abundance(:,k) = currsum;
 end
-    
+
 % plot stacked bars
 h=bar(color_grouped_abundance, 'stacked',  'BarWidth', height(tblcounts)/(height(tblcounts)+9));
 % set barplot color

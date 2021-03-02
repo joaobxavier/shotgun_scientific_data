@@ -9,7 +9,7 @@ pt = sortrows(pt, 'GroupCount', 'descend');
 
 %% plot the timeline for this patient
 chensCodeBaseDir = '../../MSKCC_Microbiome_SD2021_Scripts/';
-PatientID2Plot = pt.PatientID{1};
+%PatientID2Plot = pt.PatientID{1};
 addpath([chensCodeBaseDir 'utils']);
 data_path = [chensCodeBaseDir 'deidentified_data_tables/']; % path to data
 
@@ -17,8 +17,8 @@ data_path = [chensCodeBaseDir 'deidentified_data_tables/']; % path to data
 opts = detectImportOptions(strcat(data_path, 'samples/tblASVsamples.csv'));
 opts = setvartype(opts,{'PatientID'},'categorical');
 tblsamples = readtable(strcat(data_path, 'samples/tblASVsamples.csv'),opts);
-tblsamples = tblsamples((tblsamples.PatientID==PatientID2Plot & ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun))), :);
-tblsamples = tblsamples((tblsamples.PatientID==PatientID2Plot & ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun))), :);
+tblsamples = tblsamples(ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun)), :);
+%tblsamples = tblsamples((tblsamples.PatientID==PatientID2Plot & ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun))), :);
 tblsamples = sortrows(tblsamples, 'Timepoint'); % sort rows by time point of samples
 
 % load counts table
@@ -80,6 +80,9 @@ tblShotgunAbundances = [];
 
 for i = 1:height(tblsamples)
     s = tblsamples.SampleID{i};
+    fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
+    % check if Kraken2 file exist at all
+    if isfile(fn)
     % check if matlab table has been precomputed
     if isfile(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s))
         fprintf('Sample %s has been processed by matlab. Loading...\n', s) 
@@ -89,7 +92,6 @@ for i = 1:height(tblsamples)
         fprintf('Doing it now...\n')
         srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
         log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
-        fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
         [status,result] = system(['cat ' log ' | grep ' srr]);
         if status == 1 || isempty(result)
             error('Sample %s not confirmed by %s', s, log)
@@ -127,6 +129,7 @@ for i = 1:height(tblsamples)
     else
         tblShotgunAbundances = innerjoin(tblShotgunAbundances, sumG(:, [taxa {'ColorOrder'} {'HexColor'} {'hit16S'} {['s' s]}]));
     end
+    en
 end
 
 %%
