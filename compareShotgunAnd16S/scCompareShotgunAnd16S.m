@@ -9,7 +9,7 @@ pt = sortrows(pt, 'GroupCount', 'descend');
 
 %% plot the timeline for this patient
 chensCodeBaseDir = '../../MSKCC_Microbiome_SD2021_Scripts/';
-PatientID2Plot = pt.PatientID{1};
+%PatientID2Plot = pt.PatientID{1};
 addpath([chensCodeBaseDir 'utils']);
 data_path = [chensCodeBaseDir 'deidentified_data_tables/']; % path to data
 
@@ -17,7 +17,8 @@ data_path = [chensCodeBaseDir 'deidentified_data_tables/']; % path to data
 opts = detectImportOptions(strcat(data_path, 'samples/tblASVsamples.csv'));
 opts = setvartype(opts,{'PatientID'},'categorical');
 tblsamples = readtable(strcat(data_path, 'samples/tblASVsamples.csv'),opts);
-tblsamples = tblsamples((tblsamples.PatientID==PatientID2Plot & ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun))), :);
+tblsamples = tblsamples(ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun)), :);
+%tblsamples = tblsamples((tblsamples.PatientID==PatientID2Plot & ismember(tblsamples.SampleID, tblASVsamples.SampleID(idxHasShotun))), :);
 tblsamples = sortrows(tblsamples, 'Timepoint'); % sort rows by time point of samples
 
 % load counts table
@@ -54,6 +55,8 @@ for k = 1:length(unique_color_order)
 end
     
 % plot stacked bars
+figure(1)
+subplot(2, 1, 1)
 h=bar(color_grouped_abundance, 'stacked',  'BarWidth', height(tblcounts)/(height(tblcounts)+9));
 % set barplot color
 ASV_cmap = hex2rgb(uni_color_hex);
@@ -77,17 +80,27 @@ tblShotgunAbundances = [];
 
 for i = 1:height(tblsamples)
     s = tblsamples.SampleID{i};
-    srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
-    log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
-    fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
-    [status,result] = system(['cat ' log ' | grep ' srr]);
-    if status == 1 || isempty(result)
-        error('sample %s not confirmed by %s', s, log)
+    % check if matlab table has been precomputed
+    if isfile(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s))
+        fprintf('Sample %s has been processed by matlab. Loading...\n', s) 
+        load(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat', s));
     else
-        fprintf('sample %s confirmed by %s\n', s, log)
+        fprintf('Sample %s has not been processed by matlab yet.\n', s)        
+        fprintf('Doing it now...\n')
+        srr = tblASVsamples.AccessionShotgun{strcmp(tblASVsamples.SampleID, s)};
+        log = sprintf('../PATRIC_output/kraken2/%s_kraken2', s);
+        fn  = sprintf('../PATRIC_output/kraken2/.%s_kraken2/report.txt', s);
+        [status,result] = system(['cat ' log ' | grep ' srr]);
+        if status == 1 || isempty(result)
+            error('Sample %s not confirmed by %s', s, log)
+        else
+            fprintf('Sample %s confirmed by %s\n', s, log)
+        end
+        % load the table for this file
+        tblKraken2 = importKraken2Output(fn);
+        save(sprintf('../PATRIC_output/kraken2/.%s_kraken2/tblKraken2.mat',...
+            s), 'tblKraken2');
     end
-    % load the table for this file
-    tblKraken2 = importKraken2Output(fn);
     % compute relative abundances
     % add all the fragments mapped to a genus and show the result
     % ordered by the most adundant in sample
@@ -116,7 +129,9 @@ for i = 1:height(tblsamples)
     end
 end
 
-figure(2)
+%%
+figure(1)
+subplot(2, 1, 2)
 % the first 3 columns of tblcounts are SampleID, Timepoint and DayRelativeToNearestHCT
 abundance_matrix = tblShotgunAbundances{:, 10:end}';
 
@@ -141,9 +156,8 @@ for cc = 1:size(color_grouped_abundance,2)
 end
 colormap(gca, ASV_cmap);
 ylim([0 1]);
-% h = gca;
-% h.XTick = 1:height(tblsamples);
-% h.XTickLabel = tblsamples.SampleID;
-% h.XTickLabelRotation = 90;
-% ylabel('relative abundance from 16S')
-
+h = gca;
+h.XTick = 1:height(tblsamples);
+h.XTickLabel = tblsamples.SampleID;
+h.XTickLabelRotation = 90;
+ylabel('relative abundance from shotgun')
