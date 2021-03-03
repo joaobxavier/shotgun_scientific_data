@@ -56,7 +56,7 @@ end
 
 % plot stacked bars
 figure(1)
-subplot(3, 1, 1)
+subplot(2, 1, 1)
 h=bar(color_grouped_abundance, 'stacked',  'BarWidth', height(tblcounts)/(height(tblcounts)+9));
 % set barplot color
 ASV_cmap = hex2rgb(uni_color_hex);
@@ -133,7 +133,7 @@ tblShotgunAbundances.hit16S(tblShotgunAbundances.ColorOrder == 0) = {'none'};
 
 %%
 figure(1)
-subplot(3, 1, 2)
+subplot(2, 1, 2)
 % the first 3 columns of tblcounts are SampleID, Timepoint and DayRelativeToNearestHCT
 abundance_matrix = tblShotgunAbundances{:, 10:end-3}';
 
@@ -180,25 +180,19 @@ tbl16SAbundances = innerjoin(tbl16SAbundances, tbltaxonomy(:, [{'ASV'} taxaFull]
 %% correlaiton plots
 % phylum level
 
-for i = 2:length(taxaFull)
-    sum16S = grpstats(tbl16SAbundances, taxaFull{i}, 'sum', 'DataVars', SampleID);
-    sumShotgun = grpstats(tblShotgunAbundances, taxa{i}, 'sum', 'DataVars', SampleID);
-    taxaInBoth = intersect(sumShotgun{:, taxa{i}},...
-        sum16S{:, taxaFull{i}});
-    x16S = sum16S{taxaInBoth, 3:end};
-    yShotgun = sumShotgun{taxaInBoth, 3:end};
+for i = 1:length(taxaFull)
+    sumPhylum16S = grpstats(tbl16SAbundances, taxaFull{i}, 'sum', 'DataVars', SampleID);
+    sumPhylumShotgun = grpstats(tblShotgunAbundances, taxa{i}, 'sum', 'DataVars', SampleID);
+    phylaInBoth = intersect(sumPhylumShotgun{:, taxa{i}},...
+        sumPhylum16S{:, });
+    x16S = sumPhylum16S{phylaInBoth, 3:end};
+    yShotgun = sumPhylumShotgun{phylaInBoth, 3:end};
 
-    figure(1)
-    subplot(3, 5, 10+(i-1))
-    plot(x16S, yShotgun, 'ko', 'MarkerSize', 2)
+    figure(2)
+    subplot(2, 3, i)
+    plot(x16S, yShotgun, 'o')
     %set(gca, 'XScale', 'log', 'YScale', 'log');
-    xlabel('16S')
-    ylabel('shotgun')
-    title(sprintf('%s\nR^2 = %0.2f', taxaFull{i}, corr(x16S(:), yShotgun(:))^2));
-    axis square equal tight
+    xlabel('Relative abundance [16S]')
+    ylabel('Relative abundance [shotgun]')
+    title(sprintf('R^2 = %0.2f', corr(x16S(:), yShotgun(:))^2));
 end
-
-%%
-set(gcf, 'Position', [44         119        1397         679]);
-set(gcf, 'PaperPositionMode', 'auto')
-print(gcf, 'comparison16sShotgun.eps', '-depsc')
