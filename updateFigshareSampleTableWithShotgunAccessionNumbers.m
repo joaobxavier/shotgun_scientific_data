@@ -54,5 +54,5 @@ isolateSamples.LibraryName = [];
 isolateSamples.Properties.VariableNames{1} = 'AccessionIsolate';
 % join the tables
 isolateSamples = innerjoin(tblASVsamples, isolateSamples);
-% write the updated table with shotgun sequences
+% write the updated table with WGS of isolates from those stool samples
 writetable(isolateSamples, 'tempFiles/tblIsolateSamples04072021.csv');
