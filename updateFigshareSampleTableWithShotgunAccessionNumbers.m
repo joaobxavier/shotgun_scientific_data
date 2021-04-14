@@ -21,8 +21,6 @@ idx =  strcmp(SraRunTable.AssayType, 'WGS') &...
      contains(SraRunTable.ReleaseDate, {'2021-' '2020-12'});
 SraRunTable(~idx, :) = [];
 
-%% keep only the Libray Name and the Run
-SraRunTable = SraRunTable(:, {'LibraryName' 'Run'})
 
 %% make a table with shotgun sequeced samples and save
 shotgunSamples = SraRunTable(contains(SraRunTable.LibraryName, '_shotgun'),....
@@ -39,7 +37,17 @@ shotgunSamples.kneadbatch(strcmp(shotgunSamples.ReleaseDate, '2021-02-12T00:00:0
 shotgunSamples.kneadbatch(strcmp(shotgunSamples.ReleaseDate, '2021-03-29T00:00:00Z')) = {'kneadbatch2'};
 shotgunSamples.kneadbatch(strcmp(shotgunSamples.ReleaseDate, '2021-04-05T00:00:00Z')) = {'kneadbatch3'};
 
-% join the tables
+%% find duplicate samples, and remove the earlier version
+gc = groupcounts(shotgunSamples, 'SampleID');
+idx = gc.GroupCount > 1;
+shotgunSamples(ismember(shotgunSamples.SampleID, gc.SampleID(idx)) & strcmp(shotgunSamples.kneadbatch, 'before_JY'), :) = [];
+
+%%
+groupcounts(shotgunSamples, 'kneadbatch')
+height(shotgunSamples)
+shotgunSamples(ismember(shotgunSamples.SampleID, gc.SampleID(idx)), :)
+
+%% join the tables
 tblASVsamplesUpdatedWithShotgun = innerjoin(tblASVsamples, shotgunSamples);
 % write the updated table with shotgun sequences
 writetable(tblASVsamplesUpdatedWithShotgun, 'tempFiles/tblASVsamplesWithShotgun04072021.csv');
@@ -56,3 +64,4 @@ isolateSamples.Properties.VariableNames{1} = 'AccessionIsolate';
 isolateSamples = innerjoin(tblASVsamples, isolateSamples);
 % write the updated table with WGS of isolates from those stool samples
 writetable(isolateSamples, 'tempFiles/tblIsolateSamples04072021.csv');
+
