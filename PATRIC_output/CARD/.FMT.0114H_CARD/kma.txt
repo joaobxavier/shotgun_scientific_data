@@ -1,0 +1,4 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 2998981	     989	    2904	   96.32	   99.93	   96.38	  100.07	 1151.92	2996013.06	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	     395	     739	     495	   75.96	   76.57	   99.21	  130.61	    0.82	  104.64	1.0e-23
+CARD|AHA80958.1 SHV-172 [Klebsiella pneumoniae]	    1027	    1286	     861	   81.65	   81.65	  100.00	  122.48	    1.19	   29.08	7.0e-08

@@ -1,0 +1,26 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  269699	    4384	    1486	   82.30	   92.40	   89.08	  108.23	  245.75	256824.79	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   74726	    4626	    1529	   83.45	   92.61	   90.11	  107.98	   73.61	61925.12	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 1387029	    7380	    2926	   79.19	   88.65	   89.32	  112.80	  620.11	1365045.07	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	   49209	    4565	    1504	   82.51	   91.82	   89.86	  108.91	   46.37	37062.47	1.0e-26
+CARD|CAA52904.1 catS [Streptococcus pyogenes]	    1429	    1502	     492	   82.93	   84.35	   98.31	  118.55	    3.04	    1.82	1.8e-01
+CARD|AET10444.1 tetA(46) [Streptococcus australis]	  143670	    5174	    1725	   99.36	  100.00	   99.36	  100.00	   91.10	128866.51	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  196162	    4552	    1528	   80.69	   91.10	   88.58	  109.77	  176.48	182918.39	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	   37001	    3711	    1221	  100.00	  100.00	  100.00	  100.00	   30.64	27218.91	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 2412783	    6177	    2904	   95.01	   99.97	   95.04	  100.03	 1022.35	2394313.58	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  503782	    4397	    1537	   79.38	   91.67	   86.59	  109.08	  447.00	490743.01	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	    2608	    2426	     795	  100.00	  100.00	  100.00	  100.00	    3.28	    6.51	1.1e-02
+CARD|AET10445.1 tetB(46) [Streptococcus australis]	   98960	    5240	    1737	   90.21	   94.59	   95.37	  105.72	   65.15	84293.40	1.0e-26
+CARD|AAM09851.1 vanRD [Enterococcus faecium]	     867	    2134	     699	   73.68	   79.11	   93.13	  126.40	    1.62	  535.12	1.0e-26
+CARD|ACM47284 vanSD [Enterococcus faecium]	    1251	    2143	     702	   76.35	   82.34	   92.73	  121.45	    2.32	  234.60	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	  120820	    4403	    1464	   93.37	  100.00	   93.37	  100.00	   96.98	108227.90	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	   88604	    3678	    1218	   95.32	  100.00	   95.32	  100.00	   84.64	78154.68	1.0e-26
+CARD|ABF66027.1 lmrD [Lactococcus lactis subsp. lactis]	    3749	    6064	    1986	   83.84	   84.29	   99.46	  118.64	    1.94	  546.47	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  506868	    5491	    1920	   99.22	  100.00	   99.22	  100.00	  274.79	490629.58	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	  111311	    1490	     495	   99.80	  100.20	   99.60	   99.80	  227.47	106918.95	1.0e-26
+CARD|ABF66011.1 lmrC [Lactococcus lactis subsp. lactis]	    4038	    5239	    1716	   85.20	   85.20	  100.00	  117.37	    2.38	  155.61	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	    3534	    2280	     747	   96.25	   96.92	   99.31	  103.18	    4.88	  270.40	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	     910	    1657	     543	   89.69	   89.87	   99.80	  111.27	    1.71	  217.81	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  136166	    5765	    1920	   99.95	  100.00	   99.95	  100.00	   71.93	119807.03	1.0e-26
+CARD|CAB51471.1 ACI-1 [Acidaminococcus fermentans]	   30022	    2601	     855	  100.00	  100.00	  100.00	  100.00	   35.23	23048.03	1.0e-26
+CARD|AAM09853.1 vanYD [Enterococcus faecium]	     702	    1273	     417	   72.18	   75.78	   95.25	  131.96	    1.97	  165.16	1.0e-26
