@@ -10,7 +10,7 @@
  
    <li><b>Figure4:</b> scFigure4.m: Plot the vanA PCR result in the t-SNE plot the same as in Figure 1 using the saved .mat file. Compare the relative abundance of vanA gene in the PCR(+) and PCR(-) groups. Examine the correlation between vanA  and vanB gene in shotgun metagenomes.  </li>
  
-    <li><b>Figure5:</b> scFigure5.m: Plot the phylogenetic tree built from Enterococcus isolated from stool of a HCT patient and metagenome assembled genomes from the same samples. The tree was output by PATRIC using 1000 genes.  </li>
+   <li><b>Figure5:</b> scFigure5.m: Plot the phylogenetic tree built from Enterococcus isolated from stool of a HCT patient and metagenome assembled genomes from the same samples. The tree was output by PATRIC using 1000 genes.  </li>
  
   <li><b>savedMat:</b> Containing some saved data during figure generation to avoid re-calculation. This also containing the results of t-SNE score calculated from Bray-curtris dissimilarity matrix using 16S, which requires >30 min to run in matlab.  </li>
  
