@@ -5,7 +5,7 @@
  
   <li><b>PATRIC_output_10samples:</b> Directories with output of full report of the kraken2, CARD and VFDB analyses ran by PATRIC for 10 metagenome samples. A .txt file containing the name of samples was provided. This folder provides a complete view of the patric output and allows to try data analysis with a small sized data output. </li>
  
-  <li><b>Figure1-5:</b> Directories containing the matlab code scripts to generate the figures in our metagenome shotgun manuscript (href=). </li>
+  Figure1-5: Directories containing the matlab code scripts to generate the figures in our metagenome shotgun manuscript (href=). 
   <li><b>Figure1:</b> scFigure1_tsne.m: Create the t-SNE plot calculated from Bray-curtris dissimilarity matrix using 16S and plot the samples with metagenome shotgun sequencing. The script also compares read counts in different stool consistency. (CAUTION: running this function requires >30min! And a saved result is available in 'savedMat' so it can be loaded directly. A parameter named 'calculateTSNE' is provided in the matlab code. When calculateTSNE==1, the script will recalculate the t-SNE score; when calculateTSNE != 1, the script will load the saved data.). </li>
  
    <li><b>Figure2:</b> scFigure2.m: Plot and compare the stool composition between 16S and metagenome of the samples from a single patient. This script load the output from kraken2 of patric database and create a .mat file for each sample. This step is time consuming and takes >30 min. When this is done, the variable 'rewriteShotgunAbundances' can be set to a value != 1, the script will read from a saved excel file. The relative abundance is also compared in each taxa. </li>
