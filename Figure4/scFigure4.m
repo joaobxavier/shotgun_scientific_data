@@ -1,23 +1,20 @@
 close all; clear
 
-% workdir='/Users/yanj2/Documents/GitHub/shotgun_scientific_data';
-% cd('/CARDtSNE')
-% cardT = readtable('cardCompOfMetagenomeShortgun.xlsx');
 
 data_path = '../deidentified_data_tables/';
 tblcounts = readtable(strcat(data_path, 'counts/tblcounts_asv_melt.csv'));
 tblcounts = unstack(tblcounts, 'Count', 'ASV');
 
-cardT = readtable('../metagenome_data/cardTbl_2021April29.xlsx');
+cardT = readtable('../metagenome_data/cardTbl.csv');
 cardT = cardT(:, {'resistGene' ,'RelavantPercentage', 'sample'});
 cardT.Properties.VariableNames = {'resistGene', 'RelavantPercentage', 'SampleID'};
-vanApcr = readtable('../metagenome_data/tblVanA.csv');
+vanApcr = readtable(strcat(data_path,'/meta_data/tblVanA.csv'));
 % X = outerjoin(vanA, cardT, 'Type','left','MergeKeys',true);
 %% plot vanA PCR in tSNE
 %% plot samples with vanA PCR
-
-
-shotGun = readtable('../metagenome_data/tblASVsamplesUpdatedWithShotgunWithReadcounts_final');
+% shotGun = readtable('../deidentified_data_tables/samples/tblASVsamples.csv');
+shotGun = readtable('../deidentified_data_tables/samples/tblASVsamples.csv', ...
+                        'Format', '%s%s%d%s%s%s%d%s');
 shotGunSample = shotGun.SampleID(cellfun(@(X) ~isempty(X), shotGun.AccessionShotgun));
 X= load('../savedMat/tSNE.mat');
 scoreLinT=X.scoreLinT;
