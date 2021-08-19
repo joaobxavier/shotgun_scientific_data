@@ -6,7 +6,7 @@
  
 <ul>
  <li>Create the t-SNE plot calculated from Bray-curtris dissimilarity matrix using 16S and plot the samples with metagenome shotgun sequencing.   
-   CAUTION: running this function requires >30min! A saved result is available in 'savedMat' so it can be loaded directly. A parameter named 'calculateTSNE' is set to 1 when the script will recalculate the t-SNE score; else the script will load the saved data.
+ </li> * CAUTION: running this function requires >30min! A saved result is available in 'savedMat' so it can be loaded directly. A parameter named 'calculateTSNE' is set to 1 when the script will recalculate the t-SNE score; else the script will load the saved data.
  <li>Compares read counts in different stool consistency. </li>
 </ul> 
 
@@ -14,7 +14,8 @@
 
 <ul>
    <li>Plot and compare the stool composition between 16S and metagenome of the samples from a single patient. 
-    CAUTION: This script load the output from kraken2 of patric database and create a .mat file for each sample. This step is time consuming and takes >1 hour. When this is done, the variable 'rewriteShotgunAbundances' can be set to a value != 1, the script will read from a saved csv file. 
+    </li> *CAUTION: This script load the output from kraken2 of patric database and create a .mat file for each sample. This step is time consuming and takes >1 hour. When this is done, the variable 'rewriteShotgunAbundances' can be set to a value != 1, the script will read from a saved csv file. 
+   </li> This script does not include the (U)nclassified reads from PATRIC output.
    <li> Compare the relative abundance in different stool consistency of each taxa. </li>
 </ul>
 
