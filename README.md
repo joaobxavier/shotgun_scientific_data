@@ -40,6 +40,17 @@
    <li>Plot the phylogenetic tree built from Enterococcus isolated from stool of a HCT patient and metagenome assembled genomes from the same samples.  </li>
 </ul> 
 
+#### makeCARDtbl/scCreateCardTable2.m
+<ul>
+   <li>Make the output cardTbl.csv file.  </li>
+</ul> 
+
+#### makeVFDBtable/scProcessVFDB.m
+<ul>
+   <li>Make the output vfdbTbl_2021.csv file.  </li>
+</ul> 
+
+
 ### - Metagenome data
 #### metagenome_data/
 <ul>
