@@ -77,9 +77,9 @@ if processPatricOutput == 1
         end
     end
     cardTbl.("N/A") =[];
-    writetable(cardTbl, 'cardTbl.csv');
+    writetable(cardTbl, '../metagenome_data/cardTbl.csv');
 else
-    mycardTbl = 'cardTbl.csv';
+    mycardTbl = '../metagenome_data/cardTbl.csv';
     cardTbl = readtable(mycardTbl);
 end
 
