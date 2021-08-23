@@ -1,13 +1,12 @@
 %% 
 close all; clear;
-
+addpath('../utils');
 X=load('../savedMat/Tcorr_shannon');
 Tcorr_shannon = X.Tcorr_shannon;
 
 Y=load('../savedMat/corrT');
 corrT = Y.corrT;
 clear X Y
-
 
 Taxa = {'Phylum' 'Class' 'Order' 'Family' 'Genus'};
 
