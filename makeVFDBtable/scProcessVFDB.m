@@ -9,7 +9,7 @@ idxHasShotgun = cellfun(@(x) ~isempty(x), tblASVsamples.AccessionShotgun);
 tblShotgun = tblASVsamples(idxHasShotgun,:);
 readcounts = readtable('../metagenome_data/tblShotgunReadcounts.csv', 'Format', '%s%f');
 tblShotgun = join(tblShotgun, readcounts, 'Keys', 'SampleID');
-processPatricOutput = 1;
+processPatricOutput = 0;
 %% read VFDB output table and extract accession number
 
 if processPatricOutput == 1
@@ -96,9 +96,9 @@ if processPatricOutput == 1
         end
     end
 
-    writetable(VFDBtbl, 'vfdbTbl_2021.csv');
+    writetable(VFDBtbl, '../metagenome_data/vfdbTbl_2021.csv');
 else
-    VFDBtblname = 'vfdbTbl_2021.csv';
+    VFDBtblname = '../metagenome_data/vfdbTbl_2021.csv';
     VFDBtbl = readtable(VFDBtblname);
 end
 
