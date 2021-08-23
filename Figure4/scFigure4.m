@@ -6,7 +6,7 @@ tblcounts = readtable(strcat(data_path, 'counts/tblcounts_asv_melt.csv'));
 tblcounts = unstack(tblcounts, 'Count', 'ASV');
 
 cardT = readtable('../metagenome_data/cardTbl_2021Aug.csv');
-cardT = cardT(:, {'resistGene' ,'RelavantPercentInCARD', 'sample'});
+cardT = cardT(:, {'resistGene' ,'RelavantPercentInCARD', 'SampleID'});
 cardT.Properties.VariableNames = {'resistGene', 'RelavantPercentage', 'SampleID'};
 vanApcr = readtable(strcat(data_path,'/meta_data/tblVanA.csv'));
 % X = outerjoin(vanA, cardT, 'Type','left','MergeKeys',true);
