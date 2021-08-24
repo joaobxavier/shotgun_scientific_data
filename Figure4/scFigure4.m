@@ -1,11 +1,11 @@
 close all; clear
 
-
 data_path = '../deidentified_data_tables/';
+addpath('../utils')
 tblcounts = readtable(strcat(data_path, 'counts/tblcounts_asv_melt.csv'));
 tblcounts = unstack(tblcounts, 'Count', 'ASV');
 
-cardT = readtable('../metagenome_data/cardTbl_2021Aug.csv');
+cardT = readtable('../metagenome_data/cardTbl.csv');
 cardT = cardT(:, {'resistGene' ,'RelavantPercentInCARD', 'SampleID'});
 cardT.Properties.VariableNames = {'resistGene', 'RelavantPercentage', 'SampleID'};
 vanApcr = readtable(strcat(data_path,'/meta_data/tblVanA.csv'));
@@ -13,7 +13,7 @@ vanApcr = readtable(strcat(data_path,'/meta_data/tblVanA.csv'));
 %% plot vanA PCR in tSNE
 %% plot samples with vanA PCR
 % shotGun = readtable('../deidentified_data_tables/samples/tblASVsamples.csv');
-shotGun = readtable('../deidentified_data_tables/samples/tblASVsamples.csv', ...
+shotGun = readtable(strcat(data_path, 'samples/tblASVsamples.csv'), ...
                         'Format', '%s%s%d%s%s%s%d%s');
 shotGunSample = shotGun.SampleID(cellfun(@(X) ~isempty(X), shotGun.AccessionShotgun));
 X= load('../savedMat/tSNE.mat');
@@ -113,7 +113,7 @@ bs=beeswarm( X2.VanA,X2.sum_RelavantPercentage, ...
          'sort_style','up','dot_size',4,'corral_style', 'gutter', 'overlay_style','ci');
 set(gca, 'ylim', [-1 11], 'ytick', 0:2:10, ...
         'xtick', [0 1], ...
-        'xticklabel', {'vanA(-)' ,'vanA(+)'})
-ylabel('relative abundance of vanA gene in shotgun metagenome', 'fontsize', 14) 
+        'xticklabel', {'vanA PCR(-)' ,'vanA PCR(+)'})
+ylabel('relative abundance of vanA in CARD', 'fontsize', 14) 
 text(-0.1, 10.5, sprintf('n=%i', n0),'fontsize', 14)
 text(0.9, 10.5, sprintf('n=%i', n1),'fontsize', 14)

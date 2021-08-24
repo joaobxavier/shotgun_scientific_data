@@ -1,20 +1,17 @@
 close all; clear
 
-% CardRabd = readtable('../metagenome_data/CardDrugclassRelAbundance.xlsx');
-shotGun = readtable('../deidentified_data_tables/samples/tblASVsamples.csv', ...
+%% path to data
+data_path = '../deidentified_data_tables/';
+shotGun = readtable(strcat(data_path, '../deidentified_data_tables/samples/tblASVsamples.csv'), ...
                         'Format', '%s%s%d%s%s%s%d%s');
 shotGunSample = shotGun(cellfun(@(X) ~isempty(X), shotGun.AccessionShotgun), :);
 samplesWithCard = shotGunSample.SampleID;
 readcountTbl = readtable('../metagenome_data/tblShotgunReadcounts.csv','Format', '%s%f');
 shotGunSample=join(shotGunSample, readcountTbl, 'Keys', 'SampleID');
 
-
 calculateTSNE = 0; % if calculateTSNE==1, redo calculation of t-SNE. This will take >30 min
 %% path of tsne
 addpath('../utils');
-
-%% path to data
-data_path = '../deidentified_data_tables/';
 
 %% load and unstack the counts table
 tblcounts = readtable(strcat(data_path, 'counts/tblcounts_asv_melt.csv'));
@@ -43,7 +40,7 @@ clear TM T
 Tasv = newT(:, 1:idx);
 Tsample = newT(:, [1, (idx+1):end]);
 
-noshotgunColor=[.3 .6 .6];
+
 
 % Sum = sum(Tcard{:, 2:end}, 2);
 
@@ -105,7 +102,8 @@ colorPlot = repmat([.9 0 0], height(Tsample), 1);
 [~, ~, isg]=intersect(shotGunSample.SampleID, Tsample.SampleID);
 G=zeros(height(Tsample),1);
 G(isg)=1;
-wshotgunColor = [.9 .9 .2];
+noshotgunColor=[.6 .6 .6];
+wshotgunColor = [.9 .5 .2];
 mycolor = [noshotgunColor; wshotgunColor];
 figure()
 uG=unique(G, 'stable');
