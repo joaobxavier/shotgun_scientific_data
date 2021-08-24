@@ -74,3 +74,22 @@ Directories containing the kraken2, CARD and VFDB output of all shotgun samples 
 <ul> 
  Directories with full output of the kraken2 for 10 samples, including kraken2, CARD and VFDB, and a .txt file containing the name of the 10 samples. This folder provides a complete view of the patric output and allows to try data analysis with a small sized data output. </ul>
 
+## - utils
+<ul>
+ To run our scripts smoothly, the following functions are in use: 
+ </ul>
+ <ul> - violinplot: Bechtold, Bastian, 2016. Violin Plots for Matlab, Github Project
+https://github.com/bastibe/Violinplot-Matlab, DOI: 10.5281/zenodo.4559847
+ </ul>
+
+ <ul> - beeswarm: https://github.com/ihstevenson/beeswarm
+ </ul>
+  <ul> - hex2rgb: https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb
+ </ul>
+ <ul> - distinguishable_colors: https://www.mathworks.com/matlabcentral/fileexchange/29702-generate-maximally-perceptually-distinct-colors
+ </ul>
+ <ul> - brewermap: https://www.mathworks.com/matlabcentral/fileexchange/45208-colorbrewer-attractive-and-distinctive-colormaps
+ </ul>
+ <ul> - bh-tsne: https://lvdmaaten.github.io/tsne/
+
+ </ul>
