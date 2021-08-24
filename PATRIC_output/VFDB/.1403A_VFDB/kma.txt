@@ -1,0 +1,109 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000871 Type 1 fimbriae Regulatory protein fimB [Escherichia coli CFT073]	  535858	   16499	     603	   98.34	  100.00	   98.34	  100.00	  940.15	488330.74	1.0e-26
+VFDB|VFG000872 Type 1 fimbriae Regulatory protein fimE [Escherichia coli CFT073]	  531556	   16336	     597	   98.99	  100.00	   98.99	  100.00	  917.62	484496.27	1.0e-26
+VFDB|VFG000873 Type-1 fimbrial protein, A chain precursor [Escherichia coli CFT073]	  469947	   16591	     606	   91.42	  100.00	   91.42	  100.00	 1005.93	422435.23	1.0e-26
+VFDB|VFG000874 Fimbrin-like protein fimI precursor [Escherichia coli CFT073]	  584692	   14768	     540	   98.33	  100.00	   98.33	  100.00	 1139.71	541840.72	1.0e-26
+VFDB|VFG000875 Chaperone protein fimC precursor [Escherichia coli CFT073]	  709471	   19834	     726	   98.76	  100.00	   98.76	  100.00	 1015.34	652125.91	1.0e-26
+VFDB|VFG000876 Outer membrane usher protein fimD precursor [Escherichia coli CFT073]	 2883708	   70642	    2637	   98.41	  100.00	   98.41	  100.00	 1147.70	2678536.20	1.0e-26
+VFDB|VFG000877 FimF protein precursor [Escherichia coli CFT073]	  557327	   14608	     534	   97.38	  100.00	   97.38	  100.00	 1133.71	514994.20	1.0e-26
+VFDB|VFG000878 FimG protein precursor [Escherichia coli CFT073]	  581633	   13784	     504	   98.41	  100.00	   98.41	  100.00	 1215.76	541555.79	1.0e-26
+VFDB|VFG000879 FimH protein precursor [Escherichia coli CFT073]	  942596	   24863	     912	   97.59	  100.00	   97.59	  100.00	 1114.22	870560.75	1.0e-26
+VFDB|VFG000880 regulatory protein PapI [Escherichia coli CFT073]	   54768	    6430	     234	   94.87	  100.00	   94.87	  100.00	  269.24	38179.55	1.0e-26
+VFDB|VFG000881 (papB) regulatory protein PapB [Escherichia coli CFT073]	  285016	    8638	     315	   98.41	   99.68	   98.73	  100.32	  950.01	260117.51	1.0e-26
+VFDB|VFG000902 Aecreted auto transpoter toxin [Escherichia coli CFT073]	 3019171	  104378	    3900	   99.56	  100.00	   99.56	  100.00	  786.51	2719988.03	1.0e-26
+VFDB|VFG000916 heme oxygenase ChuS [Escherichia coli CFT073]	  604213	   28141	    1029	   96.40	  100.00	   96.40	  100.00	  623.78	524798.28	1.0e-26
+VFDB|VFG000917 Outer membrane heme/hemoglobin receptor ChuA [Escherichia coli CFT073]	  831150	   53148	    1947	   93.37	   95.63	   97.64	  104.56	  444.00	684481.05	1.0e-26
+VFDB|VFG000918 periplasmic heme-binding protein ChuT [Escherichia coli CFT073]	  404845	   27206	     993	   93.55	   96.98	   96.47	  103.12	  423.36	330079.31	1.0e-26
+VFDB|VFG000919 Putative oxygen independent coproporphyrinogen III oxidase [Escherichia coli CFT073]	 1431473	   36318	    1338	   96.79	  100.00	   96.79	  100.00	 1178.69	1326113.36	1.0e-26
+VFDB|VFG000920 putative heme-binding protein ChuX [Escherichia coli CFT073]	  222220	   13582	     495	   72.73	   75.35	   96.51	  132.71	  491.27	184601.03	1.0e-26
+VFDB|VFG000921 ChuY [Escherichia coli CFT073]	  600400	   17064	     624	   96.47	  100.00	   96.47	  100.00	 1043.72	551093.74	1.0e-26
+VFDB|VFG000922 heme permease protein ChuU [Escherichia coli CFT073]	  766350	   27116	     993	   96.58	  100.00	   96.58	  100.00	  830.59	688707.70	1.0e-26
+VFDB|VFG000923 ferrienterobactin outer membrane transporter [Escherichia coli CFT073]	 2001011	   60523	    2241	   96.88	  100.00	   96.88	  100.00	  983.96	1826548.92	1.0e-26
+VFDB|VFG000924 ferrienterobactin ABC transporter periplasmic binding protein [Escherichia coli CFT073]	  906453	   26099	     957	   97.70	  100.00	   97.70	  100.00	 1019.20	831076.25	1.0e-26
+VFDB|VFG000925 ferrienterobactin ABC transporter ATPase [Escherichia coli CFT073]	  730696	   22289	     816	   96.94	  100.00	   96.94	  100.00	  988.77	666467.51	1.0e-26
+VFDB|VFG000926 ferrienterobactin ABC transporter permease [Escherichia coli CFT073]	  969399	   27720	    1017	   95.97	  100.00	   95.97	  100.00	 1084.68	889320.74	1.0e-26
+VFDB|VFG000928 iron-enterobactin ABC transporter permease [Escherichia coli CFT073]	  788916	   27110	     993	   94.46	  100.00	   94.46	  100.00	  929.05	711186.54	1.0e-26
+VFDB|VFG000929 phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	 1079957	   20992	     771	   92.22	  100.00	   92.22	  100.00	 1967.40	1018580.72	1.0e-26
+VFDB|VFG000930 enterobactin synthase multienzyme complex component, ATP-dependent [Escherichia coli CFT073]	 3306889	  103616	    3882	   94.93	   99.43	   95.47	  100.57	  965.46	3008631.40	1.0e-26
+VFDB|VFG000931 isochorismate synthase 1 [Escherichia coli CFT073]	 1112912	   32339	    1188	   97.31	  100.00	   97.31	  100.00	 1024.05	1019545.06	1.0e-26
+VFDB|VFG000932 2,3-dihydroxybenzoate-AMP ligase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	 1449912	   43723	    1611	   96.52	  100.00	   96.52	  100.00	 1003.68	1323860.39	1.0e-26
+VFDB|VFG000933 isochorismatase [Escherichia coli CFT073]	  830582	   23415	     858	   98.83	  100.00	   98.83	  100.00	 1004.41	762904.24	1.0e-26
+VFDB|VFG000937 L-lysine 6-monooxygenase IucD [Escherichia coli CFT073]	  362410	   36675	    1338	   88.04	   90.81	   96.95	  110.12	  297.85	265864.69	1.0e-26
+VFDB|VFG000938 aerobactin siderophore biosynthesis protein IucC [Escherichia coli CFT073]	 1400781	   47329	    1743	   98.22	   99.89	   98.33	  100.11	  855.59	1264980.49	1.0e-26
+VFDB|VFG000940 aerobactin siderophore biosynthesis protein IucD [Escherichia coli CFT073]	  184956	   49095	    1788	   84.00	   84.40	   99.54	  118.49	  104.12	78863.31	1.0e-26
+VFDB|VFG000942 cytoplamic protein DraA [Escherichia coli O75:K5:H- str. IH11128]	  358664	    8385	     306	  100.00	  100.00	  100.00	  100.00	 1173.99	334272.81	1.0e-26
+VFDB|VFG000943 chaperone protein DraB [Escherichia coli O75:K5:H- str. IH11128]	  182743	   20424	     744	   97.58	   99.33	   98.24	  100.68	  256.02	129683.57	1.0e-26
+VFDB|VFG000944 usher protein DraC [Escherichia coli O75:K5:H- str. IH11128]	  729304	   70505	    2580	   78.26	   79.30	   98.68	  126.10	  289.54	542649.16	1.0e-26
+VFDB|VFG000945 DraD, periplasmic protein [Escherichia coli O75:K5:H- str. IH11128]	  590597	   12142	     444	   99.77	  100.00	   99.77	  100.00	 1341.75	555148.32	1.0e-26
+VFDB|VFG000946 DraP [Escherichia coli O75:K5:H- str. IH11128]	  203127	    4775	     174	   99.43	  100.00	   99.43	  100.00	 1188.99	189240.59	1.0e-26
+VFDB|VFG001424 Dr-II structural adhesin precursor [Escherichia coli EC7372]	  717200	   15324	     561	   99.47	  100.18	   99.29	   99.82	 1309.29	672508.16	1.0e-26
+VFDB|VFG001443 outer membrane protein A [Escherichia coli O18:K1:H7 str. RS218]	  859852	   28403	    1041	   96.73	  100.38	   96.36	   99.62	  914.35	778275.56	1.0e-26
+VFDB|VFG001444 putative arylsulfatase [Escherichia coli O18:K1:H7 str. RS218]	 1719236	   38659	    1428	   97.20	  100.07	   97.13	   99.93	 1317.24	1606659.46	1.0e-26
+VFDB|VFG001448 KpsD [Escherichia coli O18:K1:H7 str. RS218]	 1854911	   45345	    1677	   98.33	  100.00	   98.33	  100.00	 1165.15	1723201.42	1.0e-26
+VFDB|VFG001450 KpsM [Escherichia coli O18:K1:H7 str. RS218]	  610569	   21247	     777	   95.37	  100.00	   95.37	  100.00	  912.23	549685.88	1.0e-26
+VFDB|VFG001713 PapX protein regulates flagellum synthesis to repress motility [Escherichia coli CFT073]	  325271	   15132	     552	   97.64	  100.00	   97.64	  100.00	  632.22	282563.14	1.0e-26
+VFDB|VFG002412 E. coli common pilus chaperone EcpB [Escherichia coli O157:H7 str. EDL933]	  732363	   18272	     669	   98.51	  100.00	   98.51	  100.00	 1145.63	679323.52	1.0e-26
+VFDB|VFG002413 regulator protein EcpR [Escherichia coli O157:H7 str. EDL933]	  366859	   16196	     591	   98.98	  100.00	   98.98	  100.00	  640.70	321009.76	1.0e-26
+VFDB|VFG002414 E. coli common pilus structural subunit EcpA [Escherichia coli O157:H7 str. EDL933]	  621104	   16076	     588	   98.81	  100.00	   98.81	  100.00	 1098.13	574496.88	1.0e-26
+VFDB|VFG002415 E. coli common pilus usher EcpC [Escherichia coli O157:H7 str. EDL933]	 2649331	   67815	    2526	   98.02	  100.00	   98.02	  100.00	 1113.81	2452654.89	1.0e-26
+VFDB|VFG002416 polymerized tip adhesin of ECP fibers [Escherichia coli O157:H7 str. EDL933]	 1661973	   44532	    1644	   99.21	  100.00	   99.21	  100.00	 1037.67	1533023.59	1.0e-26
+VFDB|VFG002417 E. coli common pilus chaperone EcpE [Escherichia coli O157:H7 str. EDL933]	  710180	   20653	     756	   96.83	  100.00	   96.83	  100.00	 1044.29	650553.17	1.0e-26
+VFDB|VFG012327 S fimbrial switch regulatory protein SfaC [Escherichia coli UTI89]	  111326	    7827	     285	   78.95	   84.21	   93.75	  118.75	  434.96	89899.26	1.0e-26
+VFDB|VFG034754 Type III secretion system effector espL1 [Escherichia coli O157:H7 str. EDL933]	  884085	   51812	    1899	   96.37	  100.00	   96.37	  100.00	  518.11	740120.40	1.0e-26
+VFDB|VFG034772 Type III secretion system effector EspL4 [Escherichia coli O157:H7 str. EDL933]	 1439788	   59370	    2187	   97.44	  100.00	   97.44	  100.00	  713.43	1271080.12	1.0e-26
+VFDB|VFG034815 Type III secretion system effector espR1 [Escherichia coli O157:H7 str. EDL933]	  238915	   34575	    1260	   94.21	  100.08	   94.13	   99.92	  228.55	152672.17	1.0e-26
+VFDB|VFG034849 Type III secretion system effector EspX1 [Escherichia coli O157:H7 str. EDL933]	  293130	   39003	    1422	   95.99	  100.00	   95.99	  100.00	  233.89	194440.28	1.0e-26
+VFDB|VFG034866 Type III secretion system effector EspX4 [Escherichia coli O157:H7 str. EDL933]	  433681	   43311	    1581	   95.89	  100.00	   95.89	  100.00	  315.47	319478.51	1.0e-26
+VFDB|VFG034873 Type III secretion system effector EspX5 [Escherichia coli O157:H7 str. EDL933]	  319101	   35455	    1293	   95.90	  100.00	   95.90	  100.00	  290.03	226915.84	1.0e-26
+VFDB|VFG034880 Type III secretion system effector EspX6 [Escherichia coli O157:H7 str. EDL933]	  610190	   60071	    2196	   77.60	   82.92	   93.57	  120.59	  320.82	451511.83	1.0e-26
+VFDB|VFG034895 Type III secretion system effector EspY1 [Escherichia coli O157:H7 str. EDL933]	  502919	   20610	     753	   95.88	   99.47	   96.40	  100.53	  743.68	444332.00	1.0e-26
+VFDB|VFG034901 Type III secretion system effector EspY2 [Escherichia coli O157:H7 str. EDL933]	  400443	   15615	     570	   94.56	  100.00	   94.56	  100.00	  836.07	355940.08	1.0e-26
+VFDB|VFG034908 Type III secretion system effector EspY3 [Escherichia coli O157:H7 str. EDL933]	  352722	   43096	    1572	   93.13	   97.33	   95.69	  102.75	  247.84	242202.41	1.0e-26
+VFDB|VFG034915 Type III secretion system effector EspY4 [Escherichia coli O157:H7 str. EDL933]	  374893	   66042	    2409	   96.47	  100.00	   96.47	  100.00	  170.95	216331.53	1.0e-26
+VFDB|VFG042390 regulatory protein SfaX [Escherichia coli UTI89]	   53356	   15170	     552	   71.56	   74.28	   96.34	  134.63	  104.18	21278.40	1.0e-26
+VFDB|VFG042423 fimbrial major subunit AfaA [Escherichia coli O25b:H4 str. FV9863]	     383	    8413	     306	   70.26	   70.92	   99.08	  141.01	    1.30	 7330.96	1.0e-26
+VFDB|VFG042424 chaperone AfaB [Escherichia coli O25b:H4 str. FV9863]	  753536	   20317	     744	   98.39	  100.13	   98.26	   99.87	 1071.89	694716.12	1.0e-26
+VFDB|VFG042425 usher AfaC [Escherichia coli O25b:H4 str. FV9863]	 2675877	   69329	    2583	   99.03	  100.00	   99.03	  100.00	 1062.83	2474891.91	1.0e-26
+VFDB|VFG042446 DaaC usher protein  [Escherichia coli str. C1845]	    6488	    9457	     344	   90.12	   91.28	   98.73	  109.55	   19.11	  553.04	1.0e-26
+VFDB|VFG042447 DaaF protein [Escherichia coli str. C1845]	  257663	    6253	     228	  100.00	  100.00	  100.00	  100.00	 1132.32	239494.04	1.0e-26
+VFDB|VFG044159 enterobactin/ferric enterobactin esterase [Escherichia coli CFT073]	 1115170	   32747	    1203	   96.59	  100.00	   96.59	  100.00	 1028.16	1020663.73	1.0e-26
+VFDB|VFG044165 enterobactin exporter, iron-regulated [Escherichia coli CFT073]	 1087884	   34063	    1251	   95.68	  100.00	   95.68	  100.00	  985.15	989830.84	1.0e-26
+VFDB|VFG044172 ATP-binding hydrophilic protein ChuV [Escherichia coli CFT073]	  668071	   21891	     801	   98.25	  100.00	   98.25	  100.00	  872.68	605173.62	1.0e-26
+VFDB|VFG045349 adhesin FdeC [Escherichia coli O45:K1:H7 str. S88]	 3656782	  113104	    4251	   94.97	   99.72	   95.23	  100.28	  971.32	3331043.29	1.0e-26
+VFDB|VFG044326 yersiniabactin ABC transporter ATP-binding/permease protein YbtP [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	 1387958	   48965	    1803	   99.67	   99.94	   99.72	  100.06	  776.49	1247736.88	1.0e-26
+VFDB|VFG048621 ferric aerobactin receptor IutA [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	 2505974	   59191	    2202	   99.50	  100.00	   99.50	  100.00	 1156.81	2333863.76	1.0e-26
+VFDB|VFG049018 transcriptional regulator RcsB [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  111197	   17882	     651	   75.88	   88.33	   85.91	  113.22	  269.51	67459.56	1.0e-26
+VFDB|VFG049144 acriflavine resistance protein B [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  560271	   86145	    3147	   81.54	   95.90	   85.02	  104.27	  283.32	347756.11	1.0e-26
+VFDB|VFG000457 minor curlin subunit precursor, curli nucleator protein CsgB [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]	   54794	   12531	     456	   78.73	   92.11	   85.48	  108.57	  185.51	26529.32	1.0e-26
+VFDB|VFG000615 aerobactin synthesis protein IucA [Shigella flexneri 2a str. 301]	 1756563	   48230	    1782	   99.83	   99.94	   99.89	  100.06	  990.03	1617027.69	1.0e-26
+VFDB|VFG000616 aerobactin synthesis protein IucB [Shigella flexneri 2a str. 301]	 1054613	   25818	     948	   99.79	  100.00	   99.79	  100.00	 1121.69	979624.28	1.0e-26
+VFDB|VFG000617 aerobactin synthesis protein IucC [Shigella flexneri 2a str. 301]	  519314	   47713	    1743	   92.54	   94.09	   98.35	  106.28	  305.09	392233.02	1.0e-26
+VFDB|VFG000618 aerobactin synthesis protein IucC, lysine 6-monooxygenase [Shigella flexneri 2a str. 301]	  715230	   36557	    1338	   93.57	   97.01	   96.46	  103.08	  576.17	612667.78	1.0e-26
+VFDB|VFG002046 general secretion pathway protein C [Shigella dysenteriae Sd197]	  705493	   22704	     831	   93.86	  100.00	   93.86	  100.00	 1000.97	640211.78	1.0e-26
+VFDB|VFG002047 general secretion pathway protein D [Shigella dysenteriae Sd197]	 1740032	   49700	    1836	   96.84	  100.82	   96.06	   99.19	 1066.40	1596452.41	1.0e-26
+VFDB|VFG002048 general secretion pathway protein E [Shigella dysenteriae Sd197]	 1332481	   40591	    1494	   94.98	  100.00	   94.98	  100.00	 1049.75	1215507.80	1.0e-26
+VFDB|VFG002049 general secretion pathway protein F [Shigella dysenteriae Sd197]	  967315	   32710	    1200	   94.25	  100.00	   94.25	  100.00	  952.24	873463.58	1.0e-26
+VFDB|VFG002050 general secretion pathway protein G [Shigella dysenteriae Sd197]	  457005	   12485	     456	   96.27	  100.00	   96.27	  100.00	 1133.43	420875.76	1.0e-26
+VFDB|VFG002051 general secretion pathway protein H [Shigella dysenteriae Sd197]	  446053	   14541	     531	   92.09	   97.18	   94.77	  102.91	  981.88	404265.88	1.0e-26
+VFDB|VFG002052 general secretion pathway protein I [Shigella dysenteriae Sd197]	  221754	   10207	     372	   92.20	  100.00	   92.20	  100.00	  734.15	192928.33	1.0e-26
+VFDB|VFG002053 general secretion pathway protein J [Shigella dysenteriae Sd197]	  500672	   15601	     570	   94.39	  100.00	   94.39	  100.00	 1057.63	455753.40	1.0e-26
+VFDB|VFG002054 general secretion pathway protein K [Shigella dysenteriae Sd197]	 1004184	   26648	     978	   96.52	  100.00	   96.52	  100.00	 1148.49	926994.17	1.0e-26
+VFDB|VFG002055 general secretion pathway protein L [Shigella dysenteriae Sd197]	  779624	   23508	     861	   94.08	  100.00	   94.08	  100.00	 1090.68	711852.00	1.0e-26
+VFDB|VFG002056 general secretion pathway protein M [Shigella dysenteriae Sd197]	  343095	   11594	     423	   92.67	   99.76	   92.89	  100.24	 1004.48	309828.41	1.0e-26
+VFDB|VFG013063 heme/hemoglobin transport protein ShuS [Shigella dysenteriae Sd197]	  491188	   28170	    1029	   96.40	  100.00	   96.40	  100.00	  547.16	412788.55	1.0e-26
+VFDB|VFG013064 outer membrane heme/hemoglobin receptor ShuA [Shigella dysenteriae Sd197]	 1518962	   53790	    1983	   95.71	   97.02	   98.65	  103.07	  791.06	1364948.20	1.0e-26
+VFDB|VFG013065 periplasmic binding protein ShuT [Shigella dysenteriae Sd197]	  710539	   27130	     993	   97.68	   99.40	   98.28	  100.61	  749.57	633139.58	1.0e-26
+VFDB|VFG013067 shu locus protein ShuX [Shigella dysenteriae Sd197]	  318383	   13570	     495	   94.34	   97.78	   96.49	  102.27	  734.09	279889.33	1.0e-26
+VFDB|VFG013068 shu locus protein ShuY [Shigella dysenteriae Sd197]	   98715	   17142	     624	   93.27	  100.00	   93.27	  100.00	  178.62	57433.31	1.0e-26
+VFDB|VFG013069 permease of iron compound ABC transport system [Shigella dysenteriae Sd197]	  282683	   26248	     957	   95.82	  100.00	   95.82	  100.00	  339.02	212857.70	1.0e-26
+VFDB|VFG013070 ATP-binding component of hemin transport system [Shigella dysenteriae Sd197]	  235383	   21155	     771	   97.80	   99.35	   98.43	  100.65	  315.69	178895.41	1.0e-26
+VFDB|VFG000358 pesticin/yersiniabactin receptor protein [Yersinia pestis CO92]	 1805845	   54704	    2022	   99.85	  100.00	   99.85	  100.00	  897.63	1648165.82	1.0e-26
+VFDB|VFG000359 yersiniabactin siderophore biosynthetic protein [Yersinia pestis CO92]	 1341871	   42870	    1578	   99.87	  100.00	   99.87	  100.00	  853.60	1218568.64	1.0e-26
+VFDB|VFG000360 type II thioesterase YbtT [Yersinia pestis CO92]	  665090	   21974	     804	   99.63	  100.00	   99.63	  100.00	  836.68	601977.62	1.0e-26
+VFDB|VFG000361 yersiniabactin biosynthetic protein YbtU [Yersinia pestis CO92]	 1013637	   29998	    1101	   99.73	  100.00	   99.73	  100.00	  928.45	927091.20	1.0e-26
+VFDB|VFG000362 yersiniabactin biosynthetic protein Irp1 [Yersinia pestis CO92]	 8759821	  240742	    9492	   99.23	  100.00	   99.23	  100.00	  943.75	8063349.64	1.0e-26
+VFDB|VFG000363 yersiniabactin biosynthetic protein Irp2 [Yersinia pestis CO92]	 5659200	  159525	    6108	   99.75	  100.00	   99.75	  100.00	  934.32	5198117.20	1.0e-26
+VFDB|VFG000364 transcriptional regulator YbtA [Yersinia pestis CO92]	  838130	   26197	     960	   98.96	   99.38	   99.58	  100.63	  884.22	762712.94	1.0e-26
+VFDB|VFG000366 yersiniabactin ABC transporter ATP-binding/permease protein YbtQ [Yersinia pestis CO92]	 1626958	   48857	    1803	   99.72	  100.00	   99.72	  100.00	  910.70	1486083.59	1.0e-26
+VFDB|VFG000367 putative signal transducer [Yersinia pestis CO92]	 1136310	   34864	    1281	   99.69	  100.00	   99.69	  100.00	  895.75	1035866.83	1.0e-26
+VFDB|VFG000368 salicylate synthase Irp9 [Yersinia pestis CO92]	 1184995	   35502	    1305	   99.69	  100.00	   99.69	  100.00	  918.24	1082618.48	1.0e-26

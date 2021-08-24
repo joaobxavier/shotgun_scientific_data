@@ -1,0 +1,28 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  257515	    3287	    1486	   75.77	   87.01	   87.08	  114.93	  242.61	247817.62	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   72937	    3491	    1529	   81.69	   92.61	   88.21	  107.98	   76.85	63100.44	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   64377	    6644	    2904	   74.48	   81.40	   91.50	  122.84	   34.37	46930.10	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 1124848	    5500	    2926	   80.21	   89.75	   89.38	  111.42	  534.75	1108454.89	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	   73360	    3434	    1504	   76.26	   87.90	   86.76	  113.77	   76.56	63671.81	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	   31739	    2807	    1221	   99.92	  100.00	   99.92	  100.00	   26.29	24229.79	1.0e-26
+CARD|CAC41371.2 tet32 [Clostridiaceae bacterium K10]	  104397	    4361	    1920	   76.72	   78.59	   97.61	  127.24	   59.13	92011.33	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 1055472	    5536	    2904	   91.84	   99.93	   91.90	  100.07	  534.29	1038978.87	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  336243	    3354	    1537	   79.44	   90.70	   87.59	  110.26	  309.64	326313.34	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	    7506	    1142	     495	   99.19	  100.00	   99.19	  100.00	   15.95	 4682.50	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	  230903	    3427	    1542	   74.51	   84.89	   87.78	  117.80	  210.89	220821.07	1.0e-26
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	   31273	    1841	     801	   99.88	  100.00	   99.88	  100.00	   39.45	26158.28	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	   63071	    4515	    1974	   97.37	  100.00	   97.37	  100.00	   34.58	50730.07	1.0e-26
+CARD|AAA23018.1 Campylobacter coli chloramphenicol acetyltransferase [Campylobacter coli]	    1118	    1441	     624	   75.16	   77.08	   97.51	  129.73	    1.97	   40.93	6.7e-10
+CARD|AAD23513.1 CfxA2 [Prevotella intermedia]	   45159	    2215	     966	  100.00	  100.00	  100.00	  100.00	   46.88	38926.30	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	    3881	    3381	    1464	   95.97	   98.02	   97.91	  102.02	    2.90	   34.29	5.2e-09
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	   15183	    4427	    1920	   81.82	   83.70	   97.76	  119.48	    8.67	 5898.60	1.0e-26
+CARD|AAA27471.1 tetX [Bacteroides fragilis]	   45056	    2677	    1167	   99.83	  100.00	   99.83	  100.00	   38.89	37625.44	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	    4839	    2812	    1218	   94.91	   99.34	   95.54	  100.66	    4.50	  536.46	1.0e-26
+CARD|NP_863643.1 AAC(6')-Ie-APH(2'')-Ia [Staphylococcus aureus]	    7360	    3324	    1440	  100.00	  100.00	  100.00	  100.00	    5.13	 1524.18	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  437496	    4115	    1920	   99.58	  100.00	   99.58	  100.00	  234.11	425302.53	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	  160269	    1113	     495	  100.00	  100.00	  100.00	  100.00	  325.34	156959.91	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	   37629	    1715	     747	   99.60	   99.87	   99.73	  100.13	   51.41	32781.87	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  124795	    4346	    1920	   99.95	  100.00	   99.95	  100.00	   66.73	112340.05	1.0e-26
+CARD|WP_009887863.1 Clostridium difficile EF-Tu mutants conferring resistance to elfamycin [Clostridium difficile]	   13970	    2753	    1194	   86.68	   98.99	   87.56	  101.02	   19.61	 7523.33	1.0e-26
+CARD|NC_003112_60970_62514 Neisseria meningitidis 16S rRNA mutation conferring resistance to spectinomycin [Neisseria meningitidis MC58]	  254195	    3418	    1544	   70.92	   81.09	   87.46	  123.32	  269.84	244122.13	1.0e-26
+CARD|AE006468_3570463_3572006 Salmonella enterica serovar Typhimurium 16S rRNA mutation in the rrsD gene conferring resistance to spectinomycin [Salmonella enterica subsp. salamae]	   79162	    3522	    1544	   73.12	   83.35	   87.72	  119.97	   84.55	69195.82	1.0e-26

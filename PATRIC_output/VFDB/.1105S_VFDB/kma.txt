@@ -1,0 +1,13 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG002179 Enterococcal surface protein; Esp [Enterococcus faecalis str. MMH594]	  889383	    3622	    5622	   70.54	   77.45	   91.09	  129.12	  196.87	878574.45	1.0e-26
+VFDB|VFG043510 Enterococcus faecalis surface protein Fss3, fibrinogen binding protein [Enterococcus faecalis V583]	  419138	    2458	    3228	   86.43	   94.92	   91.06	  105.35	  165.94	411820.07	1.0e-26
+VFDB|VFG043511 cell wall anchored protein SgrA [Enterococcus faecium DO]	  103935	     818	     975	   94.46	   94.46	  100.00	  105.86	  107.20	101503.68	1.0e-26
+VFDB|VFG043518 collagen adhesin precursor Acm [Enterococcus faecium str. TX2555]	  517281	    1596	    2166	  100.00	  100.00	  100.00	  100.00	  239.99	512512.62	1.0e-26
+VFDB|VFG043519 collagen adhesin protein Scm [Enterococcus faecium DO]	  364011	    1537	    1983	   98.99	   99.04	   99.95	  100.97	  184.72	359425.52	1.0e-26
+VFDB|VFG045632 Collagen binding MSCRAMM, EcbA [Enterococcus faecium DO]	 1085436	    1920	    3228	   99.16	  100.00	   99.16	  100.00	  365.80	1079688.56	1.0e-26
+VFDB|VFG001354 choline binding protein E [Streptococcus pneumoniae TIGR4]	    3270	    1630	    1884	   76.54	   82.80	   92.44	  120.77	    2.23	  548.66	1.0e-26
+VFDB|VFG001356 endo-beta-N-acetylglucosaminidase [Streptococcus pneumoniae TIGR4]	    3900	    1710	    1977	   77.79	   83.51	   93.16	  119.75	    2.44	  854.44	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	   16183	     801	     930	   90.86	  100.22	   90.67	   99.79	   23.80	13929.59	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	   19436	    1449	    1683	   90.49	  100.00	   90.49	  100.00	   15.90	15489.90	1.0e-26
+VFDB|VFG042972 signal peptidase I [Streptococcus pneumoniae Taiwan19F-14]	    6506	     477	     552	   92.57	  100.00	   92.57	  100.00	   14.48	 5205.17	1.0e-26
+VFDB|VFG042975 surface protein cell wall anchor, sortase_B family [Streptococcus pneumoniae Taiwan19F-14]	    4280	     550	     636	   77.20	   88.68	   87.06	  112.77	    9.40	 2880.46	1.0e-26

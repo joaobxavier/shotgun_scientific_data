@@ -1,0 +1,72 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NP_461214.1 Salmonella enterica gyrA conferring resistance to fluoroquinolones [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]	  593648	   73926	    2637	   84.83	   95.87	   88.49	  104.31	  302.96	404613.77	1.0e-26
+CARD|AEI83430.1 SHV-137 [Klebsiella pneumoniae]	    4486	   24316	     861	   82.69	   82.93	   99.72	  120.59	    5.41	13653.16	1.0e-26
+CARD|CAJ47136.2 SHV-81 [Klebsiella pneumoniae]	    3979	   24316	     861	   89.31	   89.55	   99.74	  111.67	    4.79	14617.69	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	17208241	   62842	    2904	   97.04	   99.93	   97.11	  100.07	 6507.54	17020629.47	1.0e-26
+CARD|CDJ72759 Escherichia coli PtsI with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	  708664	   48350	    1728	   85.36	   94.39	   90.44	  105.95	  541.16	575966.00	1.0e-26
+CARD|AAN04883.1 SHV-41 [Klebsiella pneumoniae]	    4476	   24316	     861	   81.42	   81.77	   99.57	  122.30	    5.41	13671.69	1.0e-26
+CARD|AIS67768.1 SHV-185 [Klebsiella pneumoniae]	    1247	   24317	     861	   70.38	   70.62	   99.67	  141.61	    1.49	20819.75	1.0e-26
+CARD|NP_414995.1 acrB [Escherichia coli str. K-12 substr. MG1655]	  386818	   88576	    3150	   70.16	   82.10	   85.46	  121.81	  194.44	187102.81	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	   19873	   82062	    2904	   84.57	   91.94	   91.99	  108.76	    8.79	37940.64	1.0e-26
+CARD|AAL68926.1 SHV-35 [Klebsiella pneumoniae]	    3028	   24316	     861	   73.64	   73.87	   99.69	  135.38	    3.66	16574.06	1.0e-26
+CARD|AAV66328.1 SHV-59 [Klebsiella pneumoniae]	    6488	   24315	     861	   99.07	   99.65	   99.42	  100.35	    7.88	10317.82	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	  646551	   43179	    1542	   96.82	   99.42	   97.39	  100.59	  488.51	527825.11	1.0e-26
+CARD|AAA87176.1 SHV-7 [Escherichia coli]	    1711	   24317	     861	   70.38	   70.73	   99.51	  141.38	    2.11	19634.18	1.0e-26
+CARD|AJO16042.1 SHV-182 [Klebsiella pneumoniae]	    2731	   24316	     861	   93.84	   94.19	   99.63	  106.17	    3.32	17226.93	1.0e-26
+CARD|ABV72593.1 SHV-101 [Klebsiella pneumoniae]	    3924	   24316	     861	   76.54	   76.77	   99.70	  130.26	    4.74	14725.50	1.0e-26
+CARD|AAN82549.1 Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin [Escherichia coli CFT073]	  274496	   34614	    1230	   96.34	   99.92	   96.42	  100.08	  253.25	186156.52	1.0e-26
+CARD|AAG49894.1 SHV-29 [Klebsiella pneumoniae]	    5082	   24316	     861	   94.66	   95.12	   99.51	  105.13	    6.11	12584.23	1.0e-26
+CARD|AAP33454.2 SHV-31 [Klebsiella pneumoniae]	    4285	   24316	     861	   70.62	   70.85	   99.67	  141.15	    5.19	14029.31	1.0e-26
+CARD|AHA80958.1 SHV-172 [Klebsiella pneumoniae]	 1782478	   23727	     861	   99.65	  100.00	   99.65	  100.00	 2073.67	1712542.69	1.0e-26
+CARD|ABA06590.1 SHV-69 [Klebsiella pneumoniae]	    4523	   24316	     861	   88.50	   88.97	   99.48	  112.40	    5.46	13584.80	1.0e-26
+CARD|CAA66729.1 SHV-11 [Klebsiella pneumoniae]	    3536	   24316	     861	   78.16	   78.51	   99.56	  127.37	    4.31	15504.31	1.0e-26
+CARD|YP_005226137.1 Klebsiella pneumoniae OmpK35 [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  482847	   19190	     684	   99.85	  100.15	   99.71	   99.85	  712.78	428210.20	1.0e-26
+CARD|CCK86744.1 SHV-164 [Klebsiella pneumoniae]	    7145	   24315	     861	   84.44	   85.13	   99.18	  117.46	    8.71	 9371.30	1.0e-26
+CARD|BAE77933.1 CRP [Escherichia coli str. K-12 substr. W3110]	  185344	   17831	     633	   87.84	  100.00	   87.84	  100.00	  421.23	138109.18	1.0e-26
+CARD|U00096_3941808_3943349 Escherichia coli 16S rRNA mutation in the rrsC gene conferring resistance to kasugamicin [Escherichia coli K-12]	 2654496	   41987	    1542	   97.02	  100.00	   97.02	  100.00	 1891.04	2531147.39	1.0e-26
+CARD|AIG51284.1 SHV-119 [Klebsiella pneumoniae]	    4006	   24316	     861	   87.46	   87.80	   99.60	  113.89	    4.80	14564.99	1.0e-26
+CARD|AFQ23967.1 SHV-161 [Klebsiella pneumoniae]	  267486	   24229	     861	   94.43	   94.89	   99.51	  105.39	  311.34	202847.99	1.0e-26
+CARD|AMQ12811.1 FosA6 [Escherichia coli]	  272229	   11816	     420	   98.33	  100.00	   98.33	  100.00	  676.19	238746.15	1.0e-26
+CARD|CAJ47132.2 SHV-77 [Klebsiella pneumoniae]	    5101	   24316	     861	   70.96	   71.08	   99.84	  140.69	    6.20	12551.26	1.0e-26
+CARD|ABR76005.1 Klebsiella pneumoniae ramR mutants [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]	  468457	   16331	     582	  100.00	  100.00	  100.00	  100.00	  806.61	421664.02	1.0e-26
+CARD|AFQ23963.1 SHV-157 [Klebsiella pneumoniae]	    1644	   24317	     861	   72.82	   73.52	   99.05	  136.02	    2.03	19801.73	1.0e-26
+CARD|AAP82228.1 SHV-44 [Klebsiella pneumoniae]	    3857	   24316	     861	   73.05	   73.17	   99.84	  136.67	    4.65	14857.69	1.0e-26
+CARD|AFQ23961.1 SHV-155 [Klebsiella pneumoniae]	16286279	   18856	     858	   99.65	  100.00	   99.65	  100.00	19011.58	16229796.10	1.0e-26
+CARD|CAC41008.1 Klebsiella pneumoniae acrA [Klebsiella pneumoniae]	  884506	   33404	    1197	   97.83	   99.75	   98.07	  100.25	  783.42	789154.56	1.0e-26
+CARD|ABX71158.1 SHV-104 [Klebsiella pneumoniae]	    8615	   24314	     861	   85.95	   86.18	   99.73	  116.04	   10.29	 7485.27	1.0e-26
+CARD|ABN49113.1 SHV-95 [Citrobacter freundii]	    4310	   24316	     861	   80.60	   80.84	   99.71	  123.71	    5.19	13982.08	1.0e-26
+CARD|AAL40899.1 SHV-43 [Klebsiella pneumoniae]	    3680	   24316	     861	   76.07	   76.54	   99.39	  130.65	    4.50	15211.49	1.0e-26
+CARD|ACM04459.1 SHV-109 [Klebsiella pneumoniae]	    1627	   24317	     861	   77.24	   77.70	   99.40	  128.70	    2.03	19844.44	1.0e-26
+CARD|YP_001693237.1 oqxA [Escherichia coli]	  925412	   32799	    1176	   99.40	  100.00	   99.40	  100.00	  803.38	831503.36	1.0e-26
+CARD|ABN49114.1 SHV-97 [Enterococcus faecalis]	 4020950	   22985	     861	   99.54	  100.00	   99.54	  100.00	 4678.64	3952515.14	1.0e-26
+CARD|ABF66027.1 lmrD [Lactococcus lactis subsp. lactis]	    2854	   56114	    1986	   71.30	   71.30	  100.00	  140.25	    1.44	48104.68	1.0e-26
+CARD|AFK93491.1 SHV-144 [Klebsiella pneumoniae]	    2223	   24317	     861	   75.38	   75.73	   99.54	  132.06	    2.67	18392.91	1.0e-26
+CARD|AAP41944.1 SHV-51 [Klebsiella pneumoniae]	    4397	   24316	     861	   85.25	   85.95	   99.19	  116.35	    5.33	13818.72	1.0e-26
+CARD|CDO13981.1 Klebsiella mutant PhoP conferring antibiotic resistance to colistin [Klebsiella pneumoniae]	  460146	   18859	     672	  100.00	  100.00	  100.00	  100.00	  686.03	406537.82	1.0e-26
+CARD|ABR75897.1 Klebsiella pneumoniae acrR with mutation conferring multidrug antibiotic resistance [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]	  504458	   18258	     651	  100.00	  100.00	  100.00	  100.00	  776.15	452232.66	1.0e-26
+CARD|AAK11270.1 Enterobacter aerogenes omp36 with mutation [Enterobacter aerogenes]	  185868	   31781	    1128	   87.85	   96.54	   91.00	  103.58	  206.07	109086.58	1.0e-26
+CARD|CAI30651.2 SHV-62 [Klebsiella pneumoniae]	 2895257	   23358	     861	   99.65	  100.00	   99.65	  100.00	 3367.86	2825928.59	1.0e-26
+CARD|ABN49111.1 SHV-94 [Klebsiella pneumoniae]	  213305	   24247	     861	   97.79	   98.49	   99.29	  101.53	  248.23	150463.17	1.0e-26
+CARD|AJE60855.1 FosA5 [Escherichia coli]	   49456	   11852	     420	   88.81	   94.76	   93.72	  105.53	  137.67	23064.28	1.0e-26
+CARD|AFQ23962.1 SHV-156 [Klebsiella pneumoniae]	    6112	   24315	     861	   81.65	   82.11	   99.43	  121.78	    7.40	10890.67	1.0e-26
+CARD|AAA50993.1 Escherichia coli EF-Tu mutants conferring resistance to kirromycin [Escherichia coli]	 1523755	   32778	    1185	   96.29	  100.00	   96.29	  100.00	 1425.23	1428181.50	1.0e-26
+CARD|ABF66011.1 lmrC [Lactococcus lactis subsp. lactis]	    1789	   48481	    1716	   74.24	   74.36	   99.84	  134.48	    1.05	43368.67	1.0e-26
+CARD|AFQ32277.1 SHV-143 [Klebsiella pneumoniae]	   94401	   24286	     861	   95.70	   96.17	   99.52	  103.99	  110.02	41419.94	1.0e-26
+CARD|NP_415611.1 antibiotic resistant fabG [Escherichia coli str. K-12 substr. MG1655]	  262767	   20683	     735	   80.82	   88.57	   91.24	  112.90	  455.98	206752.83	1.0e-26
+CARD|CAJ47131.2 SHV-76 [Klebsiella pneumoniae]	    9030	   24314	     861	   92.10	   92.45	   99.62	  108.17	   10.78	 7006.38	1.0e-26
+CARD|AEX99752.1 SHV-142 [Klebsiella pneumoniae]	    2764	   24316	     861	   77.58	   77.93	   99.55	  128.32	    3.34	17153.36	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	   18649	   21091	     747	   99.06	   99.87	   99.20	  100.13	   25.77	  150.15	1.0e-26
+CARD|YP_001693238 oqxB [Escherichia coli]	 2370334	   86253	    3153	   99.02	  100.00	   99.02	  100.00	  776.16	2123688.61	1.0e-26
+CARD|YP_005228001.1 Klebsiella pneumoniae OmpK36 [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  390631	   31018	    1104	   91.03	   96.20	   94.63	  103.95	  401.45	306704.06	1.0e-26
+CARD|CAA09666.1 Klebsiella pneumoniae OmpK37 [Klebsiella pneumoniae]	  598563	   31518	    1125	   99.20	  100.00	   99.20	  100.00	  555.26	510314.58	1.0e-26
+CARD|AAT01223.1 SHV-53 [Klebsiella pneumoniae]	    2532	   20587	     729	   76.41	   76.68	   99.64	  130.41	    3.58	14101.10	1.0e-26
+CARD|BAE77595.1 Escherichia coli gyrB conferring resistance to aminocoumarin [Escherichia coli str. K-12 substr. W3110]	  734427	   67566	    2415	   81.78	   90.77	   90.10	  110.17	  390.09	554496.71	1.0e-26
+CARD|AMP35312.1 vgaC [Enterobacter cloacae]	  430442	    6484	     231	   95.24	  100.00	   95.24	  100.00	 2247.92	411373.53	1.0e-26
+CARD|NP_462735.1 Salmonella serovars gyrB conferring resistance to fluoroquinolone [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]	  436801	   67843	    2415	   76.44	   84.18	   90.80	  118.79	  233.00	269753.93	1.0e-26
+CARD|NP_312937.1 Escherichia coli rpoB mutants conferring resistance to rifampicin [Escherichia coli O157:H7 str. Sakai]	 2422186	  110173	    4029	   92.41	   98.71	   93.61	  101.31	  719.53	2110838.51	1.0e-26
+CARD|ADR80606.1 SHV-108 [Klebsiella pneumoniae]	    3954	   24316	     861	   86.18	   86.53	   99.60	  115.57	    4.72	14666.61	1.0e-26
+CARD|AE006468_3570463_3572006 Salmonella enterica serovar Typhimurium 16S rRNA mutation in the rrsD gene conferring resistance to spectinomycin [Salmonella enterica subsp. salamae]	 6241907	   39910	    1544	   97.34	   99.87	   97.47	  100.13	 4009.65	6123189.02	1.0e-26
+CARD|ABN49110.1 SHV-93 [Klebsiella pneumoniae]	    4987	   24316	     861	   87.69	   88.04	   99.60	  113.59	    6.02	12750.07	1.0e-26
+CARD|BAM28879.1 SHV-167 [Klebsiella pneumoniae]	    4775	   23892	     846	   86.64	   87.12	   99.46	  114.79	    6.01	12748.89	1.0e-26
+CARD|ABN49112.1 SHV-96 [Acinetobacter baumannii]	  943438	   24005	     861	   99.88	  100.00	   99.88	  100.00	 1097.83	873804.64	1.0e-26
+CARD|NP_309766.1 H-NS [Escherichia coli O157:H7 str. Sakai]	   97704	   11675	     414	   70.05	   78.26	   89.51	  127.78	  326.97	67662.98	1.0e-26

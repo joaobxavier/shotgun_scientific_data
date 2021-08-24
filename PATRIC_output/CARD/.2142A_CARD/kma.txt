@@ -1,0 +1,25 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  249307	    4032	    1486	   77.99	   88.43	   88.20	  113.09	  234.26	237466.47	1.0e-26
+CARD|AAM09852.1 vanXD [Enterococcus faecium]	     961	    1710	     609	   81.94	   86.21	   95.05	  116.00	    1.84	  210.14	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   89076	    4243	    1529	   81.62	   91.37	   89.33	  109.45	   91.46	77117.46	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 1101963	    6983	    2926	   73.82	   84.89	   86.96	  117.79	  532.04	1081187.68	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	   74783	    4182	    1504	   76.80	   87.03	   88.24	  114.90	   74.32	63122.11	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   98055	    4235	    1528	   73.43	   82.59	   88.91	  121.08	   88.58	86050.27	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	    7669	    3426	    1221	   99.92	  100.00	   99.92	  100.00	    6.47	 1622.16	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 1028631	    7013	    2904	   88.67	   98.31	   90.19	  101.72	  512.39	1007781.43	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  410929	    4075	    1537	   77.29	   88.81	   87.03	  112.60	  356.23	398863.19	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	  149250	    1361	     495	   99.19	  100.00	   99.19	  100.00	  313.25	145213.92	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	   21783	    2226	     795	  100.00	  100.00	  100.00	  100.00	   27.44	15929.76	1.0e-26
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	   13261	    2245	     801	   99.38	  100.00	   99.38	  100.00	   17.01	 7824.66	1.0e-26
+CARD|AAB23649.1 Vibrio anguillarum chloramphenicol acetyltransferase [Vibrio anguillarum]	   24980	    1822	     651	   96.16	  100.00	   96.16	  100.00	   43.28	20009.01	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	  319959	    5303	    1974	   97.37	  100.00	   97.37	  100.00	  175.33	304393.01	1.0e-26
+CARD|AAD23513.1 CfxA2 [Prevotella intermedia]	   28840	    2702	     966	   96.89	  100.00	   96.89	  100.00	   34.48	21658.06	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	  185988	    4008	    1464	   91.67	   94.60	   96.90	  105.70	  137.92	174301.17	1.0e-26
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	  131242	    5298	    1920	   85.26	   87.55	   97.38	  114.22	   74.23	116169.61	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	  107223	    3371	    1218	   86.86	   94.33	   92.08	  106.01	  105.64	97519.82	1.0e-26
+CARD|ACT97415.1 CblA-1 [mixed culture bacterium AX_gF3SD01_15]	   15283	    2497	     891	   99.78	  100.00	   99.78	  100.00	   17.29	 9193.73	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  140861	    5291	    1920	   99.79	  100.00	   99.79	  100.00	   74.51	125753.79	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	   42604	    1382	     495	  100.00	  100.00	  100.00	  100.00	   86.30	38631.45	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	    1107	    2097	     747	   85.54	   86.48	   98.92	  115.63	    1.51	  306.33	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  940417	    4700	    1920	   98.49	  100.00	   98.49	  100.00	  511.04	926409.75	1.0e-26
+CARD|AAM09850.1 vanHD [Enterococcus faecium]	    1179	    2729	     972	   81.58	   83.13	   98.14	  120.30	    1.30	  615.34	1.0e-26

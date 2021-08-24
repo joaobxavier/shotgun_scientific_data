@@ -1,0 +1,68 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG043510 Enterococcus faecalis surface protein Fss3, fibrinogen binding protein [Enterococcus faecalis V583]	  506703	    8259	    3228	   79.49	   86.80	   91.58	  115.20	  196.61	482455.47	1.0e-26
+VFDB|VFG043511 cell wall anchored protein SgrA [Enterococcus faecium DO]	   81667	    2596	     975	   96.00	   96.00	  100.00	  104.17	   83.94	74196.60	1.0e-26
+VFDB|VFG043518 collagen adhesin precursor Acm [Enterococcus faecium str. TX2555]	  704952	    5433	    2166	  100.00	  100.00	  100.00	  100.00	  326.04	688819.11	1.0e-26
+VFDB|VFG043519 collagen adhesin protein Scm [Enterococcus faecium DO]	  678243	    4987	    1983	   98.89	   98.89	  100.00	  101.12	  343.18	663427.53	1.0e-26
+VFDB|VFG045632 Collagen binding MSCRAMM, EcbA [Enterococcus faecium DO]	 1227391	    7677	    3228	   99.54	  100.00	   99.54	  100.00	  409.82	1204550.55	1.0e-26
+VFDB|VFG001443 outer membrane protein A [Escherichia coli O18:K1:H7 str. RS218]	   24835	    2787	    1041	   80.02	   92.03	   86.95	  108.66	   33.60	17597.77	1.0e-26
+VFDB|VFG002412 E. coli common pilus chaperone EcpB [Escherichia coli O157:H7 str. EDL933]	   31077	    1790	     669	   87.74	  100.00	   87.74	  100.00	   70.58	26096.55	1.0e-26
+VFDB|VFG002413 regulator protein EcpR [Escherichia coli O157:H7 str. EDL933]	   12536	    1584	     591	   75.47	   86.29	   87.45	  115.88	   33.27	 8494.46	1.0e-26
+VFDB|VFG002414 E. coli common pilus structural subunit EcpA [Escherichia coli O157:H7 str. EDL933]	   22996	    1574	     588	   89.63	  100.00	   89.63	  100.00	   55.53	18675.91	1.0e-26
+VFDB|VFG002415 E. coli common pilus usher EcpC [Escherichia coli O157:H7 str. EDL933]	   71245	    6737	    2526	   85.47	   97.15	   87.98	  102.93	   42.49	53362.08	1.0e-26
+VFDB|VFG002416 polymerized tip adhesin of ECP fibers [Escherichia coli O157:H7 str. EDL933]	   61014	    4387	    1644	   87.17	   97.51	   89.39	  102.56	   52.84	49027.88	1.0e-26
+VFDB|VFG002417 E. coli common pilus chaperone EcpE [Escherichia coli O157:H7 str. EDL933]	   19779	    2025	     756	   79.89	   92.33	   86.53	  108.31	   40.19	14455.96	1.0e-26
+VFDB|VFG043623 type 3 fimbrial minor pilin subunit MrkF [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   62192	    1696	     636	   99.69	  100.00	   99.69	  100.00	   98.98	57281.61	1.0e-26
+VFDB|VFG043624 fimbrial adhesin protein precursor MrkD [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   89230	    2650	     996	   99.80	  100.00	   99.80	  100.00	   90.44	81583.23	1.0e-26
+VFDB|VFG043625 fimbrial biogenesis outer membrane usher protein mrkC precursor [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  230041	    6534	    2487	   99.60	  100.00	   99.60	  100.00	   94.22	211160.47	1.0e-26
+VFDB|VFG043626 fimbrial chaperone protein mrkB precursor [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   80074	    1869	     702	   99.57	  100.00	   99.57	  100.00	  116.14	74635.05	1.0e-26
+VFDB|VFG043627 type 3 fimbrial major pilin subunit MrkA [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   55785	    1625	     609	   99.34	  100.00	   99.34	  100.00	   93.77	51091.71	1.0e-26
+VFDB|VFG044322 siderophore esterase IroE [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   74282	    2494	     936	   99.15	  100.00	   99.15	  100.00	   81.70	67122.23	1.0e-26
+VFDB|VFG048229 tyrosine recombinase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   50544	    1618	     606	   99.50	  100.00	   99.50	  100.00	   84.83	45889.10	1.0e-26
+VFDB|VFG048237 tyrosine recombinase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   48601	    1626	     609	   99.18	  100.00	   99.18	  100.00	   81.84	43931.05	1.0e-26
+VFDB|VFG048247 type 1 major fimbrial subunit precursor [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   51621	    1466	     549	   99.64	  100.00	   99.64	  100.00	   95.23	47384.41	1.0e-26
+VFDB|VFG048257 type 1 pilus biosynthesis fimbrial protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   50353	    1698	     636	   99.06	  100.00	   99.06	  100.00	   81.69	45478.45	1.0e-26
+VFDB|VFG048267 periplasmic chaperone [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   67824	    1936	     726	   99.72	  100.00	   99.72	  100.00	   94.64	62230.81	1.0e-26
+VFDB|VFG048277 outer membrane usher protein  [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  270927	    6925	    2646	   99.40	  100.00	   99.40	  100.00	  104.21	250842.10	1.0e-26
+VFDB|VFG048287 type 1 fimbrial minor component [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   52172	    1418	     531	   99.25	  100.00	   99.25	  100.00	  100.76	48067.98	1.0e-26
+VFDB|VFG048297 type 1 fimbrial minor component [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   44276	    1338	     501	   99.60	  100.00	   99.60	  100.00	   89.47	40416.50	1.0e-26
+VFDB|VFG048307 type 1 fimbrial adhesin precursor [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   88097	    2419	     909	   99.34	  100.00	   99.34	  100.00	   98.80	81097.05	1.0e-26
+VFDB|VFG048317 transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  118124	    3296	    1242	   99.60	  100.00	   99.60	  100.00	   96.67	108591.46	1.0e-26
+VFDB|VFG048327 transcriptional activator [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   51073	    1899	     711	   99.72	  100.00	   99.72	  100.00	   72.70	45648.29	1.0e-26
+VFDB|VFG048338 LuxR family regulatory protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   49527	    1562	     585	   99.32	  100.00	   99.32	  100.00	   86.79	45030.23	1.0e-26
+VFDB|VFG048348 phosphodiesterase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   58560	    1913	     717	   99.86	  100.00	   99.86	  100.00	   82.27	53061.15	1.0e-26
+VFDB|VFG048409 2,3-dihydroxybenzoate-2,3-dehydrogenase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   74663	    2094	     786	   98.22	  100.00	   98.22	  100.00	  100.46	68607.48	1.0e-26
+VFDB|VFG048419 2,3-dihydro-2,3-dihydroxybenzoate synthetase, isochroismatase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   80878	    2269	     852	   98.71	  100.00	   98.71	  100.00	   99.41	74317.74	1.0e-26
+VFDB|VFG048429 enterobactin synthase subunit E [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  164699	    4250	    1608	   99.63	  100.00	   99.63	  100.00	  104.13	152376.44	1.0e-26
+VFDB|VFG048439 isochorismate synthase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  127694	    3150	    1188	   99.33	  100.00	   99.33	  100.00	  110.29	118545.53	1.0e-26
+VFDB|VFG048449 iron-enterobactin transporter periplasmic binding protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   95335	    2553	     960	   99.58	  100.00	   99.58	  100.00	  100.93	87940.67	1.0e-26
+VFDB|VFG048459 enterobactin exporter EntS [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  131999	    3292	    1242	   99.28	  100.00	   99.28	  100.00	  109.36	122441.84	1.0e-26
+VFDB|VFG048468 iron-enterobactin transporter membrane protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  108206	    2678	    1008	   99.90	  100.00	   99.90	  100.00	  108.22	100430.53	1.0e-26
+VFDB|VFG048478 iron-enterobactin transporter permease [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  117798	    2635	     993	   99.19	  100.00	   99.19	  100.00	  121.79	110121.29	1.0e-26
+VFDB|VFG048488 iron-enterobactin transporter ATP-binding protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   77312	    2118	     795	   99.87	  100.00	   99.87	  100.00	   97.90	71183.37	1.0e-26
+VFDB|VFG048498 enterobactin synthase subunit F [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  426000	   10012	    3882	   98.61	  100.00	   98.61	  100.00	  114.80	396882.31	1.0e-26
+VFDB|VFG048508 enterobactin/ferric enterobactin esterase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  125148	    3207	    1209	   99.34	  100.00	   99.34	  100.00	  106.30	115847.17	1.0e-26
+VFDB|VFG048518 outer membrane receptor FepA [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  196298	    5874	    2229	   98.16	  100.00	   98.16	  100.00	   95.05	179356.65	1.0e-26
+VFDB|VFG048528 enterochelin synthetase component D [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   49014	    1682	     630	   76.83	   79.37	   96.80	  126.00	   80.54	44188.61	1.0e-26
+VFDB|VFG048628 type VI secretion system contractile sheath small subunit VipA [Klebsiella pneumoniae subsp. pneumoniae HS11286]	   32450	    1316	     492	   98.78	  100.00	   98.78	  100.00	   68.82	28706.35	1.0e-26
+VFDB|VFG048639 type VI secretion system contractile sheath large subunit VipB [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  128304	    4097	    1545	   98.32	  100.00	   98.32	  100.00	   88.01	116518.57	1.0e-26
+VFDB|VFG048650 type VI secretion system baseplate subunit TssK [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  114491	    3568	    1344	   99.11	  100.00	   99.11	  100.00	   88.26	104215.73	1.0e-26
+VFDB|VFG048661 type VI secretion system protein, DotU/TssL family [Klebsiella pneumoniae subsp. pneumoniae HS11286]	   61761	    1841	     690	   99.42	  100.00	   99.42	  100.00	   91.50	56450.97	1.0e-26
+VFDB|VFG048683 type VI secretion system protein, Hcp family [Klebsiella pneumoniae subsp. pneumoniae HS11286]	   34293	    1316	     492	   99.39	  100.00	   99.39	  100.00	   71.00	30539.34	1.0e-26
+VFDB|VFG048693 type VI secretion system ATPase TssH [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  232841	    6973	    2655	   99.06	  100.00	   99.06	  100.00	   90.72	212730.34	1.0e-26
+VFDB|VFG048704 type VI secretion system tip protein VgrG [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  437441	    6103	    2370	   72.07	   73.76	   97.71	  135.58	  196.52	419466.13	1.0e-26
+VFDB|VFG048751 type VI secretion protein TssM [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  252285	    8984	    3426	   88.67	   91.01	   97.43	  109.88	   78.45	226568.05	1.0e-26
+VFDB|VFG048767 type VI secretion system baseplate subunit TssF [Klebsiella pneumoniae subsp. pneumoniae HS11286]	  137466	    4650	    1755	   99.60	  100.00	   99.60	  100.00	   80.04	124122.59	1.0e-26
+VFDB|VFG048776 type VI secretion system baseplate subunit TssG [Klebsiella pneumoniae subsp. pneumoniae HS11286]	   89949	    2890	    1086	   99.63	  100.00	   99.63	  100.00	   83.91	81638.00	1.0e-26
+VFDB|VFG048784 type VI secretion system lipoprotein TssJ [Klebsiella pneumoniae subsp. pneumoniae HS11286]	   45277	    1451	     543	   99.26	  100.00	   99.26	  100.00	   85.89	41104.16	1.0e-26
+VFDB|VFG048797 UDP-glucose 6-dehydrogenase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   71970	    3111	    1167	   97.77	  100.00	   97.77	  100.00	   65.82	63152.10	1.0e-26
+VFDB|VFG048808 phosphomannomutase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  111504	    3641	    1371	   97.08	   99.56	   97.51	  100.44	   85.93	101039.64	1.0e-26
+VFDB|VFG048819 mannose-1-phosphate guanylyltransferase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  120768	    3757	    1416	   98.16	  100.00	   98.16	  100.00	   90.54	109947.70	1.0e-26
+VFDB|VFG048830 6-phosphogluconate dehydrogenase [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   82862	    3747	    1407	   94.46	  100.00	   94.46	  100.00	   70.70	72268.31	1.0e-26
+VFDB|VFG048980 surface assembly of capsule [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   70681	    4039	    1515	   78.55	   86.27	   91.05	  115.91	   57.17	59435.27	1.0e-26
+VFDB|VFG048985 phosphatase PAP2 family protein [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   52529	    1682	     630	   94.60	  100.00	   94.60	  100.00	  100.01	47690.64	1.0e-26
+VFDB|VFG048990 UTP-glucose-1-phosphate uridylyltransferase subunit GalF [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   87144	    2387	     897	   98.89	  100.00	   98.89	  100.00	  100.92	80235.28	1.0e-26
+VFDB|VFG049007 transcriptional activator for ctr capsule biosynthesis [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   41228	    1668	     624	  100.00	  100.00	  100.00	  100.00	   66.25	36483.06	1.0e-26
+VFDB|VFG049018 transcriptional regulator RcsB [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   49265	    1739	     651	   99.85	  100.00	   99.85	  100.00	   76.51	44285.11	1.0e-26
+VFDB|VFG049133 acriflavine resistance protein A [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  104212	    3173	    1194	   99.83	  100.00	   99.83	  100.00	   88.19	95066.44	1.0e-26
+VFDB|VFG049144 acriflavine resistance protein B [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	  309991	    8206	    3147	   99.46	  100.00	   99.46	  100.00	  103.89	286217.85	1.0e-26
+VFDB|VFG001827 enterotoxin [Shigella flexneri 2a str. 301]	    1574	    3059	    1140	   74.21	   74.56	   99.53	  134.12	    1.40	  476.12	1.0e-26

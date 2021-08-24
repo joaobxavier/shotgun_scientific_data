@@ -1,0 +1,163 @@
+{
+   "success" : 1,
+   "hostname" : "p3-maas-02.mcs.anl.gov",
+   "parameters" : {
+      "paired_end_libs" : [],
+      "output_path" : "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB",
+      "gene_set_type" : "predefined_list",
+      "output_file" : "1044M_VFDB",
+      "srr_libs" : [],
+      "gene_set_fasta" : "",
+      "srr_ids" : [
+         "SRR14092256"
+      ],
+      "single_end_libs" : [],
+      "gene_set_name" : "VFDB",
+      "gene_set_feature_group" : ""
+   },
+   "job_output" : "",
+   "output_files" : [
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB/.1044M_VFDB/kma.frag.gz",
+         "3E41F1C8-9890-11EB-870B-77C6682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB/.1044M_VFDB/kma.fsa",
+         "3E584ACC-9890-11EB-9CA0-6DD7682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB/.1044M_VFDB/kma.aln",
+         "3E60EDC6-9890-11EB-8531-51B2682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB/.1044M_VFDB/kma.res",
+         "3E6A1A72-9890-11EB-8A34-C1EA682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/VFDB/.1044M_VFDB/MetagenomicReadMappingReport.html",
+         "3E728A90-9890-11EB-BD6B-2CF9682E0674"
+      ]
+   ],
+   "id" : "3289057",
+   "start_time" : 1617900693.2183,
+   "app" : {
+      "script" : "App-MetagenomicReadMapping",
+      "parameters" : [
+         {
+            "default" : null,
+            "desc" : "Gene set type (predefined list / fasta file / feature group )",
+            "required" : 1,
+            "label" : "Input Type",
+            "enum" : [
+               "predefined_list",
+               "fasta_file",
+               "feature_group"
+            ],
+            "id" : "gene_set_type",
+            "type" : "enum"
+         },
+         {
+            "desc" : "Predefined gene set name",
+            "label" : "Gene set name",
+            "required" : 0,
+            "default" : null,
+            "id" : "gene_set_name",
+            "enum" : [
+               "MLST",
+               "CARD"
+            ],
+            "type" : "enum"
+         },
+         {
+            "id" : "gene_set_fasta",
+            "type" : "wstype",
+            "wstype" : "feature_protein_fasta",
+            "desc" : "Protein data in FASTA format",
+            "label" : "Gene set FASTA data",
+            "required" : 0,
+            "default" : null
+         },
+         {
+            "type" : "string",
+            "id" : "gene_set_feature_group",
+            "required" : 0,
+            "label" : "Gene set feature group",
+            "desc" : "Name of feature group that defines the gene set ",
+            "default" : null
+         },
+         {
+            "group" : [
+               {
+                  "wstype" : "ReadFile",
+                  "desc" : "FASTQ file of reads",
+                  "id" : "read1",
+                  "type" : "wstype",
+                  "label" : "Read file 1",
+                  "required" : 1
+               },
+               {
+                  "id" : "read2",
+                  "desc" : "FASTQ file of reads",
+                  "type" : "wstype",
+                  "label" : "Read file 2",
+                  "required" : 0,
+                  "wstype" : "ReadFile"
+               }
+            ],
+            "id" : "paired_end_libs",
+            "type" : "group",
+            "default" : null,
+            "allow_multiple" : false,
+            "required" : 0
+         },
+         {
+            "type" : "group",
+            "id" : "single_end_libs",
+            "group" : [
+               {
+                  "desc" : "FASTQ file of reads",
+                  "id" : "read",
+                  "type" : "wstype",
+                  "label" : "Read file",
+                  "required" : 1,
+                  "wstype" : "ReadFile"
+               }
+            ],
+            "allow_multiple" : false,
+            "default" : null,
+            "required" : 0
+         },
+         {
+            "default" : null,
+            "allow_multiple" : false,
+            "desc" : "Sequence Read Archive (SRA) Run ID",
+            "label" : "SRR ID",
+            "required" : 0,
+            "id" : "srr_ids",
+            "type" : "string"
+         },
+         {
+            "type" : "folder",
+            "id" : "output_path",
+            "default" : null,
+            "required" : 1,
+            "label" : "Output Folder",
+            "desc" : "Path to which the output will be written. Defaults to the directory containing the input data. "
+         },
+         {
+            "id" : "output_file",
+            "type" : "wsid",
+            "default" : null,
+            "desc" : "Basename for the generated output files. Defaults to the basename of the input data.",
+            "label" : "File Basename",
+            "required" : 1
+         }
+      ],
+      "description" : "Map metagenomic reads to a defined gene set",
+      "id" : "MetagenomicReadMapping",
+      "default_memory" : "100G",
+      "label" : "Metagenomic read mapping"
+   },
+   "end_time" : 1617903085.54425,
+   "elapsed_time" : 2392.32594799995
+}

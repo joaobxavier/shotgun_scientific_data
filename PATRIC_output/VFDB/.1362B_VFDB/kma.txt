@@ -1,0 +1,20 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000804 multieffector chaperone [Escherichia coli O157:H7 str. EDL933]	     638	      17	     471	   80.04	   83.65	   95.69	  119.54	    1.60	  587.11	1.0e-26
+VFDB|VFG000810 Type III secretion system needle length regulator EscP [Escherichia coli O157:H7 str. EDL933]	     526	      10	     276	   90.94	   91.30	   99.60	  109.52	    1.93	  495.85	1.0e-26
+VFDB|VFG000811 positive regulator EscO [Escherichia coli O157:H7 str. EDL933]	     368	      14	     378	   70.37	   70.37	  100.00	  142.11	    0.97	  327.66	1.0e-26
+VFDB|VFG000872 Type 1 fimbriae Regulatory protein fimE [Escherichia coli CFT073]	     522	      22	     597	   74.37	   74.87	   99.33	  133.56	    0.89	  458.71	1.0e-26
+VFDB|VFG000873 Type-1 fimbrial protein, A chain precursor [Escherichia coli CFT073]	     670	      22	     606	   83.99	   84.32	   99.61	  118.59	    1.12	  605.07	1.0e-26
+VFDB|VFG000879 FimH protein precursor [Escherichia coli CFT073]	    1687	      33	     912	   74.45	   76.10	   97.84	  131.41	    1.94	 1588.18	1.0e-26
+VFDB|VFG000917 Outer membrane heme/hemoglobin receptor ChuA [Escherichia coli CFT073]	    2911	      71	    1947	   79.71	   79.87	   99.81	  125.21	    1.50	 2702.97	1.0e-26
+VFDB|VFG000919 Putative oxygen independent coproporphyrinogen III oxidase [Escherichia coli CFT073]	    2015	      49	    1338	   72.42	   72.72	   99.59	  137.51	    1.52	 1871.18	1.0e-26
+VFDB|VFG000920 putative heme-binding protein ChuX [Escherichia coli CFT073]	    1103	      18	     495	   97.98	   97.98	  100.00	  102.06	    2.23	 1048.92	1.0e-26
+VFDB|VFG000921 ChuY [Escherichia coli CFT073]	    1916	      23	     624	   90.54	   91.03	   99.47	  109.86	    3.12	 1847.78	1.0e-26
+VFDB|VFG000925 ferrienterobactin ABC transporter ATPase [Escherichia coli CFT073]	    1251	      30	     816	   72.92	   74.14	   98.35	  134.88	    1.61	 1162.81	1.0e-26
+VFDB|VFG000929 phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	    2367	      28	     771	   72.63	   74.97	   96.89	  133.39	    3.97	 2282.96	1.0e-26
+VFDB|VFG000931 isochorismate synthase 1 [Escherichia coli CFT073]	    2217	      43	    1188	   81.06	   81.90	   98.97	  122.10	    1.95	 2088.68	1.0e-26
+VFDB|VFG002414 E. coli common pilus structural subunit EcpA [Escherichia coli O157:H7 str. EDL933]	    1302	      21	     588	   75.85	   77.38	   98.02	  129.23	    2.36	 1237.85	1.0e-26
+VFDB|VFG002415 E. coli common pilus usher EcpC [Escherichia coli O157:H7 str. EDL933]	    4972	      91	    2526	   88.76	   90.93	   97.61	  109.97	    2.13	 4703.68	1.0e-26
+VFDB|VFG044159 enterobactin/ferric enterobactin esterase [Escherichia coli CFT073]	    1988	      44	    1203	   74.56	   74.81	   99.67	  133.67	    1.67	 1858.31	1.0e-26
+VFDB|VFG044330 yersiniabactin biosynthesis oxidoreductase YbtU [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	    1905	      43	    1161	   82.26	   82.86	   99.27	  120.69	    1.67	 1779.79	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    3930	      33	     930	   83.66	   92.15	   90.78	  108.52	    6.33	 3829.25	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	    3474	      61	    1683	   84.97	   91.86	   92.50	  108.86	    2.89	 3293.26	1.0e-26

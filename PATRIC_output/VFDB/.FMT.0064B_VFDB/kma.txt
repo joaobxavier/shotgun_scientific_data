@@ -1,0 +1,42 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000871 Type 1 fimbriae Regulatory protein fimB [Escherichia coli CFT073]	   25663	     281	     603	   98.01	  100.00	   98.01	  100.00	   45.31	24831.26	1.0e-26
+VFDB|VFG000872 Type 1 fimbriae Regulatory protein fimE [Escherichia coli CFT073]	   25582	     278	     597	   99.16	  100.00	   99.16	  100.00	   44.03	24758.42	1.0e-26
+VFDB|VFG000873 Type-1 fimbrial protein, A chain precursor [Escherichia coli CFT073]	   16689	     284	     606	   91.42	  100.00	   91.42	  100.00	   34.99	15855.80	1.0e-26
+VFDB|VFG000874 Fimbrin-like protein fimI precursor [Escherichia coli CFT073]	   24718	     252	     540	   97.78	  100.00	   97.78	  100.00	   49.25	23972.04	1.0e-26
+VFDB|VFG000875 Chaperone protein fimC precursor [Escherichia coli CFT073]	   32768	     337	     726	   98.62	  100.00	   98.62	  100.00	   47.13	31769.51	1.0e-26
+VFDB|VFG000876 Outer membrane usher protein fimD precursor [Escherichia coli CFT073]	  126273	    1164	    2637	   98.41	  100.00	   98.41	  100.00	   50.24	122822.12	1.0e-26
+VFDB|VFG000877 FimF protein precursor [Escherichia coli CFT073]	   22062	     249	     534	   97.57	  100.00	   97.57	  100.00	   44.89	21324.37	1.0e-26
+VFDB|VFG000878 FimG protein precursor [Escherichia coli CFT073]	   25314	     235	     504	   97.42	  100.00	   97.42	  100.00	   55.01	24617.16	1.0e-26
+VFDB|VFG000879 FimH protein precursor [Escherichia coli CFT073]	   43564	     421	     912	   97.04	  100.00	   97.04	  100.00	   52.44	42315.89	1.0e-26
+VFDB|VFG000923 ferrienterobactin outer membrane transporter [Escherichia coli CFT073]	   88929	    1010	    2241	   96.74	  100.00	   96.74	  100.00	   43.38	85943.08	1.0e-26
+VFDB|VFG000924 ferrienterobactin ABC transporter periplasmic binding protein [Escherichia coli CFT073]	   42488	     442	     957	   97.39	  100.00	   97.39	  100.00	   48.20	41178.82	1.0e-26
+VFDB|VFG000925 ferrienterobactin ABC transporter ATPase [Escherichia coli CFT073]	   28884	     380	     816	   96.57	  100.00	   96.57	  100.00	   39.57	27763.61	1.0e-26
+VFDB|VFG000926 ferrienterobactin ABC transporter permease [Escherichia coli CFT073]	   38737	     471	    1017	   93.41	   96.76	   96.54	  103.35	   42.00	37346.12	1.0e-26
+VFDB|VFG000928 iron-enterobactin ABC transporter permease [Escherichia coli CFT073]	   35885	     460	     993	   94.16	   99.40	   94.73	  100.61	   41.26	34526.07	1.0e-26
+VFDB|VFG000929 phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	  107483	     343	     771	   94.94	  100.00	   94.94	  100.00	  203.44	106455.59	1.0e-26
+VFDB|VFG000930 enterobactin synthase multienzyme complex component, ATP-dependent [Escherichia coli CFT073]	  151633	    1690	    3882	   94.82	   98.97	   95.81	  101.04	   44.39	146637.03	1.0e-26
+VFDB|VFG000931 isochorismate synthase 1 [Escherichia coli CFT073]	   49651	     547	    1188	   97.56	  100.00	   97.56	  100.00	   45.09	48033.31	1.0e-26
+VFDB|VFG000932 2,3-dihydroxybenzoate-AMP ligase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	   62312	     736	    1611	   95.72	  100.00	   95.72	  100.00	   44.40	60135.48	1.0e-26
+VFDB|VFG000933 isochorismatase [Escherichia coli CFT073]	   34587	     398	     858	   98.25	  100.00	   98.25	  100.00	   42.62	33409.98	1.0e-26
+VFDB|VFG001443 outer membrane protein A [Escherichia coli O18:K1:H7 str. RS218]	   31090	     484	    1041	   95.87	  100.48	   95.41	   99.52	   33.76	29666.84	1.0e-26
+VFDB|VFG034754 Type III secretion system effector espL1 [Escherichia coli O157:H7 str. EDL933]	   56994	     871	    1899	   97.79	  100.00	   97.79	  100.00	   32.16	54432.48	1.0e-26
+VFDB|VFG034772 Type III secretion system effector EspL4 [Escherichia coli O157:H7 str. EDL933]	   62653	    1000	    2187	   70.92	   74.21	   95.56	  134.75	   31.98	59714.53	1.0e-26
+VFDB|VFG034815 Type III secretion system effector espR1 [Escherichia coli O157:H7 str. EDL933]	   19462	     589	    1260	   80.95	   86.90	   93.15	  115.07	   18.39	17761.80	1.0e-26
+VFDB|VFG034849 Type III secretion system effector EspX1 [Escherichia coli O157:H7 str. EDL933]	   42012	     657	    1422	   95.22	   99.93	   95.29	  100.07	   33.57	40079.40	1.0e-26
+VFDB|VFG034866 Type III secretion system effector EspX4 [Escherichia coli O157:H7 str. EDL933]	   47706	     729	    1581	   93.36	  100.00	   93.36	  100.00	   37.21	45562.78	1.0e-26
+VFDB|VFG034873 Type III secretion system effector EspX5 [Escherichia coli O157:H7 str. EDL933]	   48178	     596	    1293	   96.98	  100.00	   96.98	  100.00	   41.55	46419.02	1.0e-26
+VFDB|VFG044159 enterobactin/ferric enterobactin esterase [Escherichia coli CFT073]	   51068	     553	    1203	   96.59	  100.00	   96.59	  100.00	   47.23	49430.75	1.0e-26
+VFDB|VFG044165 enterobactin exporter, iron-regulated [Escherichia coli CFT073]	   48379	     576	    1251	   95.68	  100.00	   95.68	  100.00	   43.31	46676.34	1.0e-26
+VFDB|VFG049018 transcriptional regulator RcsB [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	    4404	     307	     651	   70.05	   81.26	   86.20	  123.06	   10.49	 3562.60	1.0e-26
+VFDB|VFG049144 acriflavine resistance protein B [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	   24969	    1469	    3147	   74.86	   87.45	   85.61	  114.35	   12.71	20886.88	1.0e-26
+VFDB|VFG002046 general secretion pathway protein C [Shigella dysenteriae Sd197]	   35224	     385	     831	   95.43	  100.00	   95.43	  100.00	   48.41	34083.56	1.0e-26
+VFDB|VFG002047 general secretion pathway protein D [Shigella dysenteriae Sd197]	   76667	     833	    1836	   98.15	  100.00	   98.15	  100.00	   44.84	74202.71	1.0e-26
+VFDB|VFG002048 general secretion pathway protein E [Shigella dysenteriae Sd197]	   60153	     684	    1494	   96.92	  100.00	   96.92	  100.00	   44.30	58131.02	1.0e-26
+VFDB|VFG002049 general secretion pathway protein F [Shigella dysenteriae Sd197]	   52795	     551	    1200	   96.00	  100.00	   96.00	  100.00	   49.08	51162.52	1.0e-26
+VFDB|VFG002050 general secretion pathway protein G [Shigella dysenteriae Sd197]	   18095	     213	     456	   94.96	  100.00	   94.96	  100.00	   46.67	17464.20	1.0e-26
+VFDB|VFG002051 general secretion pathway protein H [Shigella dysenteriae Sd197]	   17482	     248	     531	   95.48	  100.00	   95.48	  100.00	   37.15	16749.55	1.0e-26
+VFDB|VFG002052 general secretion pathway protein I [Shigella dysenteriae Sd197]	   12296	     174	     372	   95.16	  100.00	   95.16	  100.00	   38.62	11781.46	1.0e-26
+VFDB|VFG002053 general secretion pathway protein J [Shigella dysenteriae Sd197]	   25293	     265	     570	   96.32	  100.00	   96.32	  100.00	   50.05	24506.17	1.0e-26
+VFDB|VFG002054 general secretion pathway protein K [Shigella dysenteriae Sd197]	   37723	     453	     978	   96.01	  100.00	   96.01	  100.00	   42.40	36384.48	1.0e-26
+VFDB|VFG002055 general secretion pathway protein L [Shigella dysenteriae Sd197]	   34465	     399	     861	   97.56	  100.00	   97.56	  100.00	   43.33	33283.92	1.0e-26
+VFDB|VFG002056 general secretion pathway protein M [Shigella dysenteriae Sd197]	   16914	     198	     423	   94.56	  100.00	   94.56	  100.00	   46.89	16328.42	1.0e-26

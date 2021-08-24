@@ -1,0 +1,17 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG002173 aggregation substance Asa1 [Enterococcus faecalis V583]	   10290	     107	    3891	   71.29	   72.71	   98.06	  137.54	    2.82	 9971.03	1.0e-26
+VFDB|VFG002175 cytolysin regulator R1 [Enterococcus faecalis str. MMH594]	     829	       8	     285	   89.12	   90.53	   98.45	  110.47	    3.05	  803.66	1.0e-26
+VFDB|VFG002176 ABC-type transporter [Enterococcus faecalis str. MMH594]	    4250	      62	    2145	   83.87	   84.10	   99.72	  118.90	    2.01	 4065.69	1.0e-26
+VFDB|VFG002177 cytolysin activator [Enterococcus faecalis str. MMH594]	    2302	      36	    1239	   83.37	   83.78	   99.52	  119.36	    1.90	 2193.97	1.0e-26
+VFDB|VFG002180 ABC transporter, permease protein [Enterococcus faecalis V583]	    1322	      24	     813	   86.72	   86.72	  100.00	  115.32	    1.63	 1250.76	1.0e-26
+VFDB|VFG002182 UDP-galactopyranose mutase [Enterococcus faecalis V583]	    1445	      34	    1140	   81.32	   81.49	   99.78	  122.71	    1.30	 1345.88	1.0e-26
+VFDB|VFG002183 lipoprotein [Enterococcus faecalis V583]	     674	      12	     399	   88.97	   88.97	  100.00	  112.39	    1.69	  638.82	1.0e-26
+VFDB|VFG002185 CpsF protein [Enterococcus faecalis V583]	    1338	      25	     852	   77.82	   77.82	  100.00	  128.51	    1.57	 1263.42	1.0e-26
+VFDB|VFG002188 teichoic acid biosynthesis protein, putative [Enterococcus faecalis V583]	    2078	      34	    1170	   78.38	   78.80	   99.46	  126.90	    1.90	 1975.89	1.0e-26
+VFDB|VFG042976 endocarditis and biofilm-associated pilus tip protein EbpA [Enterococcus faecalis V583]	    4653	      96	    3312	   73.61	   73.67	   99.92	  135.74	    1.41	 4371.55	1.0e-26
+VFDB|VFG042979 sortase [Enterococcus faecalis V583]	    1352	      25	     855	   76.96	   76.96	  100.00	  129.94	    1.58	 1277.15	1.0e-26
+VFDB|VFG043510 Enterococcus faecalis surface protein Fss3, fibrinogen binding protein [Enterococcus faecalis V583]	    5216	      93	    3228	   73.98	   75.09	   98.51	  133.17	    1.73	 4942.01	1.0e-26
+VFDB|VFG045472 CylL; cytolysin subunit [Enterococcus faecalis str. MMH594]	     359	       6	     207	   94.69	   94.69	  100.00	  105.61	    1.73	  340.69	1.0e-26
+VFDB|VFG045473 CylS; cytolysin subunit [Enterococcus faecalis str. MMH594]	     826	       5	     192	  100.00	  100.00	  100.00	  100.00	    4.30	  808.85	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    7919	      26	     930	   93.55	  100.11	   93.45	   99.89	   10.94	 7840.45	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	    5777	      48	    1683	   89.48	   98.69	   90.67	  101.32	    4.71	 5633.09	1.0e-26

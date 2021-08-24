@@ -1,0 +1,10 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG002165 endocarditis specific antigen [Enterococcus faecalis V583]	    1280	      30	     927	   75.94	   76.05	   99.86	  131.49	    1.38	 1190.21	1.0e-26
+VFDB|VFG002175 cytolysin regulator R1 [Enterococcus faecalis str. MMH594]	     505	       9	     285	   98.60	  100.00	   98.60	  100.00	    1.87	  477.05	1.0e-26
+VFDB|VFG002177 cytolysin activator [Enterococcus faecalis str. MMH594]	    1756	      41	    1239	   73.53	   73.93	   99.45	  135.26	    1.47	 1636.29	1.0e-26
+VFDB|VFG002191 serine proteinase, V8 family [Enterococcus faecalis V583]	    1324	      28	     855	   82.92	   82.92	  100.00	  120.59	    1.56	 1240.92	1.0e-26
+VFDB|VFG042977 endocarditis and biofilm-associated pilus minor subunit EbpB [Enterococcus faecalis V583]	    1398	      47	    1431	   71.00	   71.35	   99.51	  140.16	    0.99	 1261.28	1.0e-26
+VFDB|VFG045472 CylL; cytolysin subunit [Enterococcus faecalis str. MMH594]	     196	       6	     207	   78.74	   78.74	  100.00	  126.99	    0.98	  176.09	1.0e-26
+VFDB|VFG002052 general secretion pathway protein I [Shigella dysenteriae Sd197]	     385	      12	     372	   79.84	   83.87	   95.19	  119.23	    1.21	  349.12	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	   13662	      28	     930	   93.55	  100.00	   93.55	  100.00	   18.04	13577.86	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	   13135	      51	    1683	   89.84	   99.70	   90.11	  100.30	   10.94	12982.42	1.0e-26

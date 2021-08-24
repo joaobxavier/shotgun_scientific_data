@@ -1,0 +1,36 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  219846	    3346	    1486	   78.60	   89.50	   87.82	  111.73	  208.07	210007.77	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   68268	    3532	    1529	   83.26	   93.39	   89.15	  107.07	   67.85	58365.98	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   65818	    6715	    2904	   73.45	   80.20	   91.58	  124.69	   36.45	48159.01	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	  702864	    6048	    2926	   75.63	   84.69	   89.31	  118.08	  324.74	684925.02	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	   49718	    3485	    1504	   80.19	   91.76	   87.39	  108.99	   51.93	40175.29	1.0e-26
+CARD|CAA52904.1 catS [Streptococcus pyogenes]	    3865	    1148	     492	   96.75	  100.00	   96.75	  100.00	    8.57	 1472.06	1.0e-26
+CARD|AAV37206.1 CfxA5 [Parabacteroides distasonis]	   12118	    2252	     966	   77.33	   77.43	   99.87	  129.14	   12.90	 6773.51	1.0e-26
+CARD|CBH51823.1 tet44 [Campylobacter fetus subsp. fetus]	   18170	    4480	    1923	   99.27	  100.00	   99.27	  100.00	    9.93	 8273.84	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  331137	    3375	    1528	   79.06	   89.66	   88.18	  111.53	  282.68	321146.76	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	   20130	    2843	    1221	   99.92	  100.00	   99.92	  100.00	   16.75	13008.10	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	  729560	    5973	    2904	   91.46	  100.17	   91.30	   99.83	  367.69	711834.76	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  103984	    3529	    1537	   78.59	   88.55	   88.76	  112.93	  103.85	93858.28	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	   27199	    1150	     495	   99.19	  100.00	   99.19	  100.00	   58.24	23933.07	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	  143770	    1813	     795	  100.00	  100.00	  100.00	  100.00	  181.80	138421.18	1.0e-26
+CARD|AAU10334.1 aad(6) [Streptococcus oralis]	  113823	    1904	     831	  100.00	  100.00	  100.00	  100.00	  138.81	108234.16	1.0e-26
+CARD|AAM09851.1 vanRD [Enterococcus faecium]	    1199	    1632	     699	   88.13	   97.42	   90.46	  102.64	    2.48	   66.34	1.0e-15
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	  217157	    4448	    1974	   97.52	  100.00	   97.52	  100.00	  119.49	204169.82	1.0e-26
+CARD|ACM47284 vanSD [Enterococcus faecium]	    2260	    1639	     702	   71.51	   78.06	   91.61	  128.10	    4.51	   98.87	1.0e-22
+CARD|WP_000420313.1 mel [Bacteria]	    4320	    3418	    1464	   96.31	   96.72	   99.58	  103.39	    3.01	  105.10	1.0e-23
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	   28938	    4465	    1920	   75.21	   77.60	   96.91	  128.86	   15.93	17929.49	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	   88168	    2804	    1218	   91.95	   98.44	   93.41	  101.58	   85.89	80101.07	1.0e-26
+CARD|AAK63040.1 APH(2'')-IIa [Escherichia coli]	    6203	    2100	     900	   99.56	  100.00	   99.56	  100.00	    7.06	 2027.26	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  443105	    4159	    1920	   99.32	  100.00	   99.32	  100.00	  237.45	430781.67	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	   27826	    1150	     495	   99.80	  100.20	   99.60	   99.80	   56.85	24556.35	1.0e-26
+CARD|YP_003971446.1 Bifidobacteria intrinsic ileS conferring resistance to mupirocin [Bifidobacterium bifidum PRL2010]	  133227	    7601	    3324	   82.85	   92.69	   89.39	  107.89	   54.44	112063.84	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	   98462	    1716	     747	   99.46	   99.87	   99.60	  100.13	  134.40	93429.95	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	   89947	    1249	     543	   99.82	  100.00	   99.82	  100.00	  166.78	86267.08	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  243980	    4306	    1920	   99.95	  100.00	   99.95	  100.00	  130.33	231359.25	1.0e-26
+CARD|WP_009887863.1 Clostridium difficile EF-Tu mutants conferring resistance to elfamycin [Clostridium difficile]	   10309	    2784	    1194	   78.39	   90.37	   86.75	  110.66	   14.73	 4323.81	1.0e-26
+CARD|AAL79549.2 CfxA3 [Capnocytophaga ochracea]	  359499	    2122	     966	   99.79	  100.00	   99.79	  100.00	  377.16	353179.91	1.0e-26
+CARD|AE006468_3570463_3572006 Salmonella enterica serovar Typhimurium 16S rRNA mutation in the rrsD gene conferring resistance to spectinomycin [Salmonella enterica subsp. salamae]	   56645	    3573	    1544	   75.19	   86.79	   86.64	  115.22	   58.57	46771.55	1.0e-26
+CARD|A1A317 Bifidobacterium adolescentis rpoB conferring resistance to rifampicin [Bifidobacterium adolescentis ATCC 15703]	  166689	    7954	    3498	   85.02	   94.08	   90.37	  106.29	   63.31	144273.87	1.0e-26
+CARD|AAM09853.1 vanYD [Enterococcus faecium]	     638	     973	     417	   82.73	   87.29	   94.78	  114.56	    1.90	   69.97	1.0e-16
+CARD|AAC14693.1 APH(2'')-IVa [Enterococcus casseliflavus]	    5541	    2114	     906	   99.89	   99.89	  100.00	  100.11	    6.15	 1533.70	1.0e-26
+CARD|AGV10818.1 APH(2'')-Ig [Campylobacter coli CVM N29710]	    2441	    2150	     921	   95.33	   95.33	  100.00	  104.90	    2.65	   18.37	1.8e-05

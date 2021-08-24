@@ -1,0 +1,23 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  275825	    7488	    1486	   86.27	   97.85	   88.17	  102.20	  275.35	254151.29	1.0e-26
+CARD|Y10819.1_1849_4984 Propionibacteria 23S rRNA with mutation conferring resistance to macrolide antibiotics [Propionibacterium freudenreichii]	   32024	   16102	    3135	   72.98	   78.69	   92.74	  127.08	   15.82	 5267.06	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  666683	    7475	    1529	   86.40	   97.65	   88.48	  102.41	  505.81	644588.64	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   21130	   14927	    2904	   87.33	   91.12	   95.84	  109.75	    9.70	 1067.09	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 2755228	   11959	    2926	   91.32	  100.10	   91.23	   99.90	 1302.11	2719555.26	1.0e-26
+CARD|NR_114659.1_1_1441 Mycobacterium chelonae 16S rRNA mutation conferring resistance to kanamycin A [Mycobacterium]	  129290	    7342	    1441	   75.29	   85.08	   88.50	  117.54	  121.72	108839.92	1.0e-26
+CARD|AET10444.1 tetA(46) [Streptococcus australis]	    3555	    8874	    1725	   80.64	   86.09	   93.67	  116.16	    2.53	 2276.57	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  207178	    7740	    1528	   84.10	   96.07	   87.53	  104.09	  203.07	185071.28	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 3683475	   10831	    2904	   92.94	  100.00	   92.94	  100.00	 1674.65	3651106.51	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	   53093	    7877	    1537	   75.73	   85.23	   88.85	  117.33	   51.08	33531.87	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	  367548	    7716	    1542	   86.25	   94.94	   90.85	  105.33	  302.80	345033.42	1.0e-26
+CARD|AET10445.1 tetB(46) [Streptococcus australis]	    3079	    8936	    1737	   72.48	   75.99	   95.38	  131.59	    2.04	 2855.54	1.0e-26
+CARD|ANZ79240.1 tetA(60) [uncultured bacterium]	    4892	    8950	    1740	   89.89	   99.02	   90.77	  100.99	    3.83	 1190.06	1.0e-26
+CARD|AAG03357.1 ErmX [Corynebacterium striatum]	    2581	    3919	     762	   99.74	   99.87	   99.87	  100.13	    3.40	  275.43	1.0e-26
+CARD|CAG39573 Staphylococcus mutant fusA gene conferring resistance to fusidic acid [Staphylococcus aureus subsp. aureus MRSA252]	   34798	   10687	    2082	   74.88	   84.44	   88.68	  118.43	   28.73	12780.24	1.0e-26
+CARD|CAJ67339.1 tetM [Clostridium difficile 630]	  423193	    9568	    1920	   91.82	  100.00	   91.82	  100.00	  261.58	395334.40	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	   48822	    7505	    1464	   99.93	  100.00	   99.93	  100.00	   33.77	30305.96	1.0e-26
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	   24973	    9862	    1920	   85.78	   88.02	   97.46	  113.61	   13.81	 6554.37	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	   45717	    6245	    1218	   96.96	  100.00	   96.96	  100.00	   40.54	29983.88	1.0e-26
+CARD|YP_006374661.1 Enterococcus faecium EF-Tu mutants conferring resistance to GE2270A [Enterococcus faecium DO]	  124978	    6483	    1272	   77.59	   90.17	   86.05	  110.90	  162.97	106806.87	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	   62572	    9834	    1920	   99.32	  100.00	   99.32	  100.00	   33.35	38410.97	1.0e-26
+CARD|NP_416340.1 mgrB [Escherichia coli str. K-12 substr. MG1655]	     199	     740	     144	   81.25	   81.94	   99.15	  122.03	    1.40	  312.15	1.0e-26

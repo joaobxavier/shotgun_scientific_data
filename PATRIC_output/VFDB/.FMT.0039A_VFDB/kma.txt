@@ -1,0 +1,25 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG002165 endocarditis specific antigen [Enterococcus faecalis V583]	   10667	     110	     927	   99.46	  100.00	   99.46	  100.00	   11.68	10340.24	1.0e-26
+VFDB|VFG002166 collagen adhesin protein [Enterococcus faecalis V583]	   21147	     235	    2025	   95.36	   99.01	   96.31	  101.00	   11.30	20449.46	1.0e-26
+VFDB|VFG002172 aggregation substance [Enterococcus faecalis V583]	   44766	     433	    3918	   71.57	   74.02	   96.69	  135.10	   12.33	43481.69	1.0e-26
+VFDB|VFG002174 coccolysin [Enterococcus faecalis V583]	   12036	     182	    1533	   98.96	  100.00	   98.96	  100.00	    8.11	11500.49	1.0e-26
+VFDB|VFG002175 cytolysin regulator R1 [Enterococcus faecalis str. MMH594]	     628	      34	     285	   87.37	   89.12	   98.03	  112.20	    2.33	  531.27	1.0e-26
+VFDB|VFG002177 cytolysin activator [Enterococcus faecalis str. MMH594]	    3212	     149	    1239	   88.46	   88.94	   99.46	  112.43	    2.65	 2788.99	1.0e-26
+VFDB|VFG002178 cytolysin immunity protein [Enterococcus faecalis str. MMH594]	    1597	     119	     984	   71.14	   71.24	   99.86	  140.37	    1.64	 1271.89	1.0e-26
+VFDB|VFG002189 phosphatidate cytidylyltransferase [Enterococcus faecalis V583]	    6544	      96	     801	   99.25	  100.00	   99.25	  100.00	    8.38	 6260.85	1.0e-26
+VFDB|VFG002190 undecaprenyl diphosphate synthase [Enterococcus faecalis V583]	    7298	      97	     816	   99.14	  100.00	   99.14	  100.00	    9.15	 7009.51	1.0e-26
+VFDB|VFG002191 serine proteinase, V8 family [Enterococcus faecalis V583]	    8489	     102	     855	   98.48	  100.00	   98.48	  100.00	   10.46	 8186.93	1.0e-26
+VFDB|VFG002192 histidine kinase, putative [Enterococcus faecalis V583]	   13741	     159	    1344	   81.70	   83.41	   97.95	  119.89	   10.47	13271.02	1.0e-26
+VFDB|VFG002197 sugar-binding transcriptional regulator, LacI family [Enterococcus faecalis V583]	    9313	     120	    1011	   99.21	  100.00	   99.21	  100.00	    9.46	 8956.84	1.0e-26
+VFDB|VFG042976 endocarditis and biofilm-associated pilus tip protein EbpA [Enterococcus faecalis V583]	   37533	     372	    3312	   99.03	  100.00	   99.03	  100.00	   11.68	36430.09	1.0e-26
+VFDB|VFG042977 endocarditis and biofilm-associated pilus minor subunit EbpB [Enterococcus faecalis V583]	   15744	     168	    1431	   99.09	  100.00	   99.09	  100.00	   11.39	15245.13	1.0e-26
+VFDB|VFG042978 endocarditis and biofilm-associated pilus major subunit EbpC [Enterococcus faecalis V583]	   25916	     216	    1878	   99.31	  100.32	   98.99	   99.68	   14.23	25273.36	1.0e-26
+VFDB|VFG042979 sortase [Enterococcus faecalis V583]	    9636	     102	     855	   99.06	  100.00	   99.06	  100.00	   11.62	 9334.07	1.0e-26
+VFDB|VFG043508 Enterococcus faecalis surface protein Fss1, fibrinogen binding protein [Enterococcus faecalis V583]	   84534	     601	    5964	   98.71	  100.00	   98.71	  100.00	   14.76	82747.77	1.0e-26
+VFDB|VFG043509 Enterococcus faecalis surface protein Fss2, fibrinogen binding protein [Enterococcus faecalis V583]	   49094	     543	    4956	   94.98	   96.63	   98.29	  103.49	   10.39	47487.85	1.0e-26
+VFDB|VFG043510 Enterococcus faecalis surface protein Fss3, fibrinogen binding protein [Enterococcus faecalis V583]	   32634	     367	    3228	   98.67	   99.19	   99.47	  100.81	   10.46	31549.27	1.0e-26
+VFDB|VFG045472 CylL; cytolysin subunit [Enterococcus faecalis str. MMH594]	     340	      25	     207	   89.37	   89.37	  100.00	  111.89	    1.64	  271.38	1.0e-26
+VFDB|VFG045473 CylS; cytolysin subunit [Enterococcus faecalis str. MMH594]	     136	      23	     192	   70.83	   70.83	  100.00	  141.18	    0.71	   79.59	1.0e-18
+VFDB|VFG048628 type VI secretion system contractile sheath small subunit VipA [Klebsiella pneumoniae subsp. pneumoniae HS11286]	     333	      59	     492	   70.53	   71.95	   98.02	  138.98	    0.72	  189.88	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    6727	     111	     930	   92.58	  100.00	   92.58	  100.00	    9.78	 6399.19	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	   10741	     200	    1683	   93.23	  100.06	   93.17	   99.94	    8.13	10154.21	1.0e-26

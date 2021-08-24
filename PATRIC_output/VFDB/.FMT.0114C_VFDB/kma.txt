@@ -1,0 +1,24 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000863 heat-stable enterotoxin 1 [Escherichia coli O44:H18 042]	    1539	       4	     117	  100.00	  100.00	  100.00	  100.00	   13.15	 1524.57	1.0e-26
+VFDB|VFG000871 Type 1 fimbriae Regulatory protein fimB [Escherichia coli CFT073]	    1163	      24	     603	   81.92	   83.58	   98.02	  119.64	    2.08	 1090.26	1.0e-26
+VFDB|VFG000874 Fimbrin-like protein fimI precursor [Escherichia coli CFT073]	     531	      22	     540	   77.22	   78.89	   97.89	  126.76	    1.06	  467.36	1.0e-26
+VFDB|VFG000876 Outer membrane usher protein fimD precursor [Escherichia coli CFT073]	    3826	     107	    2637	   79.86	   81.46	   98.04	  122.77	    1.55	 3515.55	1.0e-26
+VFDB|VFG000877 FimF protein precursor [Escherichia coli CFT073]	     418	      22	     534	   72.66	   74.91	   97.00	  133.50	    0.85	  355.90	1.0e-26
+VFDB|VFG000878 FimG protein precursor [Escherichia coli CFT073]	     645	      20	     504	   70.63	   71.83	   98.34	  139.23	    1.35	  584.88	1.0e-26
+VFDB|VFG000919 Putative oxygen independent coproporphyrinogen III oxidase [Escherichia coli CFT073]	    1807	      55	    1338	   77.13	   79.90	   96.54	  125.16	    1.49	 1648.09	1.0e-26
+VFDB|VFG000921 ChuY [Escherichia coli CFT073]	     817	      25	     624	   77.72	   79.01	   98.38	  126.57	    1.35	  742.57	1.0e-26
+VFDB|VFG000924 ferrienterobactin ABC transporter periplasmic binding protein [Escherichia coli CFT073]	    1424	      39	     957	   70.11	   72.31	   96.97	  138.29	    1.64	 1309.67	1.0e-26
+VFDB|VFG000926 ferrienterobactin ABC transporter permease [Escherichia coli CFT073]	    1514	      41	    1017	   75.42	   78.17	   96.48	  127.92	    1.65	 1392.56	1.0e-26
+VFDB|VFG000929 phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	    1318	      31	     771	   70.17	   77.82	   90.17	  128.50	    2.48	 1225.40	1.0e-26
+VFDB|VFG000931 isochorismate synthase 1 [Escherichia coli CFT073]	    1479	      49	    1188	   73.48	   76.01	   96.68	  131.56	    1.44	 1338.12	1.0e-26
+VFDB|VFG002414 E. coli common pilus structural subunit EcpA [Escherichia coli O157:H7 str. EDL933]	    1097	      24	     588	   87.76	   88.95	   98.66	  112.43	    1.95	 1026.11	1.0e-26
+VFDB|VFG002415 E. coli common pilus usher EcpC [Escherichia coli O157:H7 str. EDL933]	    3246	     103	    2526	   76.84	   78.86	   97.44	  126.81	    1.43	 2949.02	1.0e-26
+VFDB|VFG034772 Type III secretion system effector EspL4 [Escherichia coli O157:H7 str. EDL933]	    3618	      89	    2187	   81.34	   84.09	   96.74	  118.92	    1.83	 3359.07	1.0e-26
+VFDB|VFG034866 Type III secretion system effector EspX4 [Escherichia coli O157:H7 str. EDL933]	    2512	      64	    1581	   91.08	   94.88	   96.00	  105.40	    1.82	 2323.87	1.0e-26
+VFDB|VFG034908 Type III secretion system effector EspY3 [Escherichia coli O157:H7 str. EDL933]	    1590	      64	    1572	   73.98	   77.04	   96.04	  129.81	    1.16	 1405.53	1.0e-26
+VFDB|VFG042552 fimbrial usher protein FaeD [Escherichia coli SE11]	    5819	      98	    2439	   72.82	   78.15	   93.18	  127.96	    2.86	 5531.18	1.0e-26
+VFDB|VFG042553 fimbrial chaperone FaeE [Escherichia coli SE11]	    3260	      31	     777	   93.05	  100.00	   93.05	  100.00	    5.46	 3166.01	1.0e-26
+VFDB|VFG043623 type 3 fimbrial minor pilin subunit MrkF [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	     774	      26	     636	   73.27	   73.58	   99.57	  135.90	    1.23	  698.35	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    1806	      38	     930	   72.58	   79.03	   91.84	  126.53	    2.93	 1694.20	1.0e-26
+VFDB|VFG000360 type II thioesterase YbtT [Yersinia pestis CO92]	    1676	      33	     804	   77.74	   78.11	   99.52	  128.03	    2.12	 1579.09	1.0e-26
+VFDB|VFG000361 yersiniabactin biosynthetic protein YbtU [Yersinia pestis CO92]	    2062	      45	    1101	   74.21	   74.57	   99.51	  134.10	    1.89	 1929.97	1.0e-26

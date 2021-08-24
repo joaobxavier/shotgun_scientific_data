@@ -1,0 +1,4 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG043511 cell wall anchored protein SgrA [Enterococcus faecium DO]	 1190305	    1955	     975	  100.00	  100.00	  100.00	  100.00	 1225.52	1184450.27	1.0e-26
+VFDB|VFG043518 collagen adhesin precursor Acm [Enterococcus faecium str. TX2555]	 3968899	    2841	    2166	  100.00	  100.14	   99.86	   99.86	 1848.28	3960384.11	1.0e-26
+VFDB|VFG043519 collagen adhesin protein Scm [Enterococcus faecium DO]	 3981805	    2594	    1983	   98.94	   98.94	  100.00	  101.07	 2018.01	3974028.38	1.0e-26

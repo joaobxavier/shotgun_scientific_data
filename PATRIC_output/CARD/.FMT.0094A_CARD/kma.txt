@@ -1,0 +1,40 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  702583	    8301	    1486	   80.22	   91.59	   87.58	  109.18	  661.05	678065.13	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  227326	    8821	    1529	   83.00	   93.53	   88.74	  106.92	  220.31	202178.50	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   15279	   17001	    2904	   72.87	   77.17	   94.42	  129.59	    7.94	   91.89	1.0e-21
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 1461302	   15501	    2926	   79.53	   89.03	   89.33	  112.32	  652.10	1415449.75	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	  119726	    8739	    1504	   75.93	   86.44	   87.85	  115.69	  116.06	95884.76	1.0e-26
+CARD|CBH51823.1 tet44 [Campylobacter fetus subsp. fetus]	    9144	   11258	    1923	   92.88	   94.23	   98.57	  106.13	    4.98	  219.12	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  971051	    8378	    1528	   76.51	   87.17	   87.76	  114.71	  783.96	946201.32	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	  209720	    7052	    1221	  100.00	  100.00	  100.00	  100.00	  172.94	189480.89	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 2169385	   14592	    2904	   93.90	   99.93	   93.97	  100.07	  973.65	2125997.32	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  212930	    8876	    1537	   80.16	   91.15	   87.94	  109.71	  202.45	187721.09	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	  944952	    4366	     795	  100.00	  100.00	  100.00	  100.00	 1192.26	931933.90	1.0e-26
+CARD|AAU10334.1 aad(6) [Streptococcus oralis]	   53004	    4849	     831	   99.76	   99.76	  100.00	  100.24	   64.17	40082.47	1.0e-26
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	    2903	    4689	     801	   91.64	   92.26	   99.32	  108.39	    3.71	  420.33	1.0e-26
+CARD|AAB05628.1 vanXB [Enterococcus faecalis]	   48724	    3554	     609	   95.73	  100.00	   95.73	  100.00	   93.20	39027.53	1.0e-26
+CARD|AAB05626.1 vanHB [Enterococcus faecalis]	   99754	    5654	     972	   95.06	  100.00	   95.06	  100.00	  120.74	84003.32	1.0e-26
+CARD|AAB05624.1 vanYB [Enterococcus faecalis]	   70113	    4703	     807	   94.18	  100.00	   94.18	  100.00	  104.74	57184.80	1.0e-26
+CARD|AAM09851.1 vanRD [Enterococcus faecium]	    5978	    4091	     699	   94.28	  100.00	   94.28	  100.00	   10.49	  353.52	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	    4520	   11560	    1974	   73.25	   76.90	   95.26	  130.04	    2.67	 3082.67	1.0e-26
+CARD|AAA98096.1 ErmT [Plasmid pGT633]	   13658	    4299	     735	   99.73	  100.00	   99.73	  100.00	   18.83	 4876.66	1.0e-26
+CARD|ACM47284 vanSD [Enterococcus faecium]	    5099	    4109	     702	   91.45	  100.14	   91.32	   99.86	    9.69	  106.42	1.0e-24
+CARD|AHH83938.1 vanB [Enterococcus faecium]	  122578	    5977	    1029	  100.00	  100.00	  100.00	  100.00	  119.52	105757.55	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	  202590	    8460	    1464	   91.94	  100.00	   91.94	  100.00	  175.44	178564.84	1.0e-26
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	  199061	   11100	    1920	   75.68	   77.24	   97.98	  129.47	  105.79	168104.91	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	  164755	    7056	    1218	   92.28	   98.52	   93.67	  101.50	  160.66	144746.06	1.0e-26
+CARD|AAB05623.1 vanSB [Enterococcus faecalis]	  140965	    7798	    1344	   96.35	  100.00	   96.35	  100.00	  117.95	119204.41	1.0e-26
+CARD|NP_863643.1 AAC(6')-Ie-APH(2'')-Ia [Staphylococcus aureus]	   15348	    8425	    1440	  100.00	  100.00	  100.00	  100.00	   10.71	 2015.66	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	 1145061	   10401	    1920	   99.79	  100.00	   99.79	  100.00	  607.85	1114231.55	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	    1196	    2897	     495	   92.12	   92.32	   99.78	  108.32	    2.43	  707.54	1.0e-26
+CARD|AAB05622.1 vanRB [Enterococcus faecalis]	   60385	    3866	     663	   94.72	  100.00	   94.72	  100.00	  107.49	49715.85	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	  131098	    4336	     747	   99.33	   99.87	   99.46	  100.13	  180.22	118644.32	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	   37263	    3171	     543	   99.82	  100.00	   99.82	  100.00	   69.78	28743.58	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  481849	   10891	    1920	   99.27	  100.00	   99.27	  100.00	  258.62	450137.61	1.0e-26
+CARD|WP_009887863.1 Clostridium difficile EF-Tu mutants conferring resistance to elfamycin [Clostridium difficile]	   24617	    6981	    1194	   82.91	   94.14	   88.08	  106.23	   34.29	 9842.86	1.0e-26
+CARD|AAB05625.1 vanWB [Enterococcus faecalis]	   79079	    4823	     828	   95.65	  100.00	   95.65	  100.00	  109.40	65718.27	1.0e-26
+CARD|A1A317 Bifidobacterium adolescentis rpoB conferring resistance to rifampicin [Bifidobacterium adolescentis ATCC 15703]	 1486216	   18501	    3498	   98.20	  100.00	   98.20	  100.00	  447.97	1431620.54	1.0e-26
+CARD|AAL59753.1 sul2 [Vibrio cholerae]	    3599	    4777	     816	   99.88	  100.00	   99.88	  100.00	    4.46	  165.69	1.0e-26
+CARD|AAM09853.1 vanYD [Enterococcus faecium]	    2629	    2440	     417	   85.61	   91.61	   93.46	  109.16	    7.67	    6.97	8.3e-03
+CARD|ABK33456.1 APH(3'')-Ib [Pseudomonas aeruginosa]	    1031	    4707	     804	   75.50	   75.75	   99.67	  132.02	    1.29	 2355.50	1.0e-26
+CARD|AGV10818.1 APH(2'')-Ig [Campylobacter coli CVM N29710]	    1586	    5392	     921	   76.76	   76.76	  100.00	  130.27	    1.73	 2076.44	1.0e-26

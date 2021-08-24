@@ -1,0 +1,23 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	   49993	    4146	    1529	   76.98	   89.54	   85.98	  111.69	   52.70	38824.85	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	  165607	    7808	    2926	   76.28	   86.16	   88.54	  116.07	   82.13	143588.67	1.0e-26
+CARD|AAA65956.1 vanA [Enterococcus faecium]	    1438	    2817	    1032	   81.88	   81.88	  100.00	  122.13	    1.39	  446.99	1.0e-26
+CARD|AAA65959.1 vanZA [Enterococcus faecium]	     729	    1326	     486	   85.60	   85.60	  100.00	  116.83	    1.50	  173.70	1.0e-26
+CARD|BAE15963.1 dfrG [Staphylococcus aureus]	     618	    1359	     498	   78.71	   79.52	   98.99	  125.76	    1.28	  277.92	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	  635611	    7223	    2904	   91.94	  100.10	   91.85	   99.90	  306.51	614264.09	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	  248812	    1303	     495	   99.19	  100.00	   99.19	  100.00	  516.44	244927.62	1.0e-26
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	  356806	    2076	     801	   99.88	  100.00	   99.88	  100.00	  449.78	350623.54	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	 1285216	    4415	    1974	   97.42	  100.00	   97.42	  100.00	  760.05	1272031.17	1.0e-26
+CARD|AAA65954.1 vanSA [Enterococcus faecium]	    1444	    3153	    1155	   82.16	   82.16	  100.00	  121.71	    1.26	  635.37	1.0e-26
+CARD|AAD23513.1 CfxA2 [Prevotella intermedia]	   81929	    2606	     966	   90.58	  100.00	   90.58	  100.00	  114.85	74429.63	1.0e-26
+CARD|AAA65955.1 vanHA [Enterococcus faecium]	    1409	    2645	     969	   70.69	   70.69	  100.00	  141.46	    1.45	  376.89	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	  558390	    3683	    1464	   97.54	  100.00	   97.54	  100.00	  414.24	547436.72	1.0e-26
+CARD|AAA27471.1 tetX [Bacteroides fragilis]	  559771	    2935	    1167	   99.91	  100.00	   99.91	  100.00	  483.05	551026.94	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	  308477	    3181	    1218	   94.75	   99.84	   94.90	  100.16	  286.21	299063.26	1.0e-26
+CARD|ACT97415.1 CblA-1 [mixed culture bacterium AX_gF3SD01_15]	  365397	    2307	     891	   99.78	  100.00	   99.78	  100.00	  414.68	358532.91	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  110021	    5162	    1920	   99.53	  100.00	   99.53	  100.00	   58.45	95458.42	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	   46644	    1342	     495	  100.00	  100.00	  100.00	  100.00	   94.62	42767.14	1.0e-26
+CARD|AAC37034.1 ErmG [Bacteroides thetaiotaomicron]	  321686	    1915	     735	   99.18	  100.00	   99.18	  100.00	  452.86	315984.55	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	    1084	    2039	     747	   78.05	   78.58	   99.32	  127.26	    1.50	  292.05	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  155936	    5128	    1920	   99.95	  100.00	   99.95	  100.00	   81.68	141202.87	1.0e-26
+CARD|AAA65957.1 vanXA [Enterococcus faecium]	     968	    1662	     609	   72.09	   72.58	   99.32	  137.78	    1.61	  183.26	1.0e-26

@@ -1,0 +1,35 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  109982	   75952	    1486	   71.80	   83.11	   86.40	  120.32	  122.51	 6227.98	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  314686	   78031	    1529	   71.48	   82.80	   86.33	  120.77	  317.58	142610.10	1.0e-26
+CARD|BAG75524.1 efmA [Enterococcus faecium]	 3465166	   64114	    1287	  100.00	  100.00	  100.00	  100.00	 2699.76	3277481.15	1.0e-26
+CARD|AAA65958.1 vanYA [Enterococcus faecium]	 6181613	   44473	     912	  100.00	  100.00	  100.00	  100.00	 6796.34	6049463.43	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	   11385	  148620	    2904	   98.90	   99.93	   98.97	  100.07	    4.20	117706.27	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	11279216	  137052	    2926	   82.78	   91.42	   90.54	  109.38	 5063.99	10874638.72	1.0e-26
+CARD|AAA65956.1 vanA [Enterococcus faecium]	 7012139	   49997	    1032	   99.90	  100.00	   99.90	  100.00	 6833.22	6863561.70	1.0e-26
+CARD|AAA65959.1 vanZA [Enterococcus faecium]	 2315442	   24418	     486	  100.00	  100.00	  100.00	  100.00	 4777.57	2243205.52	1.0e-26
+CARD|BAE15963.1 dfrG [Staphylococcus aureus]	 1005098	   25272	     498	  100.00	  100.00	  100.00	  100.00	 2024.47	931759.48	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	15365599	  131451	    2904	   91.53	  100.14	   91.40	   99.86	 6653.21	14975703.57	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	 1239830	   78146	    1542	   94.23	   99.42	   94.78	  100.59	 1032.52	1023925.59	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	 5638755	   38932	     795	  100.00	  100.00	  100.00	  100.00	 7112.00	5523026.08	1.0e-26
+CARD|AAU10334.1 aad(6) [Streptococcus oralis]	 5259731	   40816	     831	  100.00	  100.00	  100.00	  100.00	 6347.33	5138537.33	1.0e-26
+CARD|AAB63533.1 AAC(6')-Ii [Enterococcus faecium]	 1412581	   27775	     549	   99.64	  100.00	   99.64	  100.00	 2606.14	1331397.44	1.0e-26
+CARD|CUX99269.1 Enterococcus faecium liaF mutant conferring daptomycin resistance [Enterococcus faecium]	 1321934	   37061	     732	   94.67	  100.00	   94.67	  100.00	 2134.70	1214791.21	1.0e-26
+CARD|NP_414997.1 Escherichia coli acrR with mutation conferring multidrug antibiotic resistance [Escherichia coli str. K-12 substr. MG1655]	     950	   33137	     648	   79.01	   79.48	   99.42	  125.83	    1.50	30393.07	1.0e-26
+CARD|AFK58562.1 Enterococcus faecium liaR mutant conferring daptomycin resistance [Enterococcus faecium DO]	 1579410	   31985	     633	  100.00	  100.00	  100.00	  100.00	 2511.62	1485993.04	1.0e-26
+CARD|ALL09868.1 Enterococcus faecium cls conferring resistance to daptomycin [Enterococcus faecium]	 3376592	   72388	    1452	   99.93	  100.00	   99.93	  100.00	 2337.05	3165503.76	1.0e-26
+CARD|AAA65954.1 vanSA [Enterococcus faecium]	 7851323	   55586	    1155	  100.00	  100.00	  100.00	  100.00	 6815.60	7686126.80	1.0e-26
+CARD|AAA65953.1 vanRA [Enterococcus faecium]	 4626246	   34353	     696	  100.00	  100.00	  100.00	  100.00	 6666.52	4524197.18	1.0e-26
+CARD|AAA65955.1 vanHA [Enterococcus faecium]	 6918044	   46979	     969	  100.00	  100.00	  100.00	  100.00	 7157.36	6778373.07	1.0e-26
+CARD|CAJ67339.1 tetM [Clostridium difficile 630]	 5557814	   94125	    1920	   93.44	  100.00	   93.44	  100.00	 3573.71	5281707.35	1.0e-26
+CARD|YP_006374661.1 Enterococcus faecium EF-Tu mutants conferring resistance to GE2270A [Enterococcus faecium DO]	 3970436	   63119	    1272	  100.00	  100.00	  100.00	  100.00	 3215.07	3785027.98	1.0e-26
+CARD|ADM21467.1 CMY-42 [Escherichia coli]	    2286	   58614	    1146	   88.48	   88.48	  100.00	  113.02	    2.00	52099.57	1.0e-26
+CARD|AAA22851.1 tet(L) [Geobacillus stearothermophilus]	 3500351	   68581	    1377	   98.91	  100.29	   98.62	   99.71	 2579.83	3299876.97	1.0e-26
+CARD|AHW42429.1 dfrA12 [Klebsiella pneumoniae subsp. pneumoniae]	     934	   25465	     498	   87.15	   87.35	   99.77	  114.48	    1.89	22795.24	1.0e-26
+CARD|AAK01167.1 msrC [Enterococcus faecium]	 3088476	   73899	    1479	   94.46	  100.00	   94.46	  100.00	 2494.68	2873685.62	1.0e-26
+CARD|NP_863643.1 AAC(6')-Ie-APH(2'')-Ia [Staphylococcus aureus]	 1380067	   72896	    1440	   99.65	  100.42	   99.24	   99.59	  970.93	1176007.08	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	  792067	   25160	     495	   99.80	  100.20	   99.60	   99.80	 1614.22	719682.72	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	 5367968	   36658	     747	   99.20	   99.87	   99.33	  100.13	 7378.09	5258986.28	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	 3851835	   26962	     543	   99.82	  100.00	   99.82	  100.00	 7133.44	3771698.18	1.0e-26
+CARD|AGQ48857.1 eatAv [Enterococcus faecium]	 4099721	   74514	    1503	   99.93	  100.00	   99.93	  100.00	 2740.92	3881498.81	1.0e-26
+CARD|AAA65957.1 vanXA [Enterococcus faecium]	 4561087	   30073	     609	   99.84	  100.00	   99.84	  100.00	 7545.48	4471653.19	1.0e-26
+CARD|AFK58561.1 Enterococcus faecium liaS mutant conferring daptomycin resistance [Enterococcus faecium DO]	 2730502	   53502	    1068	  100.00	  100.00	  100.00	  100.00	 2580.40	2574108.50	1.0e-26

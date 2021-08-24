@@ -1,0 +1,28 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  330268	    6602	    1486	   76.31	   88.49	   86.24	  113.00	  320.59	310978.93	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  190921	    6875	    1529	   82.93	   96.93	   85.56	  103.17	  201.38	171250.83	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 1689092	   11476	    2926	   81.37	   92.41	   88.05	  108.21	  765.68	1654972.87	1.0e-26
+CARD|NR_114659.1_1_1441 Mycobacterium chelonae 16S rRNA mutation conferring resistance to kanamycin A [Mycobacterium]	  102385	    6528	    1441	   71.06	   81.54	   87.15	  122.64	  102.12	84364.71	1.0e-26
+CARD|CAA52904.1 catS [Streptococcus pyogenes]	   21386	    2243	     492	   98.58	  100.00	   98.58	  100.00	   45.10	15507.41	1.0e-26
+CARD|AET10444.1 tetA(46) [Streptococcus australis]	    2941	    7882	    1725	   79.13	   84.06	   94.14	  118.97	    2.03	 2255.78	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  672528	    6587	    1528	   78.34	   89.07	   87.95	  112.27	  580.19	653020.62	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	  194187	    5488	    1221	  100.00	  100.00	  100.00	  100.00	  159.37	178325.73	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 3259105	    9634	    2904	   94.42	   99.97	   94.45	  100.03	 1439.70	3230315.59	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  176272	    6920	    1537	   76.06	   87.44	   86.98	  114.36	  156.22	156557.51	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	    2879	    2260	     495	   91.52	   95.96	   95.37	  104.21	    6.74	   74.36	1.0e-17
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	  294394	    3568	     801	   99.38	  100.00	   99.38	  100.00	  374.43	283858.24	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	  152299	    8907	    1974	   97.72	  100.00	   97.72	  100.00	   82.10	127545.89	1.0e-26
+CARD|CAJ67339.1 tetM [Clostridium difficile 630]	  486334	    8416	    1920	   92.55	  100.00	   92.55	  100.00	  317.50	461657.09	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	   21816	    6678	    1464	   98.43	  100.00	   98.43	  100.00	   17.31	 8042.09	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	  140744	    5499	    1218	   93.43	  100.00	   93.43	  100.00	  136.27	125071.98	1.0e-26
+CARD|ABF66027.1 lmrD [Lactococcus lactis subsp. lactis]	    9498	    9070	    1986	   97.38	   97.63	   99.74	  102.42	    4.92	    9.84	1.7e-03
+CARD|ACT97415.1 CblA-1 [mixed culture bacterium AX_gF3SD01_15]	    9253	    4067	     891	  100.00	  100.00	  100.00	  100.00	   10.39	 2018.36	1.0e-26
+CARD|NP_863643.1 AAC(6')-Ie-APH(2'')-Ia [Staphylococcus aureus]	  191762	    6474	    1440	  100.00	  100.00	  100.00	  100.00	  133.77	173184.38	1.0e-26
+CARD|AAK63040.1 APH(2'')-IIa [Escherichia coli]	    6088	    4110	     900	   93.22	   93.67	   99.53	  106.76	    6.83	  383.65	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  521573	    8390	    1920	   99.79	  100.00	   99.79	  100.00	  275.12	496932.86	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	  255373	    2212	     495	  100.00	  100.00	  100.00	  100.00	  517.48	248810.98	1.0e-26
+CARD|ABF66011.1 lmrC [Lactococcus lactis subsp. lactis]	    8424	    7837	    1716	   99.94	  100.00	   99.94	  100.00	    5.00	   21.17	4.2e-06
+CARD|AGZ55247.1 clbA [Bacillus amyloliquefaciens CC178]	   41924	    4780	    1050	   84.67	   95.71	   88.46	  104.48	   57.91	29539.07	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	  144734	    3371	     747	   99.06	   99.87	   99.20	  100.13	  198.99	134927.18	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  160553	    8657	    1920	   99.79	  100.00	   99.79	  100.00	   85.54	136352.82	1.0e-26
+CARD|AAL79549.2 CfxA3 [Capnocytophaga ochracea]	  265573	    4315	     966	   99.90	  100.00	   99.90	  100.00	  275.95	252903.74	1.0e-26

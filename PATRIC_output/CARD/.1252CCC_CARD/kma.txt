@@ -1,0 +1,167 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	  613682	   19595	    1486	   82.71	   96.10	   86.06	  104.06	  650.71	557320.70	1.0e-26
+CARD|AAC75136.1 mdtB [Escherichia coli str. K-12 substr. MG1655]	   15671	   41927	    3123	   98.82	   99.30	   99.52	  100.71	    5.23	11969.11	1.0e-26
+CARD|CAE51638.1 APH(3')-Ia [Serratia marcescens]	    3138	   10949	     816	   99.14	  100.00	   99.14	  100.00	    3.94	 4331.33	1.0e-26
+CARD|U00096_4166659_4168200 Escherichia coli 16S rRNA mutation in the rrsB gene conferring resistance to paromomycin [Escherichia coli K-12]	   75803	   20653	    1542	   76.20	   78.47	   97.11	  127.44	   70.66	31531.77	1.0e-26
+CARD|AAM09852.1 vanXD [Enterococcus faecium]	  137504	    8139	     609	   73.07	   84.89	   86.07	  117.79	  356.00	114904.78	1.0e-26
+CARD|AKA86814 optrA [Enterococcus faecalis]	   72186	   26366	    1968	   99.80	  100.00	   99.80	  100.00	   37.06	21302.51	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  897291	   19996	    1529	   83.26	   94.31	   88.28	  106.03	  845.24	839046.46	1.0e-26
+CARD|BAG75524.1 efmA [Enterococcus faecium]	   35457	   17256	    1287	  100.00	  100.00	  100.00	  100.00	   27.66	 6284.15	1.0e-26
+CARD|AAA65958.1 vanYA [Enterococcus faecium]	   48653	   12221	     912	  100.00	  100.00	  100.00	  100.00	   53.49	21802.41	1.0e-26
+CARD|AE014075.1_237159_240063 Escherichia coli 23S rRNA with mutation conferring resistance to clindamycin [Escherichia coli CFT073]	  162002	   38820	    2904	   98.07	   99.97	   98.11	  100.03	   63.72	75557.84	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	 4591159	   34124	    2926	   82.19	   92.14	   89.21	  108.53	 2153.60	4489792.33	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	  343709	   19989	    1504	   76.40	   87.43	   87.38	  114.37	  368.22	288135.58	1.0e-26
+CARD|NP_414996.1 Escherichia coli acrA [Escherichia coli str. K-12 substr. MG1655]	    5835	   16022	    1194	   92.38	   92.38	  100.00	  108.25	    4.98	 4748.28	1.0e-26
+CARD|AAA65956.1 vanA [Enterococcus faecium]	   54066	   13828	    1032	   99.90	  100.00	   99.90	  100.00	   52.76	23846.49	1.0e-26
+CARD|AAF86220.1 vatE [Enterococcus faecium]	  272279	    8587	     645	  100.00	  100.00	  100.00	  100.00	  423.32	247566.91	1.0e-26
+CARD|CDJ72759 Escherichia coli PtsI with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	    7101	   23192	    1728	   95.95	   96.30	   99.64	  103.85	    4.27	 8547.44	1.0e-26
+CARD|AAC76539.1 mdtF [Escherichia coli str. K-12 substr. MG1655]	   12828	   41809	    3114	   96.18	   96.56	   99.60	  103.56	    4.21	15373.05	1.0e-26
+CARD|NP_415434.1 msbA [Escherichia coli str. K-12 substr. MG1655]	    6614	   23474	    1749	   98.68	   99.09	   99.60	  100.92	    4.01	 9448.15	1.0e-26
+CARD|BAE78082.1 mdtP [Escherichia coli str. K-12 substr. W3110]	    8095	   19686	    1467	   98.70	   98.70	  100.00	  101.31	    5.54	 4836.59	1.0e-26
+CARD|AAA65959.1 vanZA [Enterococcus faecium]	   25491	    6516	     486	  100.00	  100.00	  100.00	  100.00	   52.57	11248.69	1.0e-26
+CARD|NP_414995.1 acrB [Escherichia coli str. K-12 substr. MG1655]	   15342	   42290	    3150	   94.54	   94.76	   99.77	  105.53	    5.06	12601.12	1.0e-26
+CARD|AAA24786.1 vanC [Enterococcus gallinarum]	    3114	   13848	    1032	   89.24	   89.44	   99.78	  111.81	    3.05	 6793.48	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  423443	   20261	    1528	   77.75	   87.76	   88.59	  113.94	  381.72	366359.14	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	   99430	   16341	    1221	  100.00	  100.00	  100.00	  100.00	   81.87	59633.00	1.0e-26
+CARD|CAC41371.2 tet32 [Clostridiaceae bacterium K10]	   13329	   25766	    1920	   92.71	   95.00	   97.59	  105.26	    7.48	 3956.77	1.0e-26
+CARD|BAE15963.1 dfrG [Staphylococcus aureus]	   52810	    6671	     498	  100.00	  100.00	  100.00	  100.00	  106.47	35787.60	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 6421243	   31821	    2904	   91.22	  100.45	   90.81	   99.55	 2981.30	6326406.73	1.0e-26
+CARD|CDJ73208 Escherichia coli UhpT with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	   10582	   18678	    1392	  100.00	  100.00	  100.00	  100.00	    7.73	 2240.29	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	  262690	   20476	    1537	   78.72	   91.28	   86.24	  109.55	  285.68	207184.30	1.0e-26
+CARD|AAC75137.1 mdtC [Escherichia coli str. K-12 substr. MG1655]	   10500	   41328	    3078	   97.27	   98.05	   99.20	  101.99	    3.55	18337.54	1.0e-26
+CARD|AAY32951.1 lnuC [Streptococcus agalactiae]	   13863	    6639	     495	   98.99	  100.00	   98.99	  100.00	   28.98	 2545.26	1.0e-26
+CARD|U00096_223771_225312 Escherichia coli 16S rRNA mutation in the rrsH gene conferring resistance to spectinomycin [Escherichia coli K-12]	  581740	   20353	    1542	   92.22	   99.42	   92.76	  100.59	  541.05	523431.89	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	  177565	   10614	     795	  100.00	  100.00	  100.00	  100.00	  224.14	148117.42	1.0e-26
+CARD|AAF61331.1 vanXYC [Enterococcus gallinarum]	    3330	    7687	     573	  100.00	  100.00	  100.00	  100.00	    5.83	 1723.69	1.0e-26
+CARD|AAU10334.1 aad(6) [Streptococcus oralis]	   93066	   11121	     831	  100.00	  100.00	  100.00	  100.00	  112.57	64449.26	1.0e-26
+CARD|AAB63533.1 AAC(6')-Ii [Enterococcus faecium]	   16292	    7363	     549	   99.64	  100.00	   99.64	  100.00	   30.06	 3370.31	1.0e-26
+CARD|AAS13767.1 Mrx [Aeromonas hydrophila]	   19143	   16620	    1239	  100.00	  100.00	  100.00	  100.00	   15.49	  177.94	1.0e-26
+CARD|AAC76093.1 bacA [Escherichia coli str. K-12 substr. MG1655]	    4228	   11029	     822	   98.78	  100.00	   98.78	  100.00	    5.52	 3031.99	1.0e-26
+CARD|YP_490697.1 acrD [Escherichia coli str. K-12 substr. W3110]	   12405	   41810	    3114	   96.24	   96.34	   99.90	  103.80	    4.03	15948.94	1.0e-26
+CARD|AAG03357.1 ErmX [Corynebacterium striatum]	  180177	   10172	     762	   99.87	  100.13	   99.74	   99.87	  239.49	151833.71	1.0e-26
+CARD|AAC76296.1 acrS [Escherichia coli str. K-12 substr. MG1655]	    2848	    8895	     663	  100.00	  100.00	  100.00	  100.00	    4.30	 3114.54	1.0e-26
+CARD|AFH35853.1 Escherichia coli mdfA [Escherichia coli]	    4980	   16546	    1233	   97.49	   99.11	   98.36	  100.90	    4.23	 6214.87	1.0e-26
+CARD|CUX99269.1 Enterococcus faecium liaF mutant conferring daptomycin resistance [Enterococcus faecium]	   16961	    9817	     732	   94.26	  100.00	   94.26	  100.00	   27.85	 1905.33	1.0e-26
+CARD|BAE78083.1 mdtO [Escherichia coli str. K-12 substr. W3110]	    9630	   27542	    2052	   99.66	   99.71	   99.95	  100.29	    4.73	 8631.44	1.0e-26
+CARD|NP_415804.1 antibiotic resistant fabI [Escherichia coli str. K-12 substr. MG1655]	    3534	   10586	     789	   96.70	   96.70	  100.00	  103.41	    4.68	 3522.60	1.0e-26
+CARD|YP_008997281.1 ANT(6)-Ia [Exiguobacterium sp. S3-2]	  521257	   11421	     864	  100.00	  100.00	  100.00	  100.00	  605.58	487972.42	1.0e-26
+CARD|AAM09851.1 vanRD [Enterococcus faecium]	  377666	    9278	     699	   92.13	  100.00	   92.13	  100.00	  707.94	350721.18	1.0e-26
+CARD|AAF86641.1 vanRC [Enterococcus gallinarum]	    2406	    9338	     696	  100.00	  100.00	  100.00	  100.00	    3.47	 4092.42	1.0e-26
+CARD|NP_414997.1 Escherichia coli acrR with mutation conferring multidrug antibiotic resistance [Escherichia coli str. K-12 substr. MG1655]	    3524	    8694	     648	  100.00	  100.00	  100.00	  100.00	    5.46	 2187.93	1.0e-26
+CARD|BAE77933.1 CRP [Escherichia coli str. K-12 substr. W3110]	    3418	    8493	     633	   99.84	  100.00	   99.84	  100.00	    5.55	 2162.41	1.0e-26
+CARD|AAC76055.1 Escherichia coli parC conferring resistance to fluoroquinolone [Escherichia coli str. K-12 substr. MG1655]	    8154	   30324	    2259	   95.79	   95.84	   99.95	  104.34	    3.71	12774.09	1.0e-26
+CARD|YP_006938491.1 ANT(4')-Ib [Staphylococcus aureus]	   39498	   10213	     762	  100.00	  100.00	  100.00	  100.00	   51.95	17250.62	1.0e-26
+CARD|WP_023063803.1 mphA [Enterobacteriaceae]	   11967	   12275	     915	   99.45	   99.89	   99.56	  100.11	   13.21	    3.92	4.8e-02
+CARD|WP_001206316.1 aadA [Bacteria]	    4631	   10626	     792	   98.23	   98.48	   99.74	  101.54	    5.89	 2356.10	1.0e-26
+CARD|AAC75291.1 Escherichia coli gyrA with mutation conferring resistance to triclosan [Escherichia coli str. K-12 substr. MG1655]	    7750	   35283	    2628	   94.48	   94.67	   99.80	  105.63	    2.99	17616.10	1.0e-26
+CARD|AAN62561.1 D-Ala-D-Ala ligase [Enterococcus gallinarum]	    8353	   14168	    1056	   95.83	   98.67	   97.12	  101.34	   10.25	 1501.86	1.0e-26
+CARD|NP_418574.1 Escherichia coli ampC [Escherichia coli str. K-12 substr. MG1655]	    5873	   15217	    1134	  100.00	  100.00	  100.00	  100.00	    5.33	 4139.90	1.0e-26
+CARD|AFK58562.1 Enterococcus faecium liaR mutant conferring daptomycin resistance [Enterococcus faecium DO]	   28762	    8486	     633	   95.42	  100.00	   95.42	  100.00	   62.25	11035.97	1.0e-26
+CARD|YP_490321.1 baeR [Escherichia coli str. K-12 substr. W3110]	    2494	    9701	     723	   85.06	   85.62	   99.35	  116.80	    3.65	 4259.40	1.0e-26
+CARD|AAG16656.1 floR [Escherichia coli]	    7165	   16303	    1215	   96.63	   96.79	   99.83	  103.32	    5.98	 3558.69	1.0e-26
+CARD|ALL09868.1 Enterococcus faecium cls conferring resistance to daptomycin [Enterococcus faecium]	   37887	   19468	    1452	   99.93	  100.00	   99.93	  100.00	   26.21	 5914.55	1.0e-26
+CARD|BAA15934.1 baeS [Escherichia coli str. K-12 substr. W3110]	    7619	   18841	    1404	   95.87	   95.94	   99.93	  104.23	    5.76	 4759.46	1.0e-26
+CARD|NP_863168.1 Enterococcus faecium chloramphenicol acetyltransferase [Enterococcus faecium]	   21614	    8689	     648	   93.52	  100.00	   93.52	  100.00	   41.24	 5511.93	1.0e-26
+CARD|AVI44920.1 poxtA [Staphylococcus aureus]	   22064	   21853	    1629	  100.00	  100.00	  100.00	  100.00	   14.27	    1.01	3.1e-01
+CARD|AAA65954.1 vanSA [Enterococcus faecium]	   66659	   15471	    1155	  100.00	  100.00	  100.00	  100.00	   57.87	31901.72	1.0e-26
+CARD|CAA38525.1 AAC(3)-IIc [Escherichia coli]	    3843	   11553	     861	   80.60	   82.46	   97.75	  121.27	    4.70	 3861.09	1.0e-26
+CARD|AAA98096.1 ErmT [Plasmid pGT633]	   70250	    9843	     735	   99.59	  100.00	   99.59	  100.00	   96.99	45559.28	1.0e-26
+CARD|ACD56151.1 arr-3 [Escherichia coli]	    4622	    6077	     453	  100.00	  100.00	  100.00	  100.00	   10.22	  197.97	1.0e-26
+CARD|AAA65953.1 vanRA [Enterococcus faecium]	   35580	    9330	     696	  100.00	  100.00	  100.00	  100.00	   51.26	15343.17	1.0e-26
+CARD|BAB38442 Escherichia coli LamB [Escherichia coli O157:H7 str. Sakai]	    5717	   17996	    1341	   97.99	   98.96	   99.02	  101.06	    4.68	 6358.45	1.0e-26
+CARD|APB87301 porin OmpC [Escherichia coli]	    2572	   14815	    1104	   82.52	   84.42	   97.75	  118.45	    2.53	 8621.48	1.0e-26
+CARD|AAC76298.1 acrF [Escherichia coli str. K-12 substr. MG1655]	   12528	   41689	    3105	   99.90	  100.00	   99.90	  100.00	    4.14	15684.68	1.0e-26
+CARD|AAC23556.1 APH(6)-Id [Pseudomonas aeruginosa]	    9951	   11229	     837	   99.88	  100.00	   99.88	  100.00	   12.02	   77.12	1.0e-17
+CARD|AAA65955.1 vanHA [Enterococcus faecium]	   51215	   12985	     969	  100.00	  100.00	  100.00	  100.00	   53.01	22765.06	1.0e-26
+CARD|NP_417169.1 emrR [Escherichia coli str. K-12 substr. MG1655]	    3427	    7124	     531	   99.62	  100.00	   99.62	  100.00	    6.69	 1295.56	1.0e-26
+CARD|NP_311275.1 evgA [Escherichia coli O157:H7 str. Sakai]	    2229	    8251	     615	  100.00	  100.00	  100.00	  100.00	    3.64	 3461.03	1.0e-26
+CARD|AAC76297.1 acrE [Escherichia coli str. K-12 substr. MG1655]	    7076	   15538	    1158	  100.00	  100.00	  100.00	  100.00	    6.13	 3166.83	1.0e-26
+CARD|CAJ67339.1 tetM [Clostridium difficile 630]	  898861	   25112	    1920	   94.74	  100.00	   94.74	  100.00	  562.00	826254.72	1.0e-26
+CARD|AEJ33969.1 sul1 [Vibrio fluvialis]	   12121	   11268	     840	  100.00	  100.00	  100.00	  100.00	   14.52	   31.07	2.5e-08
+CARD|ACM47284 vanSD [Enterococcus faecium]	  240113	    9355	     702	   91.45	  100.14	   91.32	   99.86	  433.22	213450.64	1.0e-26
+CARD|NP_415372.1 Escherichia coli nfsA mutations conferring resistance to nitrofurantoin [Escherichia coli str. K-12 substr. MG1655]	    2403	    9701	     723	   99.31	  100.28	   99.03	   99.72	    3.46	 4400.50	1.0e-26
+CARD|AAM09849.1 vanD [Enterococcus faecium]	  517529	   13644	    1032	   93.51	   99.81	   93.69	  100.19	  555.56	477997.29	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	  434763	   19406	    1464	  100.00	  100.00	  100.00	  100.00	  309.32	379861.51	1.0e-26
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	  280697	   25568	    1920	   97.60	  100.00	   97.60	  100.00	  153.88	212528.78	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	  277400	   16217	    1218	   96.96	  100.00	   96.96	  100.00	  252.95	232330.59	1.0e-26
+CARD|BAA16547.1 emrA [Escherichia coli str. K-12 substr. W3110]	    5494	   15740	    1173	  100.00	  100.00	  100.00	  100.00	    4.79	 4944.53	1.0e-26
+CARD|AAV37205.1 CfxA4 [Bacteroides fragilis]	   86191	   12931	     966	   99.69	  100.00	   99.69	  100.00	   90.31	54143.76	1.0e-26
+CARD|WP_000195296.1 Escherichia coli parE conferring resistance to fluoroquinolones [Proteobacteria]	    8497	   25407	    1893	   97.31	   98.20	   99.09	  101.83	    4.76	 8434.39	1.0e-26
+CARD|YP_006374661.1 Enterococcus faecium EF-Tu mutants conferring resistance to GE2270A [Enterococcus faecium DO]	  461407	   16846	    1272	   90.09	  100.16	   89.95	   99.84	  534.10	413240.51	1.0e-26
+CARD|BAA11236.1 emrK [Escherichia coli]	    4309	   14170	    1056	  100.00	  100.00	  100.00	  100.00	    4.09	 5262.58	1.0e-26
+CARD|APU52409.1 lnuG [Enterococcus faecalis]	    4410	   10787	     804	   97.14	  100.00	   97.14	  100.00	    5.90	 2676.50	1.0e-26
+CARD|NP_415222.1 kdpE [Escherichia coli str. K-12 substr. MG1655]	    2258	    9097	     678	   98.38	  100.00	   98.38	  100.00	    3.59	 4119.35	1.0e-26
+CARD|ANK04027.1 gadW [Escherichia coli O25b:H4]	    3491	    9781	     729	   94.65	  100.00	   94.65	  100.00	    5.70	 2981.39	1.0e-26
+CARD|ACN32294.1 tolC [Escherichia coli]	    4664	   19970	    1488	   99.19	   99.19	  100.00	  100.81	    3.19	 9510.78	1.0e-26
+CARD|AAC75314.1 pmrF [Escherichia coli str. K-12 substr. MG1655]	    2473	   13003	     969	   98.56	   98.86	   99.69	  101.15	    2.62	 7165.00	1.0e-26
+CARD|AAA22851.1 tet(L) [Geobacillus stearothermophilus]	  683389	   18120	    1377	   99.78	  100.00	   99.78	  100.00	  501.56	630899.76	1.0e-26
+CARD|AFU35065.1 lsaE [Staphylococcus aureus]	  692575	   19537	    1485	  100.00	  100.00	  100.00	  100.00	  467.83	636107.23	1.0e-26
+CARD|AHW42429.1 dfrA12 [Klebsiella pneumoniae subsp. pneumoniae]	    2070	    6681	     498	  100.00	  100.00	  100.00	  100.00	    4.17	 2430.13	1.0e-26
+CARD|ACF17980.1 aadA16 [Escherichia coli]	    9009	   11350	     846	   99.65	  100.00	   99.65	  100.00	   10.79	  269.20	1.0e-26
+CARD|BAE78084.1 mdtN [Escherichia coli str. K-12 substr. W3110]	    4730	   13848	    1032	   96.61	   96.61	  100.00	  103.51	    4.61	 4475.22	1.0e-26
+CARD|AAK01167.1 msrC [Enterococcus faecium]	   40403	   19829	    1479	   94.46	  100.00	   94.46	  100.00	   32.74	 7027.25	1.0e-26
+CARD|NP_863643.1 AAC(6')-Ie-APH(2'')-Ia [Staphylococcus aureus]	   21953	   19316	    1440	   92.78	   94.03	   98.67	  106.35	   15.46	  168.43	1.0e-26
+CARD|NP_418486.1 Escherichia coli soxS with mutation conferring antibiotic resistance [Escherichia coli str. K-12 substr. MG1655]	    1908	    4346	     324	  100.00	  100.00	  100.00	  100.00	    5.89	  950.94	1.0e-26
+CARD|AAK63040.1 APH(2'')-IIa [Escherichia coli]	   44821	   12062	     900	   98.67	  100.00	   98.67	  100.00	   56.56	18865.34	1.0e-26
+CARD|YP_491919.1 gadX [Escherichia coli str. K-12 substr. W3110]	    3730	   11069	     825	  100.00	  100.00	  100.00	  100.00	    4.53	 3640.20	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	 2557993	   23885	    1920	   99.79	  100.00	   99.79	  100.00	 1348.30	2487219.03	1.0e-26
+CARD|YP_489794.1 marA [Escherichia coli str. K-12 substr. W3110]	    1252	    5152	     384	  100.00	  100.00	  100.00	  100.00	    3.34	 2375.12	1.0e-26
+CARD|AAC74603.2 Escherichia coli marR mutant conferring antibiotic resistance [Escherichia coli str. K-12 substr. MG1655]	    1948	    5836	     435	  100.00	  100.00	  100.00	  100.00	    4.50	 1942.23	1.0e-26
+CARD|WP_000764731.1 Escherichia coli folP with mutation conferring resistance to sulfonamides [Proteobacteria]	    3287	   11392	     849	   95.41	   95.41	  100.00	  104.81	    3.93	 4475.35	1.0e-26
+CARD|ABC17627.1 AAC(6')-Ib-cr [Escherichia coli]	    4221	    8050	     600	   96.67	   96.67	  100.00	  103.45	    7.04	 1194.82	1.0e-26
+CARD|CDJ73205 Escherichia coli UhpA with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	    3509	    7929	     591	   99.66	  100.00	   99.66	  100.00	    6.10	 1708.30	1.0e-26
+CARD|CAA31895.1 AAC(3)-IIa [Plasmid pWP113a]	    3400	   11553	     861	   75.26	   77.70	   96.86	  128.70	    4.38	 4445.56	1.0e-26
+CARD|CDJ73082 Escherichia coli CyaA with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	   16217	   34186	    2547	   78.25	   78.84	   99.25	  126.84	    2.08	 6406.26	1.0e-26
+CARD|AGK90303.1 QnrB19 [Escherichia coli]	    3865	    8654	     645	   85.58	   85.58	  100.00	  116.85	    6.08	 1832.01	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	   12442	    6639	     495	   99.80	  100.20	   99.60	   99.80	   25.52	 1764.51	1.0e-26
+CARD|NP_416340.1 mgrB [Escherichia coli str. K-12 substr. MG1655]	     268	    1931	     144	  100.00	  100.00	  100.00	  100.00	    1.86	 1258.49	1.0e-26
+CARD|AAC37034.1 ErmG [Bacteroides thetaiotaomicron]	   32842	    9853	     735	   97.82	  100.00	   97.82	  100.00	   47.86	12377.36	1.0e-26
+CARD|AAC75429.1 evgS [Escherichia coli str. K-12 substr. MG1655]	   10273	   48267	    3594	   93.88	   93.88	  100.00	  106.52	    2.86	24659.15	1.0e-26
+CARD|CAA63498.2 Enterococcus faecalis chloramphenicol acetyltransferase [Enterococcus faecalis]	   28929	    8688	     648	  100.00	  100.00	  100.00	  100.00	   46.14	10891.22	1.0e-26
+CARD|AAA50993.1 Escherichia coli EF-Tu mutants conferring resistance to kirromycin [Escherichia coli]	   18098	   15896	    1185	   97.13	  100.00	   97.13	  100.00	   19.66	  142.62	1.0e-26
+CARD|NP_310518 Escherichia coli MipA [Escherichia coli O157:H7 str. Sakai]	    2675	   10023	     747	   95.31	   95.85	   99.44	  104.33	    3.71	 4252.37	1.0e-26
+CARD|AAF86642.1 vanSC [Enterococcus gallinarum]	    2599	   14574	    1086	   96.96	   97.42	   99.53	  102.65	    2.43	 8350.36	1.0e-26
+CARD|AAA25293.1 tetS [Listeria monocytogenes]	  469838	   25508	    1926	  100.00	  100.00	  100.00	  100.00	  248.40	398566.39	1.0e-26
+CARD|NP_415611.1 antibiotic resistant fabG [Escherichia coli str. K-12 substr. MG1655]	    2748	    9862	     735	   98.91	   99.05	   99.86	  100.96	    3.93	 4013.60	1.0e-26
+CARD|YP_003971446.1 Bifidobacteria intrinsic ileS conferring resistance to mupirocin [Bifidobacterium bifidum PRL2010]	 1257269	   43040	    3324	   85.17	   96.12	   88.61	  104.04	  533.10	1133847.40	1.0e-26
+CARD|CAA77936.1 Escherichia coli emrE [Escherichia coli]	     684	    4467	     333	   92.19	  100.00	   92.19	  100.00	    2.64	 2779.03	1.0e-26
+CARD|AAC75135.2 mdtA [Escherichia coli str. K-12 substr. MG1655]	    4516	   16748	    1248	   99.92	  100.00	   99.92	  100.00	    3.73	 7036.51	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	 1209512	    9676	     747	   99.46	   99.87	   99.60	  100.13	 1657.65	1180789.74	1.0e-26
+CARD|AAD22403.1 vanTC [Enterococcus gallinarum]	    9138	   28147	    2097	   99.24	   99.57	   99.66	  100.43	    4.41	 9691.49	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	   86857	    7267	     543	   99.82	  100.00	   99.82	  100.00	  163.96	67298.13	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  678364	   25275	    1920	   98.39	  100.00	   98.39	  100.00	  372.89	606170.41	1.0e-26
+CARD|YP_001315192.1 ErmA [Staphylococcus aureus subsp. aureus JH1]	  155152	    9779	     732	  100.00	  100.00	  100.00	  100.00	  212.79	128134.09	1.0e-26
+CARD|BAA11237.1 emrY [Escherichia coli]	    4938	   20655	    1539	   87.98	   88.11	   99.85	  113.50	    3.25	 9652.38	1.0e-26
+CARD|AAC77293.1 mdtM [Escherichia coli str. K-12 substr. MG1655]	    3943	   16547	    1233	   97.00	  100.00	   97.00	  100.00	    3.55	 7753.11	1.0e-26
+CARD|NP_416715.1 yojI [Escherichia coli str. K-12 substr. MG1655]	    6170	   22064	    1644	   96.23	   96.78	   99.43	  103.33	    3.87	 8947.97	1.0e-26
+CARD|BAE77595.1 Escherichia coli gyrB conferring resistance to aminocoumarin [Escherichia coli str. K-12 substr. W3110]	   16554	   32412	    2415	   99.96	  100.00	   99.96	  100.00	    6.97	 5136.08	1.0e-26
+CARD|AGQ48857.1 eatAv [Enterococcus faecium]	   44364	   20149	    1503	   99.93	  100.00	   99.93	  100.00	   29.70	 9088.96	1.0e-26
+CARD|NP_312937.1 Escherichia coli rpoB mutants conferring resistance to rifampicin [Escherichia coli O157:H7 str. Sakai]	   20254	   54102	    4029	   98.98	   99.93	   99.06	  100.07	    5.34	15408.58	1.0e-26
+CARD|AE006468_3570463_3572006 Salmonella enterica serovar Typhimurium 16S rRNA mutation in the rrsD gene conferring resistance to spectinomycin [Salmonella enterica subsp. salamae]	  333450	   20527	    1544	   88.08	   97.86	   90.01	  102.18	  349.10	276629.48	1.0e-26
+CARD|BAD95494.1 SAT-1 [Escherichia coli]	    3477	    7043	     525	   99.81	  100.00	   99.81	  100.00	    6.71	 1209.20	1.0e-26
+CARD|A1A317 Bifidobacterium adolescentis rpoB conferring resistance to rifampicin [Bifidobacterium adolescentis ATCC 15703]	 1268323	   45281	    3498	   89.02	   99.71	   89.28	  100.29	  499.17	1138723.04	1.0e-26
+CARD|AFU35063.1 ANT(9)-Ia [Staphylococcus aureus]	  348940	    9684	     729	  100.00	  100.00	  100.00	  100.00	  480.29	320932.27	1.0e-26
+CARD|AJO16044.1 TEM-214 [Escherichia coli]	   10315	   11550	     861	   98.03	   98.14	   99.88	  101.89	   12.06	   69.86	1.0e-16
+CARD|AAL59753.1 sul2 [Vibrio cholerae]	    5791	   10948	     816	  100.00	  100.00	  100.00	  100.00	    7.13	 1589.04	1.0e-26
+CARD|BAE77781.1 mdtE [Escherichia coli str. K-12 substr. W3110]	    4110	   15539	    1158	   99.22	   99.22	  100.00	  100.78	    3.56	 6648.59	1.0e-26
+CARD|ABC17628.1 QnrB5 [Salmonella enterica subsp. enterica serovar Berta]	   17341	    9133	     681	   97.36	   97.65	   99.70	  102.41	   25.62	 2544.34	1.0e-26
+CARD|ABV18113.1 mdtG [Escherichia coli O139:H28 str. E24377A]	    6239	   16465	    1227	   99.27	  100.00	   99.27	  100.00	    5.22	 4606.11	1.0e-26
+CARD|CAD70268.1 fexA [Staphylococcus lentus]	  469457	   18909	    1428	   99.44	  100.00	   99.44	  100.00	  335.23	415657.02	1.0e-26
+CARD|AGI42804.1 lnuB [Streptococcus lutetiensis]	  386489	   10669	     804	  100.00	  100.00	  100.00	  100.00	  482.16	355626.55	1.0e-26
+CARD|ADX95999.1 FosB3 [Enterococcus faecium]	    3112	    5634	     420	   99.52	  100.00	   99.52	  100.00	    7.56	  727.65	1.0e-26
+CARD|AAC75089.1 ugd [Escherichia coli str. K-12 substr. MG1655]	    3960	   15660	    1167	   71.64	   75.49	   94.89	  132.46	    4.11	 6977.81	1.0e-26
+CARD|BAE78116.1 eptA [Escherichia coli str. K-12 substr. W3110]	    8749	   22063	    1644	   99.94	  100.00	   99.94	  100.00	    5.42	 5753.14	1.0e-26
+CARD|NP_312864.1 cpxA [Escherichia coli O157:H7 str. Sakai]	    7369	   18438	    1374	   98.91	  100.00	   98.91	  100.00	    5.70	 4747.96	1.0e-26
+CARD|CDJ72593 Escherichia coli GlpT with mutation conferring resistance to fosfomycin [Escherichia coli str. K-12 substr. MC4100]	    6943	   18237	    1359	   99.71	  100.00	   99.71	  100.00	    5.25	 5065.90	1.0e-26
+CARD|AAC75733.1 emrB [Escherichia coli str. K-12 substr. MG1655]	    8169	   20653	    1539	  100.00	  100.00	  100.00	  100.00	    5.40	 5407.69	1.0e-26
+CARD|AAC77033.1 Escherichia coli soxR with mutation conferring antibiotic resistance [Escherichia coli str. K-12 substr. MG1655]	    2594	    6238	     465	  100.00	  100.00	  100.00	  100.00	    5.59	 1503.98	1.0e-26
+CARD|AIL15701 Escherichia coli murA with mutation conferring resistance to fosfomycin [Escherichia coli ATCC 25922]	    6404	   16908	    1260	   98.81	  100.00	   98.81	  100.00	    5.33	 4733.17	1.0e-26
+CARD|AAA65957.1 vanXA [Enterococcus faecium]	   30860	    8164	     609	   99.84	  100.00	   99.84	  100.00	   51.10	13198.90	1.0e-26
+CARD|AAM09853.1 vanYD [Enterococcus faecium]	  289412	    5548	     417	   95.68	   99.76	   95.91	  100.24	  799.70	273183.58	1.0e-26
+CARD|ABK33456.1 APH(3'')-Ib [Pseudomonas aeruginosa]	    7865	   10786	     804	   99.88	  100.00	   99.88	  100.00	    9.86	  457.70	1.0e-26
+CARD|NP_415449.1 Pseudomonas aeruginosa ompF with mutation [Escherichia coli str. K-12 substr. MG1655]	    6676	   14612	    1089	   99.82	  100.00	   99.82	  100.00	    6.32	 2958.82	1.0e-26
+CARD|AFK58561.1 Enterococcus faecium liaS mutant conferring daptomycin resistance [Enterococcus faecium DO]	   23515	   14323	    1068	  100.00	  100.00	  100.00	  100.00	   22.13	 2232.61	1.0e-26
+CARD|AAC74149.2 mdtH [Escherichia coli str. K-12 substr. MG1655]	    2917	   16225	    1209	   88.42	   90.57	   97.63	  110.41	    2.58	 9252.30	1.0e-26
+CARD|NP_309766.1 H-NS [Escherichia coli O157:H7 str. Sakai]	    2076	    5554	     414	   99.52	  100.00	   99.52	  100.00	    5.23	 1585.72	1.0e-26
+CARD|CAL44992.1 lnuA [Staphylococcus chromogenes]	   80923	    6505	     486	   99.79	  100.00	   99.79	  100.00	  168.24	63341.77	1.0e-26
+CARD|AAF27727.1 aadA2 [Klebsiella pneumoniae]	    3024	   10466	     780	   93.46	   93.46	  100.00	  107.00	    3.88	 4105.64	1.0e-26

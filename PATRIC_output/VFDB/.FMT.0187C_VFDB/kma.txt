@@ -1,0 +1,24 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000871 Type 1 fimbriae Regulatory protein fimB [Escherichia coli CFT073]	     869	      22	     603	   84.41	   86.57	   97.51	  115.52	    1.56	  803.31	1.0e-26
+VFDB|VFG000872 Type 1 fimbriae Regulatory protein fimE [Escherichia coli CFT073]	    1148	      22	     597	   89.61	   90.62	   98.89	  110.35	    2.00	 1082.52	1.0e-26
+VFDB|VFG000874 Fimbrin-like protein fimI precursor [Escherichia coli CFT073]	     737	      20	     540	   75.37	   76.30	   98.79	  131.07	    1.42	  678.24	1.0e-26
+VFDB|VFG000877 FimF protein precursor [Escherichia coli CFT073]	     530	      20	     534	   81.84	   82.96	   98.65	  120.54	    1.04	  472.59	1.0e-26
+VFDB|VFG000878 FimG protein precursor [Escherichia coli CFT073]	    1076	      18	     504	   94.64	   96.23	   98.35	  103.92	    2.30	 1020.56	1.0e-26
+VFDB|VFG000879 FimH protein precursor [Escherichia coli CFT073]	    1278	      34	     912	   82.57	   84.54	   97.67	  118.29	    1.53	 1179.00	1.0e-26
+VFDB|VFG000916 heme oxygenase ChuS [Escherichia coli CFT073]	    1868	      38	    1029	   93.49	   94.75	   98.67	  105.54	    1.91	 1755.83	1.0e-26
+VFDB|VFG000917 Outer membrane heme/hemoglobin receptor ChuA [Escherichia coli CFT073]	    3674	      71	    1947	   85.88	   86.24	   99.58	  115.96	    1.93	 3464.00	1.0e-26
+VFDB|VFG000918 periplasmic heme-binding protein ChuT [Escherichia coli CFT073]	    1727	      37	     993	   79.05	   79.15	   99.87	  126.34	    1.76	 1618.78	1.0e-26
+VFDB|VFG000921 ChuY [Escherichia coli CFT073]	     672	      23	     624	   73.88	   75.48	   97.88	  132.48	    1.15	  604.72	1.0e-26
+VFDB|VFG000922 heme permease protein ChuU [Escherichia coli CFT073]	    1173	      37	     993	   79.25	   79.56	   99.62	  125.70	    1.20	 1065.83	1.0e-26
+VFDB|VFG000925 ferrienterobactin ABC transporter ATPase [Escherichia coli CFT073]	    1018	      30	     816	   74.39	   74.39	  100.00	  134.43	    1.28	  929.66	1.0e-26
+VFDB|VFG000926 ferrienterobactin ABC transporter permease [Escherichia coli CFT073]	    1944	      37	    1017	   88.40	   89.58	   98.68	  111.64	    2.01	 1833.04	1.0e-26
+VFDB|VFG000929 phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	    2605	      28	     771	   92.61	   95.98	   96.49	  104.19	    4.67	 2520.31	1.0e-26
+VFDB|VFG000930 enterobactin synthase multienzyme complex component, ATP-dependent [Escherichia coli CFT073]	    5400	     141	    3882	   74.45	   75.61	   98.47	  132.27	    1.47	 4989.60	1.0e-26
+VFDB|VFG000931 isochorismate synthase 1 [Escherichia coli CFT073]	    2020	      44	    1188	   87.29	   87.54	   99.71	  114.23	    1.74	 1890.86	1.0e-26
+VFDB|VFG000932 2,3-dihydroxybenzoate-AMP ligase component of enterobactin synthase multienzyme complex [Escherichia coli CFT073]	    2049	      60	    1611	   82.99	   84.85	   97.81	  117.85	    1.39	 1875.58	1.0e-26
+VFDB|VFG002413 regulator protein EcpR [Escherichia coli O157:H7 str. EDL933]	     686	      22	     591	   70.73	   71.24	   99.29	  140.38	    1.18	  622.07	1.0e-26
+VFDB|VFG002417 E. coli common pilus chaperone EcpE [Escherichia coli O157:H7 str. EDL933]	     897	      28	     756	   71.03	   72.62	   97.81	  137.70	    1.29	  815.26	1.0e-26
+VFDB|VFG044159 enterobactin/ferric enterobactin esterase [Escherichia coli CFT073]	    1101	      45	    1203	   70.74	   70.91	   99.77	  141.03	    0.92	  972.66	1.0e-26
+VFDB|VFG049149 colibactin polyketide synthase ClbC [Klebsiella pneumoniae subsp. pneumoniae 1084]	    3034	      96	    2610	   73.52	   73.72	   99.74	  135.65	    1.18	 2755.75	1.0e-26
+VFDB|VFG001827 enterotoxin [Shigella flexneri 2a str. 301]	    2774	      42	    1140	   93.95	   94.30	   99.63	  106.05	    2.47	 2649.61	1.0e-26
+VFDB|VFG000364 transcriptional regulator YbtA [Yersinia pestis CO92]	    1878	      35	     960	   94.06	   94.38	   99.67	  105.96	    1.98	 1773.15	1.0e-26

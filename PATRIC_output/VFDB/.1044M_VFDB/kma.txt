@@ -1,0 +1,6 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG043511 cell wall anchored protein SgrA [Enterococcus faecium DO]	 2095119	    2799	     975	  100.00	  100.00	  100.00	  100.00	 2156.16	2086735.66	1.0e-26
+VFDB|VFG043518 collagen adhesin precursor Acm [Enterococcus faecium str. TX2555]	 6709246	    3721	    2166	  100.00	  100.00	  100.00	  100.00	 3106.27	6698090.66	1.0e-26
+VFDB|VFG043519 collagen adhesin protein Scm [Enterococcus faecium DO]	 4622330	    4441	    1983	   98.99	   98.99	  100.00	  101.02	 2339.62	4609022.08	1.0e-26
+VFDB|VFG045632 Collagen binding MSCRAMM, EcbA [Enterococcus faecium DO]	   22074	   10947	    3228	   71.65	   80.14	   89.41	  124.78	    9.30	 3748.93	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    8718	    3155	     930	   91.72	  100.00	   91.72	  100.00	   12.05	 2606.09	1.0e-26

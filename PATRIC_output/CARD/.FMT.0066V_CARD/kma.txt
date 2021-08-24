@@ -1,0 +1,30 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+CARD|NR_040847.1_0_1486 Propionibacterium acnes 16S rRNA mutation conferring resistance to tetracycline [Propionibacterium acnes]	   94206	   14709	    1486	   79.27	   91.99	   86.17	  108.71	   91.15	58023.27	1.0e-26
+CARD|U00096_4166659_4168200 Escherichia coli 16S rRNA mutation in the rrsB gene conferring resistance to paromomycin [Escherichia coli K-12]	  476768	   15037	    1542	   71.08	   82.68	   85.96	  120.94	  492.03	433494.88	1.0e-26
+CARD|NC_008596.1_3823614_3825143 Mycobacterium smegmatis 16S rRNA mutation in the rrsA gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	 1283219	   14436	    1529	   84.24	   98.10	   85.87	  101.93	 1188.14	1240553.32	1.0e-26
+CARD|NZ_CP009828.1_497113_500039 Staphylococcus aureus 23S rRNA with mutation conferring resistance to linezolid [Staphylococcus aureus]	  713316	   28282	    2926	   81.68	   91.90	   88.88	  108.81	  349.37	632782.35	1.0e-26
+CARD|CU458896.1_1462398_1463901 Mycobacterium abscessus 16S rRNA mutation conferring resistance to kanamycin [Mycobacterium abscessus]	  419331	   14699	    1504	   76.86	   88.10	   87.25	  113.51	  431.40	377222.81	1.0e-26
+CARD|AET10444.1 tetA(46) [Streptococcus australis]	    4763	   17136	    1725	   94.96	   95.71	   99.21	  104.48	    2.88	 6991.24	1.0e-26
+CARD|CBH51823.1 tet44 [Campylobacter fetus subsp. fetus]	   74064	   19053	    1923	   97.92	  100.00	   97.92	  100.00	   41.20	32497.92	1.0e-26
+CARD|NC_008596.1_5027948_5029475 Mycobacterium smegmatis 16S rRNA mutation in the rrsB gene conferring resistance to kanamycin A [Mycobacterium smegmatis str. MC2 155]	  185423	   15072	    1528	   73.17	   83.64	   87.48	  119.56	  170.88	144738.76	1.0e-26
+CARD|AFK31666.1 tet(40) [Streptococcus suis]	    5938	   12126	    1221	   98.69	   99.10	   99.59	  100.91	    4.96	 2120.22	1.0e-26
+CARD|NZ_CP018138.1_1692408_1695312 Streptococcus pneumoniae 23S rRNA mutation conferring resistance to macrolides and streptogramins antibiotics [Streptococcus pneumoniae]	 1694372	   26972	    2904	   93.22	  100.07	   93.15	   99.93	  829.58	1615144.16	1.0e-26
+CARD|AL123456.3_1471846_1473382 Mycobacterium tuberculosis 16S rRNA mutation conferring resistance to viomycin [Mycobacterium tuberculosis H37Rv]	   61301	   15234	    1537	   79.18	   89.13	   88.83	  112.19	   62.65	27727.48	1.0e-26
+CARD|AGV10830.1 APH(3')-IIIa [Campylobacter coli CVM N29710]	  161122	    7847	     795	  100.00	  100.00	  100.00	  100.00	  203.43	139038.48	1.0e-26
+CARD|AAA88675.1 ErmF [Bacteroides fragilis]	 5032200	    6405	     801	   99.88	  100.00	   99.88	  100.00	 6439.22	5013017.13	1.0e-26
+CARD|AET10445.1 tetB(46) [Streptococcus australis]	    4346	   17256	    1737	   80.54	   83.36	   96.62	  119.96	    2.77	 7715.52	1.0e-26
+CARD|ANZ79240.1 tetA(60) [uncultured bacterium]	    2258	   17287	    1740	   72.53	   77.99	   93.00	  128.22	    1.62	11556.79	1.0e-26
+CARD|CAA79727.1 tetQ [Bacteroides fragilis]	 5365274	   15539	    1974	   96.35	  100.00	   96.35	  100.00	 3037.56	5318836.45	1.0e-26
+CARD|AAD23513.1 CfxA2 [Prevotella intermedia]	  730288	    9324	     966	   99.90	  100.00	   99.90	  100.00	  761.48	702786.15	1.0e-26
+CARD|WP_000420313.1 mel [Bacteria]	   57213	   14512	    1464	   97.54	  100.00	   97.54	  100.00	   41.80	25420.64	1.0e-26
+CARD|AMP42147.1 tet(W/N/W) [uncultured bacterium IN-02]	   14443	   19068	    1920	   92.08	   94.22	   97.73	  106.14	    8.31	  638.32	1.0e-26
+CARD|YP_008997285.1 mefA [Exiguobacterium sp. S3-2]	   33048	   12084	    1218	   92.61	   97.45	   95.03	  102.61	   30.60	 9737.53	1.0e-26
+CARD|ACT97415.1 CblA-1 [mixed culture bacterium AX_gF3SD01_15]	  106886	    8813	     891	   98.09	  100.00	   98.09	  100.00	  127.03	83130.85	1.0e-26
+CARD|ACT97371.1 CfxA6 [uncultured organism]	 2800275	    8820	     996	   99.40	  100.00	   99.40	  100.00	 2867.27	2773924.59	1.0e-26
+CARD|AAA23033.2 tetO [Campylobacter jejuni]	  327797	   18836	    1920	   99.79	  100.00	   99.79	  100.00	  173.58	275382.03	1.0e-26
+CARD|AAD01868.1 dfrF [Enterococcus faecalis]	  174878	    4882	     495	  100.00	  100.00	  100.00	  100.00	  355.10	160760.32	1.0e-26
+CARD|WP_125169584.1 patA [Streptococcus pneumoniae]	    3105	   16839	    1695	   73.86	   78.58	   93.99	  127.25	    2.25	 9458.01	1.0e-26
+CARD|AAC37034.1 ErmG [Bacteroides thetaiotaomicron]	   24933	    7293	     735	   99.18	  100.00	   99.18	  100.00	   34.83	 9655.60	1.0e-26
+CARD|AAF86219.1 ErmB [Enterococcus faecium]	   39824	    7408	     747	   99.33	  100.27	   99.07	   99.73	   54.93	22247.55	1.0e-26
+CARD|AAB53445.1 SAT-4 [Campylobacter coli]	     703	    5392	     543	   86.00	   86.00	  100.00	  116.27	    1.41	 3607.99	1.0e-26
+CARD|ACA23185.1 tetW [Bifidobacterium longum]	  628724	   18614	    1920	   99.95	  100.00	   99.95	  100.00	  331.14	575022.80	1.0e-26

@@ -1,0 +1,9 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG002179 Enterococcal surface protein; Esp [Enterococcus faecalis str. MMH594]	 1146696	    5090	    5622	   71.99	   78.90	   91.23	  126.74	  252.35	1131515.42	1.0e-26
+VFDB|VFG043510 Enterococcus faecalis surface protein Fss3, fibrinogen binding protein [Enterococcus faecalis V583]	  550582	    3402	    3228	   87.61	   96.28	   90.99	  103.86	  217.98	540458.66	1.0e-26
+VFDB|VFG043511 cell wall anchored protein SgrA [Enterococcus faecium DO]	  179679	    1117	     975	   99.79	  100.00	   99.79	  100.00	  185.15	176354.15	1.0e-26
+VFDB|VFG043518 collagen adhesin precursor Acm [Enterococcus faecium str. TX2555]	  813870	    2139	    2166	  100.00	  100.00	  100.00	  100.00	  377.60	807473.28	1.0e-26
+VFDB|VFG043519 collagen adhesin protein Scm [Enterococcus faecium DO]	  603984	    2062	    1983	   98.84	   99.04	   99.80	  100.97	  306.52	597823.26	1.0e-26
+VFDB|VFG045632 Collagen binding MSCRAMM, EcbA [Enterococcus faecium DO]	 1448787	    2676	    3228	   98.95	  100.00	   98.95	  100.00	  488.68	1440775.95	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    2866	    1107	     930	   93.44	  100.00	   93.44	  100.00	    4.31	  778.76	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	    2808	    2003	    1683	   89.48	   94.36	   94.84	  105.98	    2.07	  134.43	1.0e-26

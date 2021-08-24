@@ -1,0 +1,235 @@
+{
+   "end_time" : 1617918560.63593,
+   "app" : {
+      "label" : "classify reads",
+      "script" : "App-TaxonomicClassification",
+      "id" : "TaxonomicClassification",
+      "description" : "Compute taxonomic classification for read data",
+      "default_memory" : "100G",
+      "parameters" : [
+         {
+            "required" : 1,
+            "desc" : "Input type (reads / contigs)",
+            "default" : null,
+            "type" : "enum",
+            "label" : "Input Type",
+            "enum" : [
+               "reads",
+               "contigs"
+            ],
+            "id" : "input_type"
+         },
+         {
+            "default" : null,
+            "desc" : "Input set of DNA contigs for classification",
+            "required" : 0,
+            "wstype" : "Contigs",
+            "type" : "wstype",
+            "id" : "contigs",
+            "label" : "Contig file"
+         },
+         {
+            "id" : "paired_end_libs",
+            "type" : "group",
+            "allow_multiple" : true,
+            "default" : null,
+            "group" : [
+               {
+                  "id" : "read1",
+                  "label" : "Read file 1",
+                  "type" : "wstype",
+                  "wstype" : "ReadFile",
+                  "desc" : "FASTQ or FASTA file of reads",
+                  "required" : 1
+               },
+               {
+                  "desc" : "FASTQ or FASTA file of reads",
+                  "required" : 0,
+                  "wstype" : "ReadFile",
+                  "type" : "wstype",
+                  "id" : "read2",
+                  "label" : "Read file 2"
+               },
+               {
+                  "default" : "infer",
+                  "desc" : "Sequencing platform used to generate the read library",
+                  "required" : 0,
+                  "id" : "platform",
+                  "label" : "Sequencing Platform",
+                  "enum" : [
+                     "infer",
+                     "illumina",
+                     "pacbio",
+                     "nanopore"
+                  ],
+                  "type" : "enum"
+               },
+               {
+                  "id" : "interleaved",
+                  "label" : "Are the paired end reads interleaved?",
+                  "type" : "bool",
+                  "default" : false,
+                  "required" : 0
+               },
+               {
+                  "type" : "bool",
+                  "id" : "read_orientation_outward",
+                  "label" : "Do the two reads in each pair face outward?",
+                  "default" : false,
+                  "required" : 0
+               },
+               {
+                  "required" : 0,
+                  "default" : null,
+                  "type" : "int",
+                  "label" : "Average insert size",
+                  "id" : "insert_size_mean"
+               },
+               {
+                  "id" : "insert_size_stdev",
+                  "label" : "Average insert standard deviation",
+                  "type" : "float",
+                  "default" : null,
+                  "required" : 0
+               }
+            ],
+            "required" : 0
+         },
+         {
+            "allow_multiple" : true,
+            "required" : 0,
+            "default" : null,
+            "group" : [
+               {
+                  "type" : "wstype",
+                  "id" : "read",
+                  "label" : "Read file",
+                  "desc" : "FASTQ, FASTA or H5 file of reads",
+                  "required" : 1,
+                  "wstype" : "ReadFile"
+               },
+               {
+                  "default" : "infer",
+                  "desc" : "Sequencing platform used to generate the read library",
+                  "required" : 0,
+                  "type" : "enum",
+                  "id" : "platform",
+                  "label" : "Sequencing Platform",
+                  "enum" : [
+                     "infer",
+                     "illumina",
+                     "pacbio",
+                     "nanopore"
+                  ]
+               }
+            ],
+            "id" : "single_end_libs",
+            "type" : "group"
+         },
+         {
+            "required" : 0,
+            "default" : null,
+            "desc" : "Sequence Read Archive (SRA) Run ID",
+            "allow_multiple" : true,
+            "type" : "string",
+            "label" : "SRR ID",
+            "id" : "srr_ids"
+         },
+         {
+            "required" : 0,
+            "default" : false,
+            "label" : "Save the classified sequences",
+            "id" : "save_classified_sequences",
+            "type" : "bool"
+         },
+         {
+            "required" : 0,
+            "default" : false,
+            "type" : "bool",
+            "label" : "Save the unclassified sequences",
+            "id" : "save_unclassified_sequences"
+         },
+         {
+            "required" : 1,
+            "default" : "Kraken2",
+            "desc" : "Classification algorithm",
+            "type" : "enum",
+            "label" : "Algorithm",
+            "enum" : [
+               "Kraken2"
+            ],
+            "id" : "algorithm"
+         },
+         {
+            "type" : "enum",
+            "id" : "database",
+            "enum" : [
+               "Default NT"
+            ],
+            "label" : "Database",
+            "desc" : "Target database",
+            "default" : "Default NT",
+            "required" : 1
+         },
+         {
+            "default" : null,
+            "desc" : "Path to which the output will be written. Defaults to the directory containing the input data. ",
+            "required" : 1,
+            "type" : "folder",
+            "id" : "output_path",
+            "label" : "Output Folder"
+         },
+         {
+            "label" : "File Basename",
+            "id" : "output_file",
+            "type" : "wsid",
+            "required" : 1,
+            "default" : null,
+            "desc" : "Basename for the generated output files. Defaults to the basename of the input data."
+         }
+      ]
+   },
+   "elapsed_time" : 1085.04429316521,
+   "parameters" : {
+      "input_type" : "reads",
+      "output_path" : "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2",
+      "save_classified_sequences" : 0,
+      "database" : "Kraken2",
+      "srr_ids" : [
+         "SRR14143418"
+      ],
+      "single_end_libs" : [],
+      "paired_end_libs" : [],
+      "srr_libs" : [],
+      "save_unclassified_sequences" : 0,
+      "algorithm" : "Kraken2",
+      "output_file" : "1203B_kraken2"
+   },
+   "success" : 1,
+   "output_files" : [
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2/.1203B_kraken2/full_report.txt",
+         "0105B942-98B4-11EB-AADD-18AD682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2/.1203B_kraken2/report.txt",
+         "066C0026-98B4-11EB-A33C-7EA9682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2/.1203B_kraken2/chart.html",
+         "08B9FE1E-98B4-11EB-B6DD-BAEE682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2/.1203B_kraken2/output.txt.gz",
+         "15FD1462-98B4-11EB-B4F3-E7F9682E0674"
+      ],
+      [
+         "/jxavier@patricbrc.org/home/metagenomics_SRA2/kraken2/.1203B_kraken2/TaxonomicReport.html",
+         "43659FE6-98B4-11EB-A0B5-8DD9682E0674"
+      ]
+   ],
+   "start_time" : 1617917475.59164,
+   "hostname" : "cherry.mcs.anl.gov",
+   "id" : "3295713",
+   "job_output" : ""
+}

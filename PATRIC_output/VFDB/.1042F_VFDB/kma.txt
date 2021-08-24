@@ -1,0 +1,13 @@
+#Template	Score	Expected	Template_length	Template_Identity	Template_Coverage	Query_Identity	Query_Coverage	Depth	q_value	p_value
+VFDB|VFG000871 Type 1 fimbriae Regulatory protein fimB [Escherichia coli CFT073]	     492	      13	     603	   75.29	   77.11	   97.63	  129.68	    0.88	  452.20	1.0e-26
+VFDB|VFG000872 Type 1 fimbriae Regulatory protein fimE [Escherichia coli CFT073]	     788	      13	     597	   74.71	   75.21	   99.33	  132.96	    1.36	  748.17	1.0e-26
+VFDB|VFG000877 FimF protein precursor [Escherichia coli CFT073]	     509	      12	     534	   73.60	   74.91	   98.25	  133.50	    1.00	  473.58	1.0e-26
+VFDB|VFG000908 Hemolysin D [Escherichia coli CFT073]	    1366	      32	    1437	   72.72	   73.35	   99.15	  136.34	    0.97	 1271.53	1.0e-26
+VFDB|VFG001444 putative arylsulfatase [Escherichia coli O18:K1:H7 str. RS218]	    1579	      32	    1428	   75.56	   80.60	   93.74	  124.07	    1.32	 1484.92	1.0e-26
+VFDB|VFG034866 Type III secretion system effector EspX4 [Escherichia coli O157:H7 str. EDL933]	    2502	      35	    1581	   74.13	   78.56	   94.36	  127.29	    1.92	 2398.04	1.0e-26
+VFDB|VFG034873 Type III secretion system effector EspX5 [Escherichia coli O157:H7 str. EDL933]	    1543	      29	    1293	   83.53	   86.31	   96.77	  115.86	    1.34	 1457.62	1.0e-26
+VFDB|VFG044159 enterobactin/ferric enterobactin esterase [Escherichia coli CFT073]	    1556	      27	    1203	   74.56	   77.56	   96.14	  128.94	    1.45	 1476.42	1.0e-26
+VFDB|VFG001359 manganese ABC transporter, manganese-binding adhesion liprotein [Streptococcus pneumoniae TIGR4]	    8036	      19	     930	   88.28	   97.53	   90.52	  102.54	   11.56	 7977.75	1.0e-26
+VFDB|VFG005197 Fibronectin-binding protein-like protein A [Streptococcus pneumoniae R6]	   10902	      34	    1683	   89.96	  100.12	   89.85	   99.88	    8.83	10800.27	1.0e-26
+VFDB|VFG042972 signal peptidase I [Streptococcus pneumoniae Taiwan19F-14]	    4512	      12	     552	   93.12	  100.00	   93.12	  100.00	    9.95	 4475.99	1.0e-26
+VFDB|VFG042975 surface protein cell wall anchor, sortase_B family [Streptococcus pneumoniae Taiwan19F-14]	    2912	      14	     636	   70.60	   81.45	   86.68	  122.78	    6.33	 2869.87	1.0e-26
